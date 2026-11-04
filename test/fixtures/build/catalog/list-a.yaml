@@ -1,0 +1,20 @@
+id: list-a
+name: List A
+description: Blocks ads.
+homepage: https://example.com/a
+source: example/a
+maintainer: Example
+license: MIT
+topics: [ads]
+region: global
+languages: [en]
+family: family-a
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  adblock: https://example.com/a.txt
+default_format: adblock
+update_interval: daily
+status: active

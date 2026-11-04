@@ -1,0 +1,7 @@
+id: pack-a
+name: Pack A
+tagline: A test pack.
+description: A pack used by the build tests.
+risk: low
+lists: [list-a, list-b]
+notes: Nothing notable.

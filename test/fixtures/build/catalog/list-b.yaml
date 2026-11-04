@@ -1,0 +1,20 @@
+id: list-b
+name: List B
+description: Blocks malware.
+homepage: https://example.com/b
+source: example/b
+maintainer: Example
+license: Apache-2.0
+topics: [malware]
+region: global
+languages: [en]
+family: family-b
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  adblock: https://example.com/b.txt
+default_format: adblock
+update_interval: weekly
+status: active

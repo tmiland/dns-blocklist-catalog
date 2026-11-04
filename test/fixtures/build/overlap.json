@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-04T00:00:00.000Z",
+  "packs": {
+    "pack-a": {
+      "checkedAt": "2026-11-04T00:00:00.000Z",
+      "maxPairwise": 0.02,
+      "sampled": false,
+      "pairs": [
+        { "a": "list-a", "b": "list-b", "containment": 0.02 }
+      ]
+    }
+  }
+}

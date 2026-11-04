@@ -1,0 +1,8 @@
+- id: ads
+  name: Ads
+  group: ads-tracking
+  description: Advertising domains.
+- id: malware
+  name: Malware
+  group: security
+  description: Malware and phishing domains.
