@@ -1,0 +1,14 @@
+id: starter
+order: 1
+name: Starter
+tagline: First install on a small router.
+description: >
+  A light ads, tracker, and telemetry base plus the Mini threat feed. The
+  smallest useful setup for a router with limited RAM.
+risk: low
+lists:
+  - hagezi-light
+  - hagezi-tif-mini
+notes: >
+  Good for a first install or a low-power router. It will not block every ad
+  or tracker; move to Balanced when the box has headroom.

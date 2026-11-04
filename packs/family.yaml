@@ -1,0 +1,16 @@
+id: family
+order: 5
+name: Family
+tagline: Ads, adult content, and gambling.
+description: >
+  A light base with adult, gambling, and threat blocking. Intended for a
+  household network where those categories should not resolve.
+risk: medium
+lists:
+  - hagezi-light
+  - hagezi-nsfw
+  - hagezi-gambling-mini
+  - hagezi-tif-mini
+notes: >
+  Adult and gambling blocking can catch health and education sites. Review the
+  allowlist if something legitimate stops resolving.

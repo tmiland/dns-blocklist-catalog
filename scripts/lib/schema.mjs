@@ -144,6 +144,12 @@ export function validatePack(pack, lists) {
   if (!RISKS.includes(pack.risk)) {
     errors.push(`risk: must be one of ${RISKS.join(', ')}`);
   }
+  if (
+    Object.hasOwn(pack, 'order') &&
+    (!Number.isInteger(pack.order) || pack.order < 1)
+  ) {
+    errors.push('order: must be a positive integer');
+  }
   if (!stringArray(pack.lists) || pack.lists.length === 0) {
     errors.push('lists: must be a non-empty array of list ids');
   }

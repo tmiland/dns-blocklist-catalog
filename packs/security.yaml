@@ -1,0 +1,14 @@
+id: security
+order: 4
+name: Security
+tagline: Threats only, without touching ads.
+description: >
+  Malware, phishing, and scam domains from the Medium threat feed and a live
+  phishing list. No ad or tracker blocking.
+risk: low
+lists:
+  - hagezi-tif-medium
+  - phishdestroy
+notes: >
+  Use this when ads are acceptable but malicious domains are not. Pair it with
+  any ad-blocking list you already run.

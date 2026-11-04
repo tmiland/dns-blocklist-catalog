@@ -1,0 +1,14 @@
+id: strict
+order: 3
+name: Strict
+tagline: Maximum blocking on a server-class box.
+description: >
+  The most aggressive Multi tier plus the full threat feed. For people who
+  prefer to allowlist the occasional broken site.
+risk: high
+lists:
+  - hagezi-ultimate
+  - hagezi-tif
+notes: >
+  About 2.1M rules; AGH needs a box with plenty of RAM. Expect to allowlist
+  apps, share links, and some analytics. Not for a small router.

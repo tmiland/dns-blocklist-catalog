@@ -215,7 +215,10 @@ export function buildCatalog(opts = {}) {
         overlap: overlapPacks[pack.id] ?? null,
       };
     })
-    .sort((a, b) => a.id.localeCompare(b.id));
+    .sort(
+      (a, b) =>
+        (a.order ?? 999) - (b.order ?? 999) || a.id.localeCompare(b.id),
+    );
 
   const hash = contentHash({ lists, packs, topics, health, overlap });
   const catalog = {

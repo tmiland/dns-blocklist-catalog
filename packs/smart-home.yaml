@@ -1,0 +1,17 @@
+id: smart-home
+order: 7
+name: Smart home
+tagline: TVs, consoles, and IoT.
+description: >
+  Smart TV and vendor tracker lists for Samsung, LG, Roku, and Amazon. This is
+  an add-on pack: pair it with Starter or Balanced if you also want ads.
+risk: medium
+lists:
+  - perflyst-smarttv
+  - hagezi-native-samsung
+  - hagezi-native-lgwebos
+  - hagezi-native-roku
+  - hagezi-native-amazon
+notes: >
+  TV apps and firmware updates may stop working. Keep the vendor list you
+  actually own; remove the others to reduce rule count.

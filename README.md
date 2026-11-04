@@ -1,7 +1,7 @@
 # DNS Blocklist Catalog
 
 A curated, health-checked catalog of DNS blocklists for AdGuard Home, Pi-hole, and other
-DNS filters. **81 lists**, **0 packs**, no re-hosted content.
+DNS filters. **81 lists**, **7 packs**, no re-hosted content.
 
 ## Quick start (AdGuard Home)
 
@@ -13,6 +13,130 @@ DNS filters. **81 lists**, **0 packs**, no re-hosted content.
 The AdGuard Home Browser Assistant will do this in one click in a later release.
 
 ## Packs
+
+### Starter
+
+First install on a small router.
+
+**Risk:** low · **Footprint:** small · **Entries:** 271,968 · **Max overlap:** 8.8%
+
+A light ads, tracker, and telemetry base plus the Mini threat feed. The smallest useful setup for a router with limited RAM.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [HaGeZi's Multi LIGHT](https://github.com/hagezi/dns-blocklists#light) | Relaxed ads, tracker, and telemetry blocking with minimal breakage. | 80,509 | adblock | low | ok |
+| [HaGeZi's Threat Intelligence Feeds — Mini](https://github.com/hagezi/dns-blocklists#tifmini) | The smallest threat feed variant, for very constrained devices. | 191,459 | adblock | low | ok |
+
+Good for a first install or a low-power router. It will not block every ad or tracker; move to Balanced when the box has headroom.
+
+
+### Balanced
+
+Everyday protection with low breakage.
+
+**Risk:** low · **Footprint:** medium · **Entries:** 566,335 · **Max overlap:** 20.0%
+
+Ads, trackers, telemetry, malware, and scams. A good default for a home network that does not want to babysit allowlists.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [HaGeZi's Multi PRO](https://github.com/hagezi/dns-blocklists#pro) | Extended ads, tracker, telemetry, malware, and scam blocking. | 247,757 | adblock | low | ok |
+| [HaGeZi's Threat Intelligence Feeds — Medium](https://github.com/hagezi/dns-blocklists#tifmedium) | A size-optimized threat feed for routers and small boxes. | 318,578 | adblock | low | ok |
+
+TIF Medium trades some threat coverage for memory. On a router with limited free RAM, use Starter instead. About a fifth of TIF Medium overlaps the base list; the rest adds live threat domains.
+
+
+### Strict
+
+Maximum blocking on a server-class box.
+
+**Risk:** high · **Footprint:** large · **Entries:** 2,101,253 · **Max overlap:** 3.9%
+
+The most aggressive Multi tier plus the full threat feed. For people who prefer to allowlist the occasional broken site.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [HaGeZi's Multi ULTIMATE](https://github.com/hagezi/dns-blocklists#ultimate) | The most aggressive Multi tier: ads, trackers, telemetry, malware, and scams. | 286,890 | adblock | high | ok |
+| [HaGeZi's Threat Intelligence Feeds](https://github.com/hagezi/dns-blocklists#tif) | Live malware, phishing, and scam domains from threat-intelligence feeds. | 1,814,363 | adblock | low | ok |
+
+About 2.1M rules; AGH needs a box with plenty of RAM. Expect to allowlist apps, share links, and some analytics. Not for a small router.
+
+
+### Security
+
+Threats only, without touching ads.
+
+**Risk:** low · **Footprint:** medium · **Entries:** 553,445 · **Max overlap:** 3.3%
+
+Malware, phishing, and scam domains from the Medium threat feed and a live phishing list. No ad or tracker blocking.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [HaGeZi's Threat Intelligence Feeds — Medium](https://github.com/hagezi/dns-blocklists#tifmedium) | A size-optimized threat feed for routers and small boxes. | 318,578 | adblock | low | ok |
+| [PhishDestroy](https://github.com/phishdestroy/destroylist) | A live phishing and scam domain feed. | 234,867 | domains | low | ok |
+
+Use this when ads are acceptable but malicious domains are not. Pair it with any ad-blocking list you already run.
+
+
+### Family
+
+Ads, adult content, and gambling.
+
+**Risk:** medium · **Footprint:** medium · **Entries:** 475,893 · **Max overlap:** 8.8%
+
+A light base with adult, gambling, and threat blocking. Intended for a household network where those categories should not resolve.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [HaGeZi's Multi LIGHT](https://github.com/hagezi/dns-blocklists#light) | Relaxed ads, tracker, and telemetry blocking with minimal breakage. | 80,509 | adblock | low | ok |
+| [HaGeZi's NSFW Blocklist](https://github.com/hagezi/dns-blocklists#nsfw) | Adult content domains. | 92,021 | adblock | medium | ok |
+| [HaGeZi's Gambling Blocklist — Mini](https://github.com/hagezi/dns-blocklists#gamblingmini) | The smallest gambling and betting list. | 111,904 | adblock | medium | ok |
+| [HaGeZi's Threat Intelligence Feeds — Mini](https://github.com/hagezi/dns-blocklists#tifmini) | The smallest threat feed variant, for very constrained devices. | 191,459 | adblock | low | ok |
+
+Adult and gambling blocking can catch health and education sites. Review the allowlist if something legitimate stops resolving.
+
+
+### Privacy
+
+Native device trackers on phones and PCs.
+
+**Risk:** medium · **Footprint:** small · **Entries:** 574 · **Max overlap:** 1.3%
+
+Android, Apple, and Windows/Office native tracker lists. This is an add-on pack: pair it with Starter or Balanced if you also want ads and trackers blocked.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [Perflyst Android Tracking](https://github.com/Perflyst/PiHoleBlocklist) | Android tracking and telemetry domains. | 80 | domains | medium | ok |
+| [HaGeZi's Apple Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | Apple built-in trackers and telemetry. | 110 | adblock | medium | ok |
+| [HaGeZi's Windows/Office Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | Windows/Office built-in trackers and telemetry. | 384 | adblock | medium | ok |
+
+Device-specific lists can break app features and updates. Start with one device list and add the others only if you need them.
+
+
+### Smart home
+
+TVs, consoles, and IoT.
+
+**Risk:** medium · **Footprint:** small · **Entries:** 1,005 · **Max overlap:** 3.5%
+
+Smart TV and vendor tracker lists for Samsung, LG, Roku, and Amazon. This is an add-on pack: pair it with Starter or Balanced if you also want ads.
+
+
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
+| [Perflyst SmartTV (AGH)](https://github.com/Perflyst/PiHoleBlocklist) | Smart TV ads and telemetry, in AdGuard Home syntax. | 147 | adblock | medium | ok |
+| [HaGeZi's Samsung Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | Samsung built-in trackers and telemetry. | 201 | adblock | medium | ok |
+| [HaGeZi's LG webOS Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | LG webOS built-in trackers and telemetry. | 231 | adblock | medium | ok |
+| [HaGeZi's Roku Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | Roku built-in trackers and telemetry. | 57 | adblock | medium | ok |
+| [HaGeZi's Amazon Tracker Blocklist](https://github.com/hagezi/dns-blocklists#native) | Amazon built-in trackers and telemetry. | 369 | adblock | medium | ok |
+
+TV apps and firmware updates may stop working. Keep the vendor list you actually own; remove the others to reduce rule count.
 
 
 
@@ -169,4 +293,4 @@ maintainer. Licenses are recorded per list and remain with the upstream project.
 See [CONTRIBUTING.md](CONTRIBUTING.md). The methodology is in
 [docs/methodology.md](docs/methodology.md).
 
-Generated from `catalog/` and `packs/` — content hash `8b86118f3dd8`.
+Generated from `catalog/` and `packs/` — content hash `28c460e3d7b8`.

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "content_hash": "sha256:8b86118f3dd80d683640afa23867f889311bdd1604da48e007a25fdef7adce2c",
+  "content_hash": "sha256:28c460e3d7b837eca740a1b09e950cfe5c15708d6cc69cbac74e8e50a0a0f22c",
   "health_checked_at": "2026-11-04T12:52:21.613Z",
   "source": "https://github.com/tmiland/dns-blocklist-catalog",
   "topics": [
@@ -4609,5 +4609,281 @@
       }
     }
   ],
-  "packs": []
+  "packs": [
+    {
+      "id": "starter",
+      "order": 1,
+      "name": "Starter",
+      "tagline": "First install on a small router.",
+      "description": "A light ads, tracker, and telemetry base plus the Mini threat feed. The smallest useful setup for a router with limited RAM.\n",
+      "risk": "low",
+      "lists": [
+        "hagezi-light",
+        "hagezi-tif-mini"
+      ],
+      "notes": "Good for a first install or a low-power router. It will not block every ad or tracker; move to Balanced when the box has headroom.\n",
+      "total_entries": 271968,
+      "footprint": "small",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:36.130Z",
+        "maxPairwise": 0.08779142704542349,
+        "sampled": false,
+        "pairs": [
+          {
+            "a": "hagezi-light",
+            "b": "hagezi-tif-mini",
+            "containment": 0.08779142704542349
+          }
+        ]
+      }
+    },
+    {
+      "id": "balanced",
+      "order": 2,
+      "name": "Balanced",
+      "tagline": "Everyday protection with low breakage.",
+      "description": "Ads, trackers, telemetry, malware, and scams. A good default for a home network that does not want to babysit allowlists.\n",
+      "risk": "low",
+      "lists": [
+        "hagezi-pro",
+        "hagezi-tif-medium"
+      ],
+      "notes": "TIF Medium trades some threat coverage for memory. On a router with limited free RAM, use Starter instead. About a fifth of TIF Medium overlaps the base list; the rest adds live threat domains.\n",
+      "total_entries": 566335,
+      "footprint": "medium",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:19.445Z",
+        "maxPairwise": 0.20039,
+        "sampled": true,
+        "pairs": [
+          {
+            "a": "hagezi-pro",
+            "b": "hagezi-tif-medium",
+            "containment": 0.20039
+          }
+        ]
+      }
+    },
+    {
+      "id": "strict",
+      "order": 3,
+      "name": "Strict",
+      "tagline": "Maximum blocking on a server-class box.",
+      "description": "The most aggressive Multi tier plus the full threat feed. For people who prefer to allowlist the occasional broken site.\n",
+      "risk": "high",
+      "lists": [
+        "hagezi-ultimate",
+        "hagezi-tif"
+      ],
+      "notes": "About 2.1M rules; AGH needs a box with plenty of RAM. Expect to allowlist apps, share links, and some analytics. Not for a small router.\n",
+      "total_entries": 2101253,
+      "footprint": "large",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:59:37.876Z",
+        "maxPairwise": 0.03904,
+        "sampled": true,
+        "pairs": [
+          {
+            "a": "hagezi-ultimate",
+            "b": "hagezi-tif",
+            "containment": 0.03904
+          }
+        ]
+      }
+    },
+    {
+      "id": "security",
+      "order": 4,
+      "name": "Security",
+      "tagline": "Threats only, without touching ads.",
+      "description": "Malware, phishing, and scam domains from the Medium threat feed and a live phishing list. No ad or tracker blocking.\n",
+      "risk": "low",
+      "lists": [
+        "hagezi-tif-medium",
+        "phishdestroy"
+      ],
+      "notes": "Use this when ads are acceptable but malicious domains are not. Pair it with any ad-blocking list you already run.\n",
+      "total_entries": 553445,
+      "footprint": "medium",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:35.492Z",
+        "maxPairwise": 0.03308,
+        "sampled": true,
+        "pairs": [
+          {
+            "a": "hagezi-tif-medium",
+            "b": "phishdestroy",
+            "containment": 0.03308
+          }
+        ]
+      }
+    },
+    {
+      "id": "family",
+      "order": 5,
+      "name": "Family",
+      "tagline": "Ads, adult content, and gambling.",
+      "description": "A light base with adult, gambling, and threat blocking. Intended for a household network where those categories should not resolve.\n",
+      "risk": "medium",
+      "lists": [
+        "hagezi-light",
+        "hagezi-nsfw",
+        "hagezi-gambling-mini",
+        "hagezi-tif-mini"
+      ],
+      "notes": "Adult and gambling blocking can catch health and education sites. Review the allowlist if something legitimate stops resolving.\n",
+      "total_entries": 475893,
+      "footprint": "medium",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:20.449Z",
+        "maxPairwise": 0.08779142704542349,
+        "sampled": false,
+        "pairs": [
+          {
+            "a": "hagezi-light",
+            "b": "hagezi-nsfw",
+            "containment": 0.0006334695499882001
+          },
+          {
+            "a": "hagezi-light",
+            "b": "hagezi-gambling-mini",
+            "containment": 0.0038132382714975966
+          },
+          {
+            "a": "hagezi-light",
+            "b": "hagezi-tif-mini",
+            "containment": 0.08779142704542349
+          },
+          {
+            "a": "hagezi-nsfw",
+            "b": "hagezi-gambling-mini",
+            "containment": 0.00015213918562067354
+          },
+          {
+            "a": "hagezi-nsfw",
+            "b": "hagezi-tif-mini",
+            "containment": 0.0009019680290368502
+          },
+          {
+            "a": "hagezi-gambling-mini",
+            "b": "hagezi-tif-mini",
+            "containment": 0.0035744924220760654
+          }
+        ]
+      }
+    },
+    {
+      "id": "privacy",
+      "order": 6,
+      "name": "Privacy",
+      "tagline": "Native device trackers on phones and PCs.",
+      "description": "Android, Apple, and Windows/Office native tracker lists. This is an add-on pack: pair it with Starter or Balanced if you also want ads and trackers blocked.\n",
+      "risk": "medium",
+      "lists": [
+        "perflyst-android",
+        "hagezi-native-apple",
+        "hagezi-native-winoffice"
+      ],
+      "notes": "Device-specific lists can break app features and updates. Start with one device list and add the others only if you need them.\n",
+      "total_entries": 574,
+      "footprint": "small",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:20.760Z",
+        "maxPairwise": 0.0125,
+        "sampled": false,
+        "pairs": [
+          {
+            "a": "perflyst-android",
+            "b": "hagezi-native-apple",
+            "containment": 0.0125
+          },
+          {
+            "a": "perflyst-android",
+            "b": "hagezi-native-winoffice",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-apple",
+            "b": "hagezi-native-winoffice",
+            "containment": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "smart-home",
+      "order": 7,
+      "name": "Smart home",
+      "tagline": "TVs, consoles, and IoT.",
+      "description": "Smart TV and vendor tracker lists for Samsung, LG, Roku, and Amazon. This is an add-on pack: pair it with Starter or Balanced if you also want ads.\n",
+      "risk": "medium",
+      "lists": [
+        "perflyst-smarttv",
+        "hagezi-native-samsung",
+        "hagezi-native-lgwebos",
+        "hagezi-native-roku",
+        "hagezi-native-amazon"
+      ],
+      "notes": "TV apps and firmware updates may stop working. Keep the vendor list you actually own; remove the others to reduce rule count.\n",
+      "total_entries": 1005,
+      "footprint": "small",
+      "overlap": {
+        "checkedAt": "2026-11-04T12:58:35.621Z",
+        "maxPairwise": 0.03508771929824561,
+        "sampled": false,
+        "pairs": [
+          {
+            "a": "perflyst-smarttv",
+            "b": "hagezi-native-samsung",
+            "containment": 0.034013605442176874
+          },
+          {
+            "a": "perflyst-smarttv",
+            "b": "hagezi-native-lgwebos",
+            "containment": 0.02040816326530612
+          },
+          {
+            "a": "perflyst-smarttv",
+            "b": "hagezi-native-roku",
+            "containment": 0.03508771929824561
+          },
+          {
+            "a": "perflyst-smarttv",
+            "b": "hagezi-native-amazon",
+            "containment": 0.027210884353741496
+          },
+          {
+            "a": "hagezi-native-samsung",
+            "b": "hagezi-native-lgwebos",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-samsung",
+            "b": "hagezi-native-roku",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-samsung",
+            "b": "hagezi-native-amazon",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-lgwebos",
+            "b": "hagezi-native-roku",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-lgwebos",
+            "b": "hagezi-native-amazon",
+            "containment": 0
+          },
+          {
+            "a": "hagezi-native-roku",
+            "b": "hagezi-native-amazon",
+            "containment": 0
+          }
+        ]
+      }
+    }
+  ]
 }

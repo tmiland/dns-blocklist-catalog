@@ -1,0 +1,16 @@
+id: privacy
+order: 6
+name: Privacy
+tagline: Native device trackers on phones and PCs.
+description: >
+  Android, Apple, and Windows/Office native tracker lists. This is an add-on
+  pack: pair it with Starter or Balanced if you also want ads and trackers
+  blocked.
+risk: medium
+lists:
+  - perflyst-android
+  - hagezi-native-apple
+  - hagezi-native-winoffice
+notes: >
+  Device-specific lists can break app features and updates. Start with one
+  device list and add the others only if you need them.
