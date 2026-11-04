@@ -1,4 +1,3 @@
-import { createHash } from 'node:crypto';
 import {
   existsSync,
   mkdirSync,
@@ -11,6 +10,7 @@ import { parse as parseYaml } from 'yaml';
 
 import { fetchList } from './health.mjs';
 import { parseList } from './lib/parse-list.mjs';
+import { validateCatalog } from './lib/schema.mjs';
 
 export function containment(a, b) {
   if (!a.size || !b.size) return 0;
@@ -22,43 +22,42 @@ export function containment(a, b) {
   return shared / small.size;
 }
 
-const hash = (value) => createHash('sha256').update(value).digest('hex');
-
-export function sampleDomains(domains, limit = 200_000) {
-  if (domains.size <= limit) return new Set(domains);
-  return new Set(
-    [...domains]
-      .sort((a, b) => hash(a).localeCompare(hash(b)))
-      .slice(0, limit),
-  );
-}
-
 export async function computeOverlap(pack, entries, opts = {}) {
   const now = opts.now ?? (() => new Date().toISOString());
-  const sampleLimit = opts.sampleLimit ?? 200_000;
   const byId = new Map(entries.map((entry) => [entry.id, entry]));
   const sets = new Map();
-  let sampled = false;
+  const unavailable = [];
 
   for (const id of pack.lists) {
     const entry = byId.get(id);
-    if (!entry) throw new Error(`pack ${pack.id}: list ${id} not found`);
+    if (!entry) {
+      unavailable.push({ id, error: 'list not found' });
+      continue;
+    }
     const url = entry.formats?.[entry.default_format];
-    if (!url) throw new Error(`list ${id}: no URL for default_format`);
-
-    const fetched = await fetchList(url, {
-      fetchImpl: opts.fetchImpl,
-      timeoutMs: opts.timeoutMs,
-    });
-    if (fetched.status !== 200) {
-      throw new Error(`list ${id}: HTTP ${fetched.status}`);
+    if (!url) {
+      unavailable.push({ id, error: 'no URL for default_format' });
+      continue;
     }
 
-    const parsed = parseList(fetched.text);
-    if (parsed.entries === 0) throw new Error(`list ${id}: no entries`);
-    const set = sampleDomains(parsed.domains, sampleLimit);
-    if (set.size !== parsed.domains.size) sampled = true;
-    sets.set(id, set);
+    try {
+      const fetched = await fetchList(url, {
+        fetchImpl: opts.fetchImpl,
+        timeoutMs: opts.timeoutMs,
+      });
+      if (fetched.status !== 200) {
+        unavailable.push({ id, error: `HTTP ${fetched.status}` });
+        continue;
+      }
+      const parsed = parseList(fetched.text);
+      if (parsed.entries === 0) {
+        unavailable.push({ id, error: 'no entries' });
+        continue;
+      }
+      sets.set(id, parsed.domains);
+    } catch (error) {
+      unavailable.push({ id, error: error.message });
+    }
   }
 
   const pairs = [];
@@ -66,6 +65,7 @@ export async function computeOverlap(pack, entries, opts = {}) {
     for (let j = i + 1; j < pack.lists.length; j++) {
       const a = pack.lists[i];
       const b = pack.lists[j];
+      if (!sets.has(a) || !sets.has(b)) continue;
       pairs.push({ a, b, containment: containment(sets.get(a), sets.get(b)) });
     }
   }
@@ -73,7 +73,8 @@ export async function computeOverlap(pack, entries, opts = {}) {
   return {
     checkedAt: now(),
     maxPairwise: pairs.reduce((max, pair) => Math.max(max, pair.containment), 0),
-    sampled,
+    sampled: false,
+    unavailable,
     pairs,
   };
 }
@@ -81,7 +82,7 @@ export async function computeOverlap(pack, entries, opts = {}) {
 function loadYamlDir(dir) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir)
-    .filter((file) => file.endsWith('.yaml'))
+    .filter((file) => file.endsWith('.yaml') && file !== 'topics.yaml')
     .sort()
     .map((file) => parseYaml(readFileSync(join(dir, file), 'utf8')));
 }
@@ -96,20 +97,40 @@ async function main() {
   }
 
   const entries = loadYamlDir('catalog');
-  const packs = loadYamlDir('packs').filter(
-    (pack) => only.length === 0 || only.includes(pack.id),
-  );
-  if (packs.length === 0) {
+  const topics = existsSync('catalog/topics.yaml')
+    ? parseYaml(readFileSync('catalog/topics.yaml', 'utf8'))
+    : [];
+  const packs = loadYamlDir('packs');
+  const selected = only.length
+    ? packs.filter((pack) => only.includes(pack.id))
+    : packs;
+
+  if (selected.length === 0) {
     console.error('overlap: no matching packs');
+    process.exit(1);
+  }
+  if (only.length > 0 && selected.length !== only.length) {
+    console.error(
+      `overlap: unknown pack id(s): ${only.filter((id) => !selected.some((pack) => pack.id === id)).join(', ')}`,
+    );
+    process.exit(1);
+  }
+
+  const errors = validateCatalog({ lists: entries, packs: selected, topics });
+  if (errors.length > 0) {
+    for (const error of errors) console.error(`overlap: ${error}`);
     process.exit(1);
   }
 
   const reports = {};
   let failed = false;
-  for (const pack of packs) {
+  for (const pack of selected) {
     const report = await computeOverlap(pack, entries);
     reports[pack.id] = report;
 
+    for (const item of report.unavailable) {
+      console.warn(`overlap: ${pack.id}: ${item.id} unavailable (${item.error})`);
+    }
     for (const pair of report.pairs) {
       if (pair.containment > 0.25 && !pack.allow_overlap) {
         console.error(
@@ -123,30 +144,32 @@ async function main() {
       }
     }
     console.log(
-      `overlap: ${pack.id}: max ${(report.maxPairwise * 100).toFixed(1)}%${report.sampled ? ' (sampled)' : ''}`,
+      `overlap: ${pack.id}: max ${(report.maxPairwise * 100).toFixed(1)}%${report.unavailable.length ? `, ${report.unavailable.length} unavailable` : ''}`,
     );
   }
 
-  if (!dryRun) {
-    mkdirSync('data', { recursive: true });
-    writeFileSync(
-      'data/overlap.json',
-      `${JSON.stringify(
-        {
-          schema: 1,
-          checked_at: Object.values(reports)
-            .map((report) => report.checkedAt)
-            .sort()
-            .at(-1),
-          packs: reports,
-        },
-        null,
-        2,
-      )}\n`,
-    );
+  if (failed) {
+    console.error('overlap: threshold failure; data/overlap.json was not written');
+    process.exit(1);
   }
+  if (dryRun) return;
 
-  if (failed) process.exit(1);
+  mkdirSync('data', { recursive: true });
+  writeFileSync(
+    'data/overlap.json',
+    `${JSON.stringify(
+      {
+        schema: 1,
+        checked_at: Object.values(reports)
+          .map((report) => report.checkedAt)
+          .sort()
+          .at(-1),
+        packs: reports,
+      },
+      null,
+      2,
+    )}\n`,
+  );
 }
 
 if (import.meta.url === `file://${process.argv[1]}`) {

@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "content_hash": "sha256:28c460e3d7b837eca740a1b09e950cfe5c15708d6cc69cbac74e8e50a0a0f22c",
-  "health_checked_at": "2026-11-04T12:52:21.613Z",
+  "content_hash": "sha256:b1dcc11a3b81f4d45c0fc92e36e61c8c560f144fa66af8ef93590533373b29d8",
+  "health_checked_at": "2026-11-04T13:23:35.185Z",
   "source": "https://github.com/tmiland/dns-blocklist-catalog",
   "topics": [
     {
@@ -207,9 +207,9 @@
         "exceptions": 0,
         "nonDomainRules": 86,
         "maintenance": {
-          "lastCommit": "2026-09-03T12:28:12Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-03T12:28:12Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -264,9 +264,9 @@
         "exceptions": 0,
         "nonDomainRules": 612,
         "maintenance": {
-          "lastCommit": "2026-09-03T12:28:12Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-03T12:28:12Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -320,9 +320,9 @@
         "exceptions": 18,
         "nonDomainRules": 8061,
         "maintenance": {
-          "lastCommit": "2026-11-01T04:01:34Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T04:01:34Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -372,9 +372,9 @@
         "exceptions": 0,
         "nonDomainRules": 2,
         "maintenance": {
-          "lastCommit": "2026-09-13T08:48:56Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-13T08:48:56Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -427,9 +427,9 @@
         "exceptions": 212,
         "nonDomainRules": 517,
         "maintenance": {
-          "lastCommit": "2026-11-04T12:13:45Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T12:13:45Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -483,9 +483,9 @@
         "exceptions": 49,
         "nonDomainRules": 63,
         "maintenance": {
-          "lastCommit": "2026-11-01T22:14:06Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T22:14:06Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -534,9 +534,9 @@
         "exceptions": 0,
         "nonDomainRules": 34,
         "maintenance": {
-          "lastCommit": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-27T07:45:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -586,9 +586,9 @@
         "exceptions": 0,
         "nonDomainRules": 24,
         "maintenance": {
-          "lastCommit": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-27T07:45:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -637,9 +637,9 @@
         "exceptions": 0,
         "nonDomainRules": 10,
         "maintenance": {
-          "lastCommit": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-27T07:45:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -690,9 +690,9 @@
         "exceptions": 0,
         "nonDomainRules": 13,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -741,9 +741,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-05-27T14:32:35Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -795,9 +795,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-05-27T14:32:35Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -848,9 +848,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-05-27T14:32:35Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -901,9 +901,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-05-27T14:32:35Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -959,9 +959,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1015,9 +1015,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1071,9 +1071,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1127,9 +1127,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1181,9 +1181,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1237,9 +1237,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1293,9 +1293,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1349,9 +1349,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1406,9 +1406,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1462,9 +1462,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1519,9 +1519,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1576,9 +1576,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1633,9 +1633,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1690,9 +1690,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1747,9 +1747,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1804,9 +1804,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1861,9 +1861,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1918,7 +1918,64 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-tiktok-extended",
+      "name": "HaGeZi's TikTok Tracker Blocklist — Aggressive",
+      "description": "Aggressive TikTok fingerprinting and telemetry domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "social"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-tiktok",
+      "variant": "extended",
+      "risk": "medium",
+      "breaks": [
+        "TikTok app features"
+      ],
+      "notes": "Pick one TikTok variant.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.tiktok.extended.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.extended.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.tiktok.extended.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.200Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
+        "bytes": 25896,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"bf1-7600a8e10f5922c2\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 764,
+        "rules": 764,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
           "stale": false
         },
@@ -1975,9 +2032,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2031,9 +2088,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2088,9 +2145,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2146,9 +2203,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2202,9 +2259,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2258,9 +2315,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T07:49:20Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T07:49:20Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2314,9 +2371,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2369,9 +2426,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2427,9 +2484,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2487,9 +2544,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2543,9 +2600,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2599,9 +2656,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2655,9 +2712,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2711,9 +2768,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2764,9 +2821,9 @@
         "exceptions": 0,
         "nonDomainRules": 151,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2824,9 +2881,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2880,9 +2937,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T11:02:58Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2936,9 +2993,9 @@
         "exceptions": 0,
         "nonDomainRules": 15,
         "maintenance": {
-          "lastCommit": "2026-10-31T13:49:52Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-31T13:49:52Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2991,9 +3048,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-10-24T15:48:41Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-24T15:48:41Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3047,9 +3104,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-03T21:25:27Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-03T21:25:27Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3099,9 +3156,9 @@
         "exceptions": 0,
         "nonDomainRules": 832,
         "maintenance": {
-          "lastCommit": "2023-11-17T01:05:31Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2023-11-17T01:05:31Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -3152,9 +3209,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-09-12T06:31:16Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-12T06:31:16Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3206,9 +3263,9 @@
         "exceptions": 0,
         "nonDomainRules": 125,
         "maintenance": {
-          "lastCommit": "2023-06-26T14:10:47Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2023-06-26T14:10:47Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -3265,9 +3322,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3319,9 +3376,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3374,9 +3431,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3428,9 +3485,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-09-09T11:00:01Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-09T11:00:01Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3482,7 +3539,59 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-09-09T11:00:01Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-09-09T11:00:01Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "perflyst-session-replay",
+      "name": "Perflyst Session Replay",
+      "description": "Session-replay and user-recording endpoints.",
+      "homepage": "https://github.com/Perflyst/PiHoleBlocklist",
+      "source": "Perflyst/PiHoleBlocklist",
+      "maintainer": "Perflyst",
+      "license": "MIT",
+      "topics": [
+        "telemetry",
+        "trackers"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "perflyst-session-replay",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.197Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
+        "bytes": 387,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"16592d47504907310fcdcf5f45113da4899270208c876c7b630a6fe20490adf8\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 24,
+        "rules": 24,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-09-09T11:00:01Z",
           "archived": false,
           "stale": false
         },
@@ -3536,9 +3645,9 @@
         "exceptions": 9,
         "nonDomainRules": 7,
         "maintenance": {
-          "lastCommit": "2026-09-09T11:00:01Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-09-09T11:00:01Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3588,9 +3697,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3641,9 +3750,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T08:56:29Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T08:56:29Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3693,9 +3802,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": null,
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": null
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3745,9 +3854,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T05:00:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3799,7 +3908,59 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T05:00:07Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-11-04T05:00:07Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rpi-malware",
+      "name": "RPiList Malware",
+      "description": "A German malware and badware list.",
+      "homepage": "https://github.com/RPiList/specials",
+      "source": "RPiList/specials",
+      "maintainer": "RPiList",
+      "license": "CC-BY-NC-4.0",
+      "topics": [
+        "malware"
+      ],
+      "region": "DE",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "family": "rpi-malware",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "CC BY-NC 4.0: non-commercial use only.",
+      "formats": {
+        "adblock": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:35.185Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
+        "bytes": 16183746,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"19d4c650ab9b6794a2905076a51e1a85bb8d81d5b444d19d850541d93baf2e1a\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 668933,
+        "rules": 668933,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
           "stale": false
         },
@@ -3852,9 +4013,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T05:00:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3906,9 +4067,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T05:00:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3960,9 +4121,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-04T05:00:07Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4011,7 +4172,58 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-11-04T04:55:23Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-crypto",
+      "name": "ShadowWhisperer's Cryptocurrency",
+      "description": "ShadowWhisperer's cryptocurrency domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "crypto-mining"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-crypto",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.196Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
+        "bytes": 17931,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"21f4a479b10e936b33ce2f47cc647af9d19886b75b4921de1baaee66bf233de8\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 1281,
+        "rules": 1281,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
           "archived": false,
           "stale": false
         },
@@ -4062,7 +4274,319 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-11-04T04:55:23Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-dynamic",
+      "name": "ShadowWhisperer's Dynamic DNS",
+      "description": "ShadowWhisperer's dynamic dns domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "dyndns"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-dynamic",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some dynamic DNS hostnames"
+      ],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.221Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
+        "bytes": 19312,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"21f010d686fcbf39e6e86daee466ebf0d9c6fd44bc9918948878d5f02f5d6a01\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 1463,
+        "rules": 1463,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-malware",
+      "name": "ShadowWhisperer's Malware",
+      "description": "ShadowWhisperer's malware domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "malware"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-malware",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.356Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
+        "bytes": 877442,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"d3908e67df40e263ad2acb098acf411063d30d8cc12f00216d8327a7aa5e1079\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 46735,
+        "rules": 46735,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-scam",
+      "name": "ShadowWhisperer's Scam",
+      "description": "ShadowWhisperer's scam domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "scam-fraud"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-scam",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.246Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
+        "bytes": 135418,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"22caeb7dd3b332e2827fa09d7f3b87c77157fe42606ae3a1b7ec2eef122d68c9\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 7454,
+        "rules": 7454,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-tracking",
+      "name": "ShadowWhisperer's Tracking",
+      "description": "ShadowWhisperer's tracking domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "trackers"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-tracking",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.661Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
+        "bytes": 2606442,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"f045fe21b10d328de0ffed49cd2af307498415ad51bca1e2298846e270c2ed2f\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 121056,
+        "rules": 121066,
+        "exceptions": 0,
+        "nonDomainRules": 10,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-tunnels",
+      "name": "ShadowWhisperer's Tunnels",
+      "description": "ShadowWhisperer's tunnels domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "doh-bypass"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-tunnels",
+      "variant": "default",
+      "risk": "high",
+      "breaks": [
+        "VPN and proxy tunnel endpoints"
+      ],
+      "notes": "May break VPN clients.",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.264Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
+        "bytes": 16885,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"b0e1433da0ebf84b99953e8bcbcc4095d872a1bdb13901a87c1537de5a0cbb37\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 1026,
+        "rules": 1026,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-urlshortener",
+      "name": "ShadowWhisperer's URL Shortener",
+      "description": "ShadowWhisperer's url shortener domain list.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "url-shorteners"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-urlshortener",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Short links stop resolving"
+      ],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:33.374Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
+        "bytes": 70615,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"34ba30e88d5f9ee8f1bfb0faa48a6e41143ca5d360c0c77d96b4a79b4b3fc95d\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 5969,
+        "rules": 5969,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
           "archived": false,
           "stale": false
         },
@@ -4115,9 +4639,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
-          "lastCommit": "2025-09-17T23:00:44Z",
           "archived": false,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-09-17T23:00:44Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -4171,9 +4695,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
-          "lastCommit": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T18:55:53Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4222,7 +4746,62 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
-          "lastCommit": "2026-11-01T18:55:53Z",
+          "archived": false,
+          "stale": false,
+          "lastPush": "2026-11-01T18:55:53Z"
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "stevenblack-fakenews-gambling-porn",
+      "name": "Steven Black's Fake News + Gambling + Porn",
+      "description": "The unified hosts file plus fake-news, gambling, and adult domains.",
+      "homepage": "https://github.com/StevenBlack/hosts",
+      "source": "StevenBlack/hosts",
+      "maintainer": "Steven Black",
+      "license": "MIT",
+      "topics": [
+        "scam-fraud",
+        "gambling",
+        "adult"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "stevenblack",
+      "variant": "fakenews-gambling-porn",
+      "risk": "medium",
+      "breaks": [
+        "Some news, betting, and health sites"
+      ],
+      "notes": "Pick one StevenBlack variant.",
+      "formats": {
+        "hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
+      },
+      "default_format": "hosts",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
+      "health": {
+        "checkedAt": "2026-11-04T13:23:34.042Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
+        "bytes": 4513991,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"759479a4e9b47ca827001c40b71d6afff43e342c61fde8948610c754cba2f34b\"",
+        "formatDetected": "hosts",
+        "declaredFormat": "hosts",
+        "entries": 163116,
+        "rules": 163141,
+        "exceptions": 0,
+        "nonDomainRules": 25,
+        "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
           "stale": false
         },
@@ -4275,9 +4854,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
-          "lastCommit": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T18:55:53Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4328,9 +4907,9 @@
         "exceptions": 0,
         "nonDomainRules": 26,
         "maintenance": {
-          "lastCommit": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T18:55:53Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4381,9 +4960,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
-          "lastCommit": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-11-01T18:55:53Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4435,9 +5014,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
-          "lastCommit": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-15T02:22:31Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4489,9 +5068,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
-          "lastCommit": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-15T02:22:31Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4542,9 +5121,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
-          "lastCommit": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false
+          "stale": false,
+          "lastPush": "2026-10-15T02:22:31Z"
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4597,9 +5176,9 @@
         "exceptions": 0,
         "nonDomainRules": 6,
         "maintenance": {
-          "lastCommit": "2025-03-05T04:38:24Z",
           "archived": true,
-          "stale": true
+          "stale": true,
+          "lastPush": "2025-03-05T04:38:24Z"
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -4625,9 +5204,10 @@
       "total_entries": 271968,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:36.130Z",
+        "checkedAt": "2026-11-04T13:23:41.471Z",
         "maxPairwise": 0.08779142704542349,
         "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "hagezi-light",
@@ -4644,22 +5224,25 @@
       "tagline": "Everyday protection with low breakage.",
       "description": "Ads, trackers, telemetry, malware, and scams. A good default for a home network that does not want to babysit allowlists.\n",
       "risk": "low",
+      "allow_overlap": true,
+      "overlap_note": "TIF Medium overlaps about 26% with the base list because the base already covers common threat domains; the remaining 74% is new.\n",
       "lists": [
         "hagezi-pro",
         "hagezi-tif-medium"
       ],
-      "notes": "TIF Medium trades some threat coverage for memory. On a router with limited free RAM, use Starter instead. About a fifth of TIF Medium overlaps the base list; the rest adds live threat domains.\n",
+      "notes": "TIF Medium trades some threat coverage for memory. On a router with limited free RAM, use Starter instead. About a quarter of TIF Medium overlaps the base list; the rest adds live threat domains.\n",
       "total_entries": 566335,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:19.445Z",
-        "maxPairwise": 0.20039,
-        "sampled": true,
+        "checkedAt": "2026-11-04T13:23:38.857Z",
+        "maxPairwise": 0.2634072902077439,
+        "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "hagezi-pro",
             "b": "hagezi-tif-medium",
-            "containment": 0.20039
+            "containment": 0.2634072902077439
           }
         ]
       }
@@ -4671,6 +5254,8 @@
       "tagline": "Maximum blocking on a server-class box.",
       "description": "The most aggressive Multi tier plus the full threat feed. For people who prefer to allowlist the occasional broken site.\n",
       "risk": "high",
+      "allow_overlap": true,
+      "overlap_note": "TIF full overlaps about 26% with Ultimate because the base already covers common threat domains; the remaining 74% adds live threat domains.\n",
       "lists": [
         "hagezi-ultimate",
         "hagezi-tif"
@@ -4679,14 +5264,15 @@
       "total_entries": 2101253,
       "footprint": "large",
       "overlap": {
-        "checkedAt": "2026-11-04T12:59:37.876Z",
-        "maxPairwise": 0.03904,
-        "sampled": true,
+        "checkedAt": "2026-11-04T13:23:44.942Z",
+        "maxPairwise": 0.2582836627278748,
+        "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "hagezi-ultimate",
             "b": "hagezi-tif",
-            "containment": 0.03904
+            "containment": 0.2582836627278748
           }
         ]
       }
@@ -4706,14 +5292,15 @@
       "total_entries": 553445,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:35.492Z",
-        "maxPairwise": 0.03308,
-        "sampled": true,
+        "checkedAt": "2026-11-04T13:23:40.909Z",
+        "maxPairwise": 0.044591194165208396,
+        "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "hagezi-tif-medium",
             "b": "phishdestroy",
-            "containment": 0.03308
+            "containment": 0.044591194165208396
           }
         ]
       }
@@ -4735,9 +5322,10 @@
       "total_entries": 475893,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:20.449Z",
+        "checkedAt": "2026-11-04T13:23:39.662Z",
         "maxPairwise": 0.08779142704542349,
         "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "hagezi-light",
@@ -4788,9 +5376,10 @@
       "total_entries": 574,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:20.760Z",
+        "checkedAt": "2026-11-04T13:23:39.748Z",
         "maxPairwise": 0.0125,
         "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "perflyst-android",
@@ -4828,9 +5417,10 @@
       "total_entries": 1005,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T12:58:35.621Z",
+        "checkedAt": "2026-11-04T13:23:41.007Z",
         "maxPairwise": 0.03508771929824561,
         "sampled": false,
+        "unavailable": [],
         "pairs": [
           {
             "a": "perflyst-smarttv",

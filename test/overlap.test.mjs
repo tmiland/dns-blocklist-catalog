@@ -2,11 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import http from 'node:http';
 
-import {
-  containment,
-  sampleDomains,
-  computeOverlap,
-} from '../scripts/overlap.mjs';
+import { containment, computeOverlap } from '../scripts/overlap.mjs';
 
 function serve(routes) {
   return new Promise((resolve) => {
@@ -53,16 +49,6 @@ test('containment is symmetric and uses the smaller set', () => {
   const b = new Set(['c.example.com', 'd.example.com', 'e.example.com', 'f.example.com']);
   assert.equal(containment(a, b), 0.5);
   assert.equal(containment(b, a), 0.5);
-});
-
-test('sampleDomains is deterministic and respects the limit', () => {
-  const domains = new Set(
-    Array.from({ length: 100 }, (_, i) => `d${i}.example.com`),
-  );
-  const first = [...sampleDomains(domains, 10)];
-  const second = [...sampleDomains(domains, 10)];
-  assert.equal(first.length, 10);
-  assert.deepEqual(first, second);
 });
 
 test('a single-list pack reports zero overlap', async () => {
@@ -115,16 +101,18 @@ test('identical lists report 1.0', async () => {
   }
 });
 
-test('sampling is reported when a list exceeds the sample limit', async () => {
-  const body = Array.from({ length: 50 }, (_, i) => `d${i}.example.com`).join('\n');
-  const srv = await serve({ '/a': body });
+test('an unavailable member is reported and skipped', async () => {
+  const srv = await serve({ '/a': 'a.example.com\n' });
   try {
     const report = await computeOverlap(
-      { id: 'sample', lists: ['a'] },
-      [entry('a', `${srv.url}/a`)],
-      { now: () => '2026-11-04T00:00:00.000Z', sampleLimit: 10 },
+      { id: 'missing', lists: ['a', 'missing'] },
+      [entry('a', `${srv.url}/a`), entry('missing', `${srv.url}/missing`)],
+      { now: () => '2026-11-04T00:00:00.000Z' },
     );
-    assert.equal(report.sampled, true);
+    assert.equal(report.unavailable.length, 1);
+    assert.equal(report.unavailable[0].id, 'missing');
+    assert.deepEqual(report.pairs, []);
+    assert.equal(report.sampled, false);
   } finally {
     await srv.close();
   }

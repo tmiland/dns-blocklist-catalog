@@ -6,6 +6,10 @@ export function failingLists(health) {
     .sort(([a], [b]) => a.localeCompare(b));
 }
 
+export function issueAction(health) {
+  return failingLists(health).length === 0 ? 'close' : 'upsert';
+}
+
 export function buildIssueBody(health, source = 'https://github.com/tmiland/dns-blocklist-catalog') {
   const lists = failingLists(health);
   if (lists.length === 0) return null;
@@ -27,10 +31,6 @@ export function buildIssueBody(health, source = 'https://github.com/tmiland/dns-
 async function main() {
   const health = JSON.parse(readFileSync('data/health.json', 'utf8'));
   const lists = failingLists(health);
-  if (lists.length === 0) {
-    console.log('report-health: no failing lists');
-    return;
-  }
 
   const repo = process.env.GITHUB_REPOSITORY || 'tmiland/dns-blocklist-catalog';
   const token = process.env.GITHUB_TOKEN;
@@ -45,11 +45,29 @@ async function main() {
     accept: 'application/vnd.github+json',
     'user-agent': 'dns-blocklist-catalog',
   };
-  const body = buildIssueBody(health);
-  const title = `Health check: ${lists.length} list${lists.length === 1 ? '' : 's'} need attention`;
 
   const open = await fetch(`${api}?labels=health&state=open`, { headers });
   const issues = open.ok ? await open.json() : [];
+
+  if (lists.length === 0) {
+    for (const issue of issues) {
+      await fetch(`${api}/${issue.number}/comments`, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify({ body: 'All catalog lists are healthy again.' }),
+      });
+      await fetch(`${api}/${issue.number}`, {
+        method: 'PATCH',
+        headers,
+        body: JSON.stringify({ state: 'closed' }),
+      });
+    }
+    console.log(`report-health: no failing lists; closed ${issues.length} issue(s)`);
+    return;
+  }
+
+  const body = buildIssueBody(health);
+  const title = `Health check: ${lists.length} list${lists.length === 1 ? '' : 's'} need attention`;
 
   if (issues.length > 0) {
     const issue = issues[0];

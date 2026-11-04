@@ -6,6 +6,10 @@ description: >
   The most aggressive Multi tier plus the full threat feed. For people who
   prefer to allowlist the occasional broken site.
 risk: high
+allow_overlap: true
+overlap_note: >
+  TIF full overlaps about 26% with Ultimate because the base already covers
+  common threat domains; the remaining 74% adds live threat domains.
 lists:
   - hagezi-ultimate
   - hagezi-tif

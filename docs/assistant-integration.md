@@ -43,7 +43,7 @@ https://raw.githubusercontent.com/tmiland/dns-blocklist-catalog/main/data/catalo
         "entries": 247757,
         "rules": 247757,
         "httpStatus": 200,
-        "maintenance": { "lastCommit": "2026-11-03T18:00:00Z", "stale": false }
+        "maintenance": { "lastPush": "2026-11-03T18:00:00Z", "stale": false }
       }
     }
   ],
@@ -58,7 +58,7 @@ https://raw.githubusercontent.com/tmiland/dns-blocklist-catalog/main/data/catalo
       "footprint": "medium",
       "lists": ["hagezi-pro", "hagezi-tif-medium"],
       "total_entries": 566335,
-      "overlap": { "maxPairwise": 0.2, "sampled": true, "pairs": [] },
+      "overlap": { "maxPairwise": 0.26, "sampled": false, "unavailable": [], "pairs": [] },
       "notes": "…"
     }
   ]
@@ -95,6 +95,9 @@ poll `/control/filtering/status` or `check_host` before declaring success.
   user may still want to import it and fix it later.
 
 `health` may be `null` for a list that has not been checked yet.
+
+If `overlap.unavailable` names a list, the pack still includes it but the overlap figure
+for that member was skipped. Show the member with its health warning; do not hide it.
 
 ## Errors
 

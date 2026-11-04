@@ -6,13 +6,17 @@
       "checkedAt": "2026-11-04T00:00:00.000Z",
       "status": "ok",
       "reasons": [],
-      "entries": 100000
+      "entries": 100000,
+      "httpStatus": 200
     },
     "list-b": {
       "checkedAt": "2026-11-04T00:00:00.000Z",
       "status": "fail",
-      "reasons": ["http_500"],
-      "entries": 250000
+      "reasons": [
+        "http_500"
+      ],
+      "entries": 250000,
+      "httpStatus": 200
     }
   }
 }

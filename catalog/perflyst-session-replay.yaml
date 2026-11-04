@@ -1,0 +1,23 @@
+id: perflyst-session-replay
+name: Perflyst Session Replay
+description: Session-replay and user-recording endpoints.
+homepage: https://github.com/Perflyst/PiHoleBlocklist
+source: Perflyst/PiHoleBlocklist
+maintainer: Perflyst
+license: MIT
+topics:
+  - telemetry
+  - trackers
+region: global
+languages:
+  - en
+family: perflyst-session-replay
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  domains: https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt
+default_format: domains
+update_interval: daily
+status: active

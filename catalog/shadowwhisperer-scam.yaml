@@ -1,0 +1,22 @@
+id: shadowwhisperer-scam
+name: ShadowWhisperer's Scam
+description: ShadowWhisperer's scam domain list.
+homepage: https://github.com/ShadowWhisperer/BlockLists
+source: ShadowWhisperer/BlockLists
+maintainer: ShadowWhisperer
+license: Unlicense
+topics:
+  - scam-fraud
+region: global
+languages:
+  - en
+family: shadowwhisperer-scam
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  domains: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam
+default_format: domains
+update_interval: daily
+status: active

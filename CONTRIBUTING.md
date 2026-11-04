@@ -46,8 +46,16 @@ Thanks for helping keep the catalog accurate. Most contributions are one YAML fi
    npm run build
    ```
 
-4. Commit `catalog/<id>.yaml`, `data/health.json` (if you ran the health check), and the
-   regenerated `data/catalog.json` and `README.md`.
+4. Record a health result for an active list:
+
+   ```bash
+   GITHUB_TOKEN=$(gh auth token) npm run health --only <id>
+   ```
+
+   An active list without a health record fails the build.
+
+5. Commit `catalog/<id>.yaml`, `data/health.json`, and the regenerated
+   `data/catalog.json` and `README.md`.
 
 ## Add a pack
 
@@ -73,6 +81,9 @@ Rules:
 - `footprint`, `total_entries`, and `overlap` are computed; do not author them.
 
 Run `npm run overlap` to measure the pack, then `npm run validate` and `npm test`.
+Commit `data/overlap.json`; the build fails if the report is missing or stale. If a pair
+is over 25% and you want to keep it, set `allow_overlap: true` and explain it in
+`overlap_note`.
 
 ## Report a dead list
 

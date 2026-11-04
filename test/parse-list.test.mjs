@@ -99,3 +99,20 @@ test('adblock TLD rules count as entries', () => {
   assert.equal(result.entries, 3);
   assert.equal(result.rules, 3);
 });
+
+test('inline comments are stripped from hosts and domains', () => {
+  const hosts = parseList('0.0.0.0 example.com # tracker.example.net\n');
+  assert.equal(hosts.entries, 1);
+  assert.deepEqual([...hosts.domains], ['example.com']);
+
+  const domains = parseList('example.com # comment\ntracker.example.net ; note\n');
+  assert.equal(domains.entries, 2);
+});
+
+test('HTML after a long preamble is rejected', () => {
+  const text = `${'x'.repeat(2000)}\n<!DOCTYPE html><html><body>example.com</body></html>`;
+  assert.equal(detectFormat(text), 'html');
+  const result = parseList(text);
+  assert.equal(result.format, 'html');
+  assert.equal(result.entries, 0);
+});

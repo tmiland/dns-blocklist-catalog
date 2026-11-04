@@ -7,8 +7,13 @@
       "maxPairwise": 0.02,
       "sampled": false,
       "pairs": [
-        { "a": "list-a", "b": "list-b", "containment": 0.02 }
-      ]
+        {
+          "a": "list-a",
+          "b": "list-b",
+          "containment": 0.02
+        }
+      ],
+      "unavailable": []
     }
   }
 }

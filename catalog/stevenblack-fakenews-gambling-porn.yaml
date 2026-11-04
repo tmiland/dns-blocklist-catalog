@@ -1,0 +1,25 @@
+id: stevenblack-fakenews-gambling-porn
+name: Steven Black's Fake News + Gambling + Porn
+description: The unified hosts file plus fake-news, gambling, and adult domains.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - scam-fraud
+  - gambling
+  - adult
+region: global
+languages:
+  - en
+family: stevenblack
+variant: fakenews-gambling-porn
+risk: medium
+breaks:
+  - Some news, betting, and health sites
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts
+default_format: hosts
+update_interval: daily
+status: active

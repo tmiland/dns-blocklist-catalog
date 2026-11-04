@@ -44,11 +44,30 @@ export async function fetchList(url, opts = {}) {
     throw new Error(`response too large: ${declared} bytes`);
   }
 
-  const text = await response.text();
-  const bytes = Buffer.byteLength(text, 'utf8');
-  if (bytes > maxBytes) {
-    throw new Error(`response too large: ${bytes} bytes`);
+  const reader = response.body?.getReader();
+  if (!reader) {
+    const text = await response.text();
+    const bytes = Buffer.byteLength(text, 'utf8');
+    if (bytes > maxBytes) {
+      throw new Error(`response too large: ${bytes} bytes`);
+    }
+    return { ...common, bytes, text };
   }
+
+  const decoder = new TextDecoder();
+  let text = '';
+  let bytes = 0;
+  for (;;) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    bytes += value.byteLength;
+    if (bytes > maxBytes) {
+      await reader.cancel();
+      throw new Error(`response too large: more than ${maxBytes} bytes`);
+    }
+    text += decoder.decode(value, { stream: true });
+  }
+  text += decoder.decode();
   return { ...common, bytes, text };
 }
 
@@ -92,16 +111,16 @@ export function computeHealthStatus(record, previous) {
   return { status: reasons.length > 0 ? 'warn' : 'ok', reasons };
 }
 
-function maintenanceFor(entry, fetched, opts) {
+function maintenanceFor(entry, fetched, opts, previous) {
   const meta = opts.repoMeta?.[entry.source] ?? null;
-  const lastCommit = meta?.lastCommit ?? null;
-  const archived = meta?.archived ?? false;
-  const stamp = lastCommit ?? fetched.lastModified;
+  const lastPush = meta?.lastPush ?? previous?.lastPush ?? null;
+  const archived = meta?.archived ?? previous?.archived ?? false;
+  const stamp = lastPush ?? fetched.lastModified ?? previous?.lastModified ?? null;
   const nowMs = Date.parse(opts.now?.() ?? new Date().toISOString());
   const stale = stamp
     ? Number.isFinite(nowMs) && nowMs - Date.parse(stamp) > STALE_DAYS * DAY_MS
     : false;
-  return { lastCommit, archived, stale };
+  return { lastPush, archived, stale };
 }
 
 function finalize(entry, previous, base) {
@@ -135,7 +154,7 @@ function failureRecord(entry, previous, checkedAt, httpStatus, error) {
     rules: 0,
     exceptions: 0,
     nonDomainRules: 0,
-    maintenance: previous?.maintenance ?? { lastCommit: null, archived: false, stale: false },
+    maintenance: previous?.maintenance ?? { lastPush: null, archived: false, stale: false },
     error: error?.message ?? '',
   };
   return finalize(entry, previous, base);
@@ -169,12 +188,20 @@ export async function checkList(entry, previous, opts = {}) {
   }
 
   if (fetched.status === 304 && previous) {
-    return {
+    const base = {
       ...previous,
       checkedAt: now(),
       httpStatus: 304,
       consecutiveFailures: 0,
+      maintenance: maintenanceFor(
+        entry,
+        { lastModified: fetched.lastModified ?? previous.lastModified },
+        opts,
+        previous.maintenance,
+      ),
     };
+    const { status, reasons } = computeHealthStatus(base, previous);
+    return { ...base, status, reasons };
   }
 
   if (fetched.status !== 200) {
@@ -182,6 +209,9 @@ export async function checkList(entry, previous, opts = {}) {
   }
 
   const parsed = parseList(fetched.text);
+  const html =
+    fetched.contentType.toLowerCase().includes('text/html') ||
+    parsed.format === 'html';
   const base = {
     checkedAt: now(),
     httpStatus: fetched.status,
@@ -190,30 +220,40 @@ export async function checkList(entry, previous, opts = {}) {
     contentType: fetched.contentType,
     lastModified: fetched.lastModified,
     etag: fetched.etag,
-    formatDetected: parsed.format,
+    formatDetected: html ? 'html' : parsed.format,
     declaredFormat: entry.default_format,
-    entries: parsed.entries,
-    rules: parsed.rules,
-    exceptions: parsed.exceptions,
-    nonDomainRules: parsed.nonDomainRules,
-    maintenance: maintenanceFor(entry, fetched, opts),
+    entries: html ? 0 : parsed.entries,
+    rules: html ? 0 : parsed.rules,
+    exceptions: html ? 0 : parsed.exceptions,
+    nonDomainRules: html ? 0 : parsed.nonDomainRules,
+    maintenance: maintenanceFor(entry, fetched, opts, previous?.maintenance),
   };
   return finalize(entry, previous, base);
 }
 
 export async function getRepoMeta(slug, token, opts = {}) {
   const fetchImpl = opts.fetchImpl ?? fetch;
-  const response = await fetchImpl(`https://api.github.com/repos/${slug}`, {
-    headers: {
-      accept: 'application/vnd.github+json',
-      'user-agent': USER_AGENT,
-      ...(token ? { authorization: `Bearer ${token}` } : {}),
-    },
-  });
-  if (!response.ok) return { lastCommit: null, archived: false };
+  const request = () =>
+    fetchImpl(`https://api.github.com/repos/${slug}`, {
+      headers: {
+        accept: 'application/vnd.github+json',
+        'user-agent': USER_AGENT,
+        ...(token ? { authorization: `Bearer ${token}` } : {}),
+      },
+      signal: AbortSignal.timeout(opts.timeoutMs ?? 10_000),
+    });
+
+  let response;
+  try {
+    response = await request();
+  } catch {
+    await sleep(opts.retryDelayMs ?? 1_000);
+    response = await request();
+  }
+  if (!response.ok) return { lastPush: null, archived: false };
   const data = await response.json();
   return {
-    lastCommit: data.pushed_at ?? null,
+    lastPush: data.pushed_at ?? null,
     archived: Boolean(data.archived),
   };
 }
@@ -270,7 +310,11 @@ async function main() {
   const slugs = [...new Set(selected.map((entry) => entry.source).filter(Boolean))];
   await mapLimit(slugs, 4, async (slug) => {
     if (!/^[\w.-]+\/[\w.-]+$/.test(slug)) return;
-    repoMeta[slug] = await getRepoMeta(slug, token);
+    try {
+      repoMeta[slug] = await getRepoMeta(slug, token);
+    } catch {
+      repoMeta[slug] = null;
+    }
   });
 
   const results = await mapLimit(selected, 4, async (entry) => {

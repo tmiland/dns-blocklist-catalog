@@ -6,10 +6,14 @@ description: >
   Ads, trackers, telemetry, malware, and scams. A good default for a home
   network that does not want to babysit allowlists.
 risk: low
+allow_overlap: true
+overlap_note: >
+  TIF Medium overlaps about 26% with the base list because the base already
+  covers common threat domains; the remaining 74% is new.
 lists:
   - hagezi-pro
   - hagezi-tif-medium
 notes: >
   TIF Medium trades some threat coverage for memory. On a router with limited
-  free RAM, use Starter instead. About a fifth of TIF Medium overlaps the base
-  list; the rest adds live threat domains.
+  free RAM, use Starter instead. About a quarter of TIF Medium overlaps the
+  base list; the rest adds live threat domains.

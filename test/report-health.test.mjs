@@ -1,7 +1,11 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 
-import { buildIssueBody, failingLists } from '../scripts/report-health.mjs';
+import {
+  buildIssueBody,
+  failingLists,
+  issueAction,
+} from '../scripts/report-health.mjs';
 
 const health = {
   lists: {
@@ -28,4 +32,10 @@ test('buildIssueBody lists the failing entries', () => {
 
 test('buildIssueBody returns null when everything is healthy', () => {
   assert.equal(buildIssueBody({ lists: { ok: { status: 'ok' } } }), null);
+});
+
+
+test('issueAction closes when healthy and upserts when not', () => {
+  assert.equal(issueAction({ lists: { ok: { status: 'ok' } } }), 'close');
+  assert.equal(issueAction(health), 'upsert');
 });

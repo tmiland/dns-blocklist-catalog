@@ -71,10 +71,10 @@ function classify(rawLine) {
 
   const hosts = line.match(HOSTS_RE);
   if (hosts) {
-    const domains = hosts[1]
-      .split(/\s+/)
-      .map(normalizeDomain)
-      .filter(Boolean);
+    const parts = hosts[1].split(/\s+/);
+    const comment = parts.findIndex((part) => /^(#|;|\/\/)/.test(part));
+    const values = comment === -1 ? parts : parts.slice(0, comment);
+    const domains = values.map(normalizeDomain).filter(Boolean);
     return { kind: 'hosts', domains };
   }
 
@@ -96,18 +96,19 @@ function classify(rawLine) {
     return { kind: 'wildcard', domains: domain ? [domain] : [] };
   }
 
-  const domain = normalizeDomain(line);
+  const domain = normalizeDomain(line.split(/\s+/)[0]);
   if (domain) return { kind: 'domain', domains: [domain] };
 
   return { kind: 'unknown', domains: [] };
 }
 
 export function detectFormat(text) {
-  const head = String(text ?? '').slice(0, 1024).trimStart().toLowerCase();
+  const lower = String(text ?? '').toLowerCase();
   if (
-    head.startsWith('<!doctype html') ||
-    head.startsWith('<html') ||
-    head.includes('<body')
+    lower.includes('<!doctype html') ||
+    lower.includes('<html') ||
+    lower.includes('<body') ||
+    lower.includes('</html>')
   ) {
     return 'html';
   }

@@ -231,7 +231,71 @@ test('getRepoMeta reads pushed_at and archived', async () => {
     }),
   });
   assert.deepEqual(meta, {
-    lastCommit: '2026-01-01T00:00:00Z',
+    lastPush: '2026-01-01T00:00:00Z',
     archived: true,
   });
+});
+
+
+test('a 304 refreshes maintenance staleness', async () => {
+  const lastModified = 'Mon, 01 Apr 2026 00:00:00 GMT';
+  let calls = 0;
+  const srv = await serve((req, res) => {
+    if (calls++ === 0) {
+      res.writeHead(200, {
+        'content-type': 'text/plain',
+        'last-modified': lastModified,
+      });
+      res.end('a.example.com\n');
+      return;
+    }
+    res.writeHead(304);
+    res.end();
+  });
+  try {
+    const first = await checkList(entry(srv.url), null, {
+      now: () => '2026-05-01T00:00:00.000Z',
+    });
+    const second = await checkList(entry(srv.url), first, {
+      now: () => '2026-11-04T00:00:00.000Z',
+    });
+    assert.equal(second.httpStatus, 304);
+    assert.equal(second.status, 'warn');
+    assert.ok(second.reasons.includes('stale'));
+  } finally {
+    await srv.close();
+  }
+});
+
+test('a chunked body over the byte cap is rejected', async () => {
+  const srv = await serve((req, res) => {
+    res.writeHead(200, { 'content-type': 'text/plain' });
+    res.write('a'.repeat(50));
+    res.end('b'.repeat(50));
+  });
+  try {
+    const record = await checkList(entry(srv.url), null, {
+      now,
+      maxBytes: 20,
+      retryDelayMs: 0,
+    });
+    assert.equal(record.status, 'fail');
+    assert.match(record.error, /too large/);
+  } finally {
+    await srv.close();
+  }
+});
+
+test('a list served as text/html is unparseable', async () => {
+  const srv = await serve((req, res) => {
+    res.writeHead(200, { 'content-type': 'text/html' });
+    res.end('a.example.com\n');
+  });
+  try {
+    const record = await checkList(entry(srv.url), null, { now });
+    assert.equal(record.status, 'fail');
+    assert.ok(record.reasons.includes('unparseable'));
+  } finally {
+    await srv.close();
+  }
 });

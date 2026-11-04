@@ -1,0 +1,23 @@
+id: shadowwhisperer-tunnels
+name: ShadowWhisperer's Tunnels
+description: ShadowWhisperer's tunnels domain list.
+homepage: https://github.com/ShadowWhisperer/BlockLists
+source: ShadowWhisperer/BlockLists
+maintainer: ShadowWhisperer
+license: Unlicense
+topics:
+  - doh-bypass
+region: global
+languages:
+  - en
+family: shadowwhisperer-tunnels
+variant: default
+risk: high
+breaks:
+  - VPN and proxy tunnel endpoints
+notes: May break VPN clients.
+formats:
+  domains: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels
+default_format: domains
+update_interval: daily
+status: active

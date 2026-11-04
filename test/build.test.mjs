@@ -31,6 +31,7 @@ test('builds two lists and one pack with computed totals', () => {
     'fail',
   );
   assert.ok(readme.includes('Pack A'));
+  assert.ok(readme.includes('2 active'));
   assert.ok(readme.includes('Ads'));
   assert.ok(readme.includes('Malware'));
   assert.ok(!readme.includes('{{'));
@@ -83,4 +84,118 @@ test('a dead list in a pack fails the build', () => {
       }),
     /dead/,
   );
+});
+
+test('a missing overlap report fails the build', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'catalog-overlap-'));
+  writeFileSync(
+    join(dir, 'overlap.json'),
+    JSON.stringify({ schema: 1, checked_at: null, packs: {} }),
+  );
+  assert.throws(
+    () => buildCatalog({ ...opts(), overlapPath: join(dir, 'overlap.json') }),
+    /overlap report is missing/,
+  );
+});
+
+test('a stale overlap report fails the build', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'catalog-stale-'));
+  cpSync(fixture('.'), dir, { recursive: true });
+  writeFileSync(
+    join(dir, 'catalog/list-c.yaml'),
+    readFileSync(fixture('catalog/list-a.yaml'), 'utf8')
+      .replaceAll('list-a', 'list-c')
+      .replace('family: family-a', 'family: family-c'),
+  );
+  writeFileSync(
+    join(dir, 'packs/pack-a.yaml'),
+    readFileSync(fixture('packs/pack-a.yaml'), 'utf8').replace(
+      'lists: [list-a, list-b]',
+      'lists: [list-a, list-b, list-c]',
+    ),
+  );
+  assert.throws(
+    () =>
+      buildCatalog({
+        ...opts(),
+        catalogDir: join(dir, 'catalog'),
+        packsDir: join(dir, 'packs'),
+        topicsPath: join(dir, 'catalog/topics.yaml'),
+        healthPath: join(dir, 'health.json'),
+        overlapPath: join(dir, 'overlap.json'),
+      }),
+    /overlap report is stale/,
+  );
+});
+
+test('a pack over 25 percent without allow_overlap fails the build', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'catalog-threshold-'));
+  writeFileSync(
+    join(dir, 'overlap.json'),
+    JSON.stringify({
+      schema: 1,
+      checked_at: null,
+      packs: {
+        'pack-a': {
+          checkedAt: null,
+          maxPairwise: 0.3,
+          sampled: false,
+          unavailable: [],
+          pairs: [{ a: 'list-a', b: 'list-b', containment: 0.3 }],
+        },
+      },
+    }),
+  );
+  assert.throws(
+    () => buildCatalog({ ...opts(), overlapPath: join(dir, 'overlap.json') }),
+    /25%/,
+  );
+});
+
+test('the README prints every pack member URL', () => {
+  const { catalog, readme } = buildCatalog(opts());
+  for (const pack of catalog.packs) {
+    for (const id of pack.lists) {
+      const list = catalog.lists.find((entry) => entry.id === id);
+      assert.ok(readme.includes(list.url), `${pack.id}: ${id}`);
+    }
+  }
+});
+
+test('an active list without a health record fails the build', () => {
+  const dir = mkdtempSync(join(tmpdir(), 'catalog-health-'));
+  writeFileSync(
+    join(dir, 'health.json'),
+    JSON.stringify({
+      schema: 1,
+      checked_at: null,
+      lists: {
+        'list-a': { status: 'ok', entries: 1 },
+      },
+    }),
+  );
+  assert.throws(
+    () => buildCatalog({ ...opts(), healthPath: join(dir, 'health.json') }),
+    /missing health record/,
+  );
+});
+
+test('catalog JSON uses the schema-1 measured field names', () => {
+  const { catalog } = buildCatalog(opts());
+  const list = catalog.lists.find((entry) => entry.id === 'list-a');
+  assert.deepEqual(Object.keys(list.health).sort(), [
+    'checkedAt',
+    'entries',
+    'httpStatus',
+    'reasons',
+    'status',
+  ]);
+  const pack = catalog.packs[0];
+  assert.deepEqual(Object.keys(pack.overlap).sort(), [
+    'checkedAt',
+    'maxPairwise',
+    'pairs',
+    'sampled',
+    'unavailable',
+  ]);
 });

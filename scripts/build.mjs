@@ -86,8 +86,12 @@ function renderPacks(catalog) {
         .join('\n');
 
       const overlap = pack.overlap
-        ? ` · **Max overlap:** ${(pack.overlap.maxPairwise * 100).toFixed(1)}%`
+        ? ` · **Max overlap:** ${(pack.overlap.maxPairwise * 100).toFixed(1)}%${pack.overlap.sampled ? ' (sampled)' : ''}${pack.overlap.unavailable?.length ? ` · **Unavailable:** ${pack.overlap.unavailable.map((item) => item.id).join(', ')}` : ''}`
         : '';
+      const urls = pack.lists
+        .map((id) => byId.get(id)?.url)
+        .filter(Boolean)
+        .join('\n');
       return `### ${pack.name}
 
 ${pack.tagline}
@@ -99,6 +103,12 @@ ${pack.description}
 | List | What it blocks | Entries | Format | Risk | Health |
 |---|---|---:|---|---|---|
 ${rows}
+
+**Import URLs**
+
+~~~
+${urls}
+~~~
 
 ${pack.notes}
 `;
@@ -152,8 +162,18 @@ function renderHealth(catalog) {
 
 export function renderReadme(catalog, templatePath = 'templates/README.md') {
   const template = readFileSync(templatePath, 'utf8');
+  const counts = {};
+  for (const list of catalog.lists) {
+    counts[list.status] = (counts[list.status] ?? 0) + 1;
+  }
+  const statusCounts = ['active', 'stale', 'deprecated', 'dead']
+    .filter((status) => counts[status])
+    .map((status) => `${counts[status]} ${status}`)
+    .join(', ');
+
   return template
     .replaceAll('{{COUNT}}', String(catalog.lists.length))
+    .replaceAll('{{STATUS_COUNTS}}', statusCounts)
     .replaceAll('{{PACK_COUNT}}', String(catalog.packs.length))
     .replaceAll('{{PACKS}}', renderPacks(catalog))
     .replaceAll('{{TOPICS}}', renderTopics(catalog))
@@ -186,12 +206,50 @@ export function buildCatalog(opts = {}) {
   });
 
   const errors = validateCatalog({ lists, packs, topics });
+  const healthLists = health.lists ?? {};
+  const overlapPacks = overlap.packs ?? {};
+
+  for (const entry of lists) {
+    if (
+      (entry.status === 'active' || entry.status === 'stale') &&
+      !healthLists[entry.id]
+    ) {
+      errors.push(
+        `list ${entry.id}: missing health record; run npm run health --only ${entry.id}`,
+      );
+    }
+  }
+
+  for (const pack of packs) {
+    const report = overlapPacks[pack.id];
+    if (!report) {
+      errors.push(`pack ${pack.id}: overlap report is missing; run npm run overlap`);
+      continue;
+    }
+    const expected = [];
+    for (let i = 0; i < pack.lists.length; i++) {
+      for (let j = i + 1; j < pack.lists.length; j++) {
+        expected.push([pack.lists[i], pack.lists[j]].sort().join('|'));
+      }
+    }
+    const actual = (report.pairs ?? []).map((pair) =>
+      [pair.a, pair.b].sort().join('|'),
+    );
+    if (expected.sort().join(',') !== actual.sort().join(',')) {
+      errors.push(
+        `pack ${pack.id}: overlap report is stale; run npm run overlap`,
+      );
+    }
+    if (report.maxPairwise > 0.25 && !pack.allow_overlap) {
+      errors.push(
+        `pack ${pack.id}: max overlap ${(report.maxPairwise * 100).toFixed(1)}% exceeds 25% without allow_overlap`,
+      );
+    }
+  }
+
   if (errors.length > 0) {
     throw new Error(`catalog validation failed:\n${errors.join('\n')}`);
   }
-
-  const healthLists = health.lists ?? {};
-  const overlapPacks = overlap.packs ?? {};
 
   const enrichedLists = lists
     .map((entry) => ({

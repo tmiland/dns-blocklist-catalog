@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-04T12:52:21.613Z",
+  "checked_at": "2026-11-04T13:23:35.185Z",
   "lists": {
     "1hosts-lite": {
       "checkedAt": "2026-11-04T12:52:13.981Z",
@@ -17,9 +17,9 @@
       "exceptions": 0,
       "nonDomainRules": 86,
       "maintenance": {
-        "lastCommit": "2026-09-03T12:28:12Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-03T12:28:12Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -40,9 +40,9 @@
       "exceptions": 0,
       "nonDomainRules": 612,
       "maintenance": {
-        "lastCommit": "2026-09-03T12:28:12Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-03T12:28:12Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -63,9 +63,9 @@
       "exceptions": 0,
       "nonDomainRules": 2,
       "maintenance": {
-        "lastCommit": "2026-09-13T08:48:56Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-13T08:48:56Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -86,9 +86,9 @@
       "exceptions": 212,
       "nonDomainRules": 517,
       "maintenance": {
-        "lastCommit": "2026-11-04T12:13:45Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T12:13:45Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -109,9 +109,9 @@
       "exceptions": 49,
       "nonDomainRules": 63,
       "maintenance": {
-        "lastCommit": "2026-11-01T22:14:06Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T22:14:06Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -132,9 +132,9 @@
       "exceptions": 0,
       "nonDomainRules": 34,
       "maintenance": {
-        "lastCommit": "2026-10-27T07:45:07Z",
         "archived": true,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-27T07:45:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -155,9 +155,9 @@
       "exceptions": 0,
       "nonDomainRules": 24,
       "maintenance": {
-        "lastCommit": "2026-10-27T07:45:07Z",
         "archived": true,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-27T07:45:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -178,9 +178,9 @@
       "exceptions": 0,
       "nonDomainRules": 10,
       "maintenance": {
-        "lastCommit": "2026-10-27T07:45:07Z",
         "archived": true,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-27T07:45:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -201,9 +201,9 @@
       "exceptions": 0,
       "nonDomainRules": 13,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -224,9 +224,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2025-05-27T14:32:35Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-05-27T14:32:35Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -249,9 +249,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2025-05-27T14:32:35Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-05-27T14:32:35Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -274,9 +274,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2025-05-27T14:32:35Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-05-27T14:32:35Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -299,9 +299,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2025-05-27T14:32:35Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-05-27T14:32:35Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -324,9 +324,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -347,9 +347,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -370,9 +370,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -393,9 +393,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -416,9 +416,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -439,9 +439,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -462,9 +462,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -485,9 +485,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -508,9 +508,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -531,9 +531,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -554,9 +554,9 @@
       "exceptions": 0,
       "nonDomainRules": 15,
       "maintenance": {
-        "lastCommit": "2026-10-31T13:49:52Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-31T13:49:52Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -577,9 +577,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-10-24T15:48:41Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-24T15:48:41Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -600,9 +600,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T21:25:27Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T21:25:27Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -623,9 +623,9 @@
       "exceptions": 0,
       "nonDomainRules": 832,
       "maintenance": {
-        "lastCommit": "2023-11-17T01:05:31Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2023-11-17T01:05:31Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -648,9 +648,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-09-12T06:31:16Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-12T06:31:16Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -671,9 +671,9 @@
       "exceptions": 0,
       "nonDomainRules": 125,
       "maintenance": {
-        "lastCommit": "2023-06-26T14:10:47Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2023-06-26T14:10:47Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -696,9 +696,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -719,9 +719,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -742,9 +742,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -765,9 +765,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T08:56:29Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T08:56:29Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -788,9 +788,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -811,9 +811,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T05:00:07Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T05:00:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -834,9 +834,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T05:00:07Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T05:00:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -857,9 +857,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T04:55:23Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T04:55:23Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -880,9 +880,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2025-09-17T23:00:44Z",
         "archived": false,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-09-17T23:00:44Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
@@ -905,9 +905,9 @@
       "exceptions": 0,
       "nonDomainRules": 20,
       "maintenance": {
-        "lastCommit": "2026-11-01T18:55:53Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T18:55:53Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -928,9 +928,9 @@
       "exceptions": 0,
       "nonDomainRules": 20,
       "maintenance": {
-        "lastCommit": "2026-11-01T18:55:53Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T18:55:53Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -951,9 +951,9 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastCommit": "2026-10-15T02:22:31Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-15T02:22:31Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -974,9 +974,9 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastCommit": "2026-10-15T02:22:31Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-15T02:22:31Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -997,9 +997,9 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastCommit": "2026-10-15T02:22:31Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-10-15T02:22:31Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1020,9 +1020,9 @@
       "exceptions": 18,
       "nonDomainRules": 8061,
       "maintenance": {
-        "lastCommit": "2026-11-01T04:01:34Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T04:01:34Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1043,9 +1043,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1066,9 +1066,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1089,9 +1089,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1112,9 +1112,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1135,9 +1135,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1158,9 +1158,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1181,9 +1181,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1204,9 +1204,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1227,9 +1227,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1250,9 +1250,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1273,9 +1273,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1296,9 +1296,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1319,9 +1319,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1342,9 +1342,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1365,9 +1365,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1388,9 +1388,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1411,9 +1411,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1434,9 +1434,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1457,9 +1457,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1480,9 +1480,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1503,9 +1503,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T07:49:20Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T07:49:20Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1526,9 +1526,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1549,9 +1549,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1572,9 +1572,9 @@
       "exceptions": 0,
       "nonDomainRules": 151,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1595,9 +1595,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-03T11:02:58Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1618,9 +1618,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": null,
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": null
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1641,9 +1641,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-09-09T11:00:01Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-09T11:00:01Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1664,9 +1664,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-09-09T11:00:01Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-09T11:00:01Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1687,9 +1687,9 @@
       "exceptions": 9,
       "nonDomainRules": 7,
       "maintenance": {
-        "lastCommit": "2026-09-09T11:00:01Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-09-09T11:00:01Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1710,9 +1710,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T05:00:07Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T05:00:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1733,9 +1733,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T05:00:07Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T05:00:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1756,9 +1756,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T05:00:07Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T05:00:07Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1779,9 +1779,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastCommit": "2026-11-04T04:55:23Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-04T04:55:23Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1802,9 +1802,9 @@
       "exceptions": 0,
       "nonDomainRules": 20,
       "maintenance": {
-        "lastCommit": "2026-11-01T18:55:53Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T18:55:53Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1825,9 +1825,9 @@
       "exceptions": 0,
       "nonDomainRules": 26,
       "maintenance": {
-        "lastCommit": "2026-11-01T18:55:53Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T18:55:53Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1848,9 +1848,9 @@
       "exceptions": 0,
       "nonDomainRules": 20,
       "maintenance": {
-        "lastCommit": "2026-11-01T18:55:53Z",
         "archived": false,
-        "stale": false
+        "stale": false,
+        "lastPush": "2026-11-01T18:55:53Z"
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1871,15 +1871,268 @@
       "exceptions": 0,
       "nonDomainRules": 6,
       "maintenance": {
-        "lastCommit": "2025-03-05T04:38:24Z",
         "archived": true,
-        "stale": true
+        "stale": true,
+        "lastPush": "2025-03-05T04:38:24Z"
       },
       "consecutiveFailures": 0,
       "status": "warn",
       "reasons": [
         "stale"
       ]
+    },
+    "hagezi-native-tiktok-extended": {
+      "checkedAt": "2026-11-04T13:23:33.200Z",
+      "httpStatus": 200,
+      "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
+      "bytes": 25896,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"bf1-7600a8e10f5922c2\"",
+      "formatDetected": "adblock",
+      "declaredFormat": "adblock",
+      "entries": 764,
+      "rules": 764,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "perflyst-session-replay": {
+      "checkedAt": "2026-11-04T13:23:33.197Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
+      "bytes": 387,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"16592d47504907310fcdcf5f45113da4899270208c876c7b630a6fe20490adf8\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 24,
+      "rules": 24,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-09-09T11:00:01Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "rpi-malware": {
+      "checkedAt": "2026-11-04T13:23:35.185Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
+      "bytes": 16183746,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"19d4c650ab9b6794a2905076a51e1a85bb8d81d5b444d19d850541d93baf2e1a\"",
+      "formatDetected": "adblock",
+      "declaredFormat": "adblock",
+      "entries": 668933,
+      "rules": 668933,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T05:00:07Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-crypto": {
+      "checkedAt": "2026-11-04T13:23:33.196Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
+      "bytes": 17931,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"21f4a479b10e936b33ce2f47cc647af9d19886b75b4921de1baaee66bf233de8\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 1281,
+      "rules": 1281,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-dynamic": {
+      "checkedAt": "2026-11-04T13:23:33.221Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
+      "bytes": 19312,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"21f010d686fcbf39e6e86daee466ebf0d9c6fd44bc9918948878d5f02f5d6a01\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 1463,
+      "rules": 1463,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-malware": {
+      "checkedAt": "2026-11-04T13:23:33.356Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
+      "bytes": 877442,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"d3908e67df40e263ad2acb098acf411063d30d8cc12f00216d8327a7aa5e1079\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 46735,
+      "rules": 46735,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-scam": {
+      "checkedAt": "2026-11-04T13:23:33.246Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
+      "bytes": 135418,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"22caeb7dd3b332e2827fa09d7f3b87c77157fe42606ae3a1b7ec2eef122d68c9\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 7454,
+      "rules": 7454,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-tracking": {
+      "checkedAt": "2026-11-04T13:23:33.661Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
+      "bytes": 2606442,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"f045fe21b10d328de0ffed49cd2af307498415ad51bca1e2298846e270c2ed2f\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 121056,
+      "rules": 121066,
+      "exceptions": 0,
+      "nonDomainRules": 10,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-tunnels": {
+      "checkedAt": "2026-11-04T13:23:33.264Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
+      "bytes": 16885,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"b0e1433da0ebf84b99953e8bcbcc4095d872a1bdb13901a87c1537de5a0cbb37\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 1026,
+      "rules": 1026,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "shadowwhisperer-urlshortener": {
+      "checkedAt": "2026-11-04T13:23:33.374Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
+      "bytes": 70615,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"34ba30e88d5f9ee8f1bfb0faa48a6e41143ca5d360c0c77d96b4a79b4b3fc95d\"",
+      "formatDetected": "domains",
+      "declaredFormat": "domains",
+      "entries": 5969,
+      "rules": 5969,
+      "exceptions": 0,
+      "nonDomainRules": 0,
+      "maintenance": {
+        "lastPush": "2026-11-04T04:55:23Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
+    },
+    "stevenblack-fakenews-gambling-porn": {
+      "checkedAt": "2026-11-04T13:23:34.042Z",
+      "httpStatus": 200,
+      "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
+      "bytes": 4513991,
+      "contentType": "text/plain; charset=utf-8",
+      "lastModified": null,
+      "etag": "W/\"759479a4e9b47ca827001c40b71d6afff43e342c61fde8948610c754cba2f34b\"",
+      "formatDetected": "hosts",
+      "declaredFormat": "hosts",
+      "entries": 163116,
+      "rules": 163141,
+      "exceptions": 0,
+      "nonDomainRules": 25,
+      "maintenance": {
+        "lastPush": "2026-11-01T18:55:53Z",
+        "archived": false,
+        "stale": false
+      },
+      "consecutiveFailures": 0,
+      "status": "ok",
+      "reasons": []
     }
   }
 }

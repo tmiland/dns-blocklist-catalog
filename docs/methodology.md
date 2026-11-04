@@ -76,8 +76,10 @@ containment(A, B) = |A ∩ B| / min(|A|, |B|)
 - Above **10%** is a warning, shown in the README.
 - Above **25%** is a build error unless the pack sets `allow_overlap: true` and explains
   why in `overlap_note`.
-- Lists over 1M entries are sampled deterministically to 200k domains; the report marks
-  the pack as sampled.
+- Lists are compared exactly in v1; sampling is a future optimization for lists over 2M
+  entries.
+- If a member cannot be fetched, it is listed under `unavailable` and its pairs are
+  skipped. The pack keeps the member with a health warning.
 
 `total_entries` is the sum of member entry counts. It is not deduplicated across lists;
 the overlap report tells you how much double counting there is.

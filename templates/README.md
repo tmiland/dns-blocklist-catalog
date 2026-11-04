@@ -1,7 +1,8 @@
 # DNS Blocklist Catalog
 
 A curated, health-checked catalog of DNS blocklists for AdGuard Home, Pi-hole, and other
-DNS filters. **{{COUNT}} lists**, **{{PACK_COUNT}} packs**, no re-hosted content.
+DNS filters. **{{COUNT}} lists** ({{STATUS_COUNTS}}), **{{PACK_COUNT}} packs**, no
+re-hosted content.
 
 ## Quick start (AdGuard Home)
 
@@ -15,6 +16,9 @@ The AdGuard Home Browser Assistant will do this in one click in a later release.
 ## Packs
 
 {{PACKS}}
+
+`total_entries` is the sum of the member counts, not deduplicated. The overlap
+figure shows how much the members share.
 
 ## Browse by topic
 

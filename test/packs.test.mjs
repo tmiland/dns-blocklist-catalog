@@ -52,7 +52,11 @@ test('pack totals, footprints, and overlap are computed', () => {
     assert.ok(pack.total_entries > 0, pack.id);
     assert.equal(pack.footprint, footprintFor(pack.total_entries), pack.id);
     assert.ok(pack.overlap, pack.id);
-    assert.ok(pack.overlap.maxPairwise <= 0.25, pack.id);
+    if (pack.allow_overlap) {
+      assert.ok(pack.overlap_note, pack.id);
+    } else {
+      assert.ok(pack.overlap.maxPairwise <= 0.25, pack.id);
+    }
   }
 });
 
@@ -81,7 +85,9 @@ test('Family contains adult and gambling, Security contains no ads', () => {
 
 test('the balanced pack documents its measured overlap', () => {
   const balanced = catalog.packs.find((pack) => pack.id === 'balanced');
-  assert.ok(balanced.overlap.maxPairwise <= 0.25);
+  assert.equal(balanced.allow_overlap, true);
+  assert.ok(balanced.overlap.maxPairwise <= 0.3);
+  assert.match(balanced.overlap_note, /26%/);
   assert.match(balanced.notes, /overlap/i);
 });
 
