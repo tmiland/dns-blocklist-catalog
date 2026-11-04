@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "content_hash": "sha256:315a12ccdc035550f80a99554e472dc9be509c811f9ecb50a4b305d295c42f7d",
-  "health_checked_at": "2026-11-04T13:26:06.258Z",
+  "content_hash": "sha256:bf337d18c6d4f12fbeeac63b84f44ecbe6eed038026558a1cbd1ef13bc8b44f2",
+  "health_checked_at": "2026-11-04T13:51:01.916Z",
   "source": "https://github.com/tmiland/dns-blocklist-catalog",
   "topics": [
     {
@@ -193,7 +193,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:13.981Z",
+        "checkedAt": "2026-11-04T13:50:57.205Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
         "bytes": 4933386,
@@ -207,9 +207,9 @@
         "exceptions": 0,
         "nonDomainRules": 86,
         "maintenance": {
+          "lastPush": "2026-09-03T12:28:12Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-03T12:28:12Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -250,7 +250,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.149Z",
+        "checkedAt": "2026-11-04T13:50:58.416Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt",
         "bytes": 22366581,
@@ -264,9 +264,9 @@
         "exceptions": 0,
         "nonDomainRules": 612,
         "maintenance": {
+          "lastPush": "2026-09-03T12:28:12Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-03T12:28:12Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -306,8 +306,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.148Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:56.850Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
         "bytes": 314716,
         "contentType": "text/plain; charset=utf-8",
@@ -320,9 +320,9 @@
         "exceptions": 18,
         "nonDomainRules": 8061,
         "maintenance": {
+          "lastPush": "2026-11-01T04:01:34Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T04:01:34Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -358,7 +358,7 @@
       "status": "active",
       "url": "https://adaway.org/hosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.023Z",
+        "checkedAt": "2026-11-04T13:50:57.148Z",
         "httpStatus": 304,
         "finalUrl": "https://adaway.org/hosts.txt",
         "bytes": 243454,
@@ -372,9 +372,9 @@
         "exceptions": 0,
         "nonDomainRules": 2,
         "maintenance": {
+          "lastPush": "2026-09-13T08:48:56Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-13T08:48:56Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -413,7 +413,7 @@
       "status": "active",
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.170Z",
+        "checkedAt": "2026-11-04T13:50:56.888Z",
         "httpStatus": 304,
         "finalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
         "bytes": 4607117,
@@ -427,9 +427,9 @@
         "exceptions": 212,
         "nonDomainRules": 517,
         "maintenance": {
+          "lastPush": "2026-11-04T12:13:45Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T12:13:45Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -469,7 +469,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.185Z",
+        "checkedAt": "2026-11-04T13:50:57.177Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
         "bytes": 2236168,
@@ -483,9 +483,9 @@
         "exceptions": 49,
         "nonDomainRules": 63,
         "maintenance": {
+          "lastPush": "2026-11-01T22:14:06Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T22:14:06Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -520,7 +520,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.409Z",
+        "checkedAt": "2026-11-04T13:50:57.511Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
         "bytes": 6862355,
@@ -534,9 +534,9 @@
         "exceptions": 0,
         "nonDomainRules": 34,
         "maintenance": {
+          "lastPush": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false,
-          "lastPush": "2026-10-27T07:45:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -572,7 +572,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.162Z",
+        "checkedAt": "2026-11-04T13:50:57.480Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
         "bytes": 5686136,
@@ -586,9 +586,9 @@
         "exceptions": 0,
         "nonDomainRules": 24,
         "maintenance": {
+          "lastPush": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false,
-          "lastPush": "2026-10-27T07:45:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -623,7 +623,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.328Z",
+        "checkedAt": "2026-11-04T13:50:57.682Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
         "bytes": 4215541,
@@ -637,9 +637,9 @@
         "exceptions": 0,
         "nonDomainRules": 10,
         "maintenance": {
+          "lastPush": "2026-10-27T07:45:07Z",
           "archived": true,
-          "stale": false,
-          "lastPush": "2026-10-27T07:45:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -676,7 +676,7 @@
       "status": "active",
       "url": "https://someonewhocares.org/hosts/zero/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.231Z",
+        "checkedAt": "2026-11-04T13:50:57.558Z",
         "httpStatus": 304,
         "finalUrl": "https://someonewhocares.org/hosts/zero/hosts",
         "bytes": 364272,
@@ -690,9 +690,9 @@
         "exceptions": 0,
         "nonDomainRules": 13,
         "maintenance": {
+          "lastPush": null,
           "archived": false,
-          "stale": false,
-          "lastPush": null
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -727,7 +727,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.198Z",
+        "checkedAt": "2026-11-04T13:50:57.582Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
         "bytes": 68159,
@@ -741,9 +741,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2025-05-27T14:32:35Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -781,7 +781,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.210Z",
+        "checkedAt": "2026-11-04T13:50:57.629Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
         "bytes": 58157,
@@ -795,9 +795,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2025-05-27T14:32:35Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -834,7 +834,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.222Z",
+        "checkedAt": "2026-11-04T13:50:57.590Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
         "bytes": 1628,
@@ -848,9 +848,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2025-05-27T14:32:35Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -887,7 +887,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.236Z",
+        "checkedAt": "2026-11-04T13:50:57.671Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
         "bytes": 276,
@@ -901,9 +901,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2025-05-27T14:32:35Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2025-05-27T14:32:35Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -945,8 +945,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.407Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.660Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
         "bytes": 1323919,
         "contentType": "text/plain; charset=utf-8",
@@ -959,9 +959,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1001,8 +1001,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.420Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.683Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
         "bytes": 75544,
         "contentType": "text/plain; charset=utf-8",
@@ -1015,9 +1015,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1057,8 +1057,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.326Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.713Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
         "bytes": 345348,
         "contentType": "text/plain; charset=utf-8",
@@ -1071,9 +1071,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1113,8 +1113,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.413Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.709Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
         "bytes": 24829,
         "contentType": "text/plain; charset=utf-8",
@@ -1127,9 +1127,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1167,7 +1167,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.425Z",
+        "checkedAt": "2026-11-04T13:50:57.716Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
         "bytes": 355047,
@@ -1181,9 +1181,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1223,8 +1223,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.859Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.729Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
         "bytes": 12919157,
         "contentType": "text/plain; charset=utf-8",
@@ -1237,9 +1237,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1279,8 +1279,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.878Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.775Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
         "bytes": 3814846,
         "contentType": "text/plain; charset=utf-8",
@@ -1293,9 +1293,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1335,8 +1335,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.614Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.744Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
         "bytes": 2396361,
         "contentType": "text/plain; charset=utf-8",
@@ -1349,9 +1349,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1392,8 +1392,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.457Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.745Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
         "bytes": 16163,
         "contentType": "text/plain; charset=utf-8",
@@ -1406,9 +1406,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1448,7 +1448,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.010Z",
+        "checkedAt": "2026-11-04T13:50:57.765Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
         "bytes": 1970218,
@@ -1505,8 +1505,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.636Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.787Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
         "bytes": 12285,
         "contentType": "text/plain; charset=utf-8",
@@ -1519,9 +1519,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1562,8 +1562,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.640Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.794Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
         "bytes": 4037,
         "contentType": "text/plain; charset=utf-8",
@@ -1576,9 +1576,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1619,8 +1619,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.657Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.824Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
         "bytes": 6194,
         "contentType": "text/plain; charset=utf-8",
@@ -1633,9 +1633,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1676,8 +1676,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.659Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.865Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
         "bytes": 8613,
         "contentType": "text/plain; charset=utf-8",
@@ -1690,9 +1690,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1733,8 +1733,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.881Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.818Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
         "bytes": 16737,
         "contentType": "text/plain; charset=utf-8",
@@ -1747,9 +1747,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1790,8 +1790,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.880Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.893Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
         "bytes": 2392,
         "contentType": "text/plain; charset=utf-8",
@@ -1804,9 +1804,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1847,8 +1847,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.906Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.868Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
         "bytes": 6929,
         "contentType": "text/plain; charset=utf-8",
@@ -1861,9 +1861,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1904,8 +1904,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.908Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.156Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
         "bytes": 18306,
         "contentType": "text/plain; charset=utf-8",
@@ -1918,9 +1918,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -1961,8 +1961,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.200Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.916Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
         "bytes": 25896,
         "contentType": "text/plain; charset=utf-8",
@@ -2018,8 +2018,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.910Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.925Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
         "bytes": 8568,
         "contentType": "text/plain; charset=utf-8",
@@ -2032,9 +2032,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2074,8 +2074,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.930Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.966Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
         "bytes": 13760,
         "contentType": "text/plain; charset=utf-8",
@@ -2088,9 +2088,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2131,8 +2131,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.933Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:57.997Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
         "bytes": 10509,
         "contentType": "text/plain; charset=utf-8",
@@ -2145,9 +2145,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2189,7 +2189,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.941Z",
+        "checkedAt": "2026-11-04T13:50:57.979Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
         "bytes": 4181335,
@@ -2203,9 +2203,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2245,8 +2245,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.953Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.032Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
         "bytes": 4493,
         "contentType": "text/plain; charset=utf-8",
@@ -2259,9 +2259,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2301,8 +2301,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:21.613Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.009Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
         "bytes": 45899608,
         "contentType": "text/plain; charset=utf-8",
@@ -2315,9 +2315,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T07:49:20Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T07:49:20Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2357,7 +2357,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.007Z",
+        "checkedAt": "2026-11-04T13:50:58.020Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
         "bytes": 1702271,
@@ -2412,7 +2412,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.975Z",
+        "checkedAt": "2026-11-04T13:50:58.033Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt",
         "bytes": 1634557,
@@ -2426,9 +2426,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2470,7 +2470,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.004Z",
+        "checkedAt": "2026-11-04T13:50:58.049Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
         "bytes": 5679526,
@@ -2530,7 +2530,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.998Z",
+        "checkedAt": "2026-11-04T13:50:58.043Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt",
         "bytes": 5995225,
@@ -2544,9 +2544,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2586,8 +2586,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.130Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.083Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
         "bytes": 160102,
         "contentType": "text/plain; charset=utf-8",
@@ -2600,9 +2600,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2642,7 +2642,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.860Z",
+        "checkedAt": "2026-11-04T13:50:58.094Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
         "bytes": 37649904,
@@ -2656,9 +2656,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2698,7 +2698,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.009Z",
+        "checkedAt": "2026-11-04T13:50:58.063Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
         "bytes": 6934911,
@@ -2754,7 +2754,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.134Z",
+        "checkedAt": "2026-11-04T13:50:58.085Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt",
         "bytes": 4066268,
@@ -2768,9 +2768,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2807,8 +2807,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.861Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.149Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt",
         "bytes": 5776,
         "contentType": "text/plain; charset=utf-8",
@@ -2821,9 +2821,9 @@
         "exceptions": 0,
         "nonDomainRules": 151,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2867,7 +2867,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.023Z",
+        "checkedAt": "2026-11-04T13:50:58.108Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
         "bytes": 6584630,
@@ -2923,8 +2923,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.889Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:58.178Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
         "bytes": 138969,
         "contentType": "text/plain; charset=utf-8",
@@ -2937,9 +2937,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2979,7 +2979,7 @@
       "status": "active",
       "url": "https://hblock.molinero.dev/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.924Z",
+        "checkedAt": "2026-11-04T13:50:58.335Z",
         "httpStatus": 304,
         "finalUrl": "https://hblock.molinero.dev/hosts",
         "bytes": 14032505,
@@ -2993,9 +2993,9 @@
         "exceptions": 0,
         "nonDomainRules": 15,
         "maintenance": {
+          "lastPush": "2026-10-31T13:49:52Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-10-31T13:49:52Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3034,7 +3034,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.892Z",
+        "checkedAt": "2026-11-04T13:50:58.214Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
         "bytes": 527648,
@@ -3048,9 +3048,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-10-24T15:48:41Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-10-24T15:48:41Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3090,7 +3090,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.903Z",
+        "checkedAt": "2026-11-04T13:50:58.237Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
         "bytes": 1360334,
@@ -3104,9 +3104,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T21:25:27Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T21:25:27Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3142,7 +3142,7 @@
       "status": "deprecated",
       "url": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.047Z",
+        "checkedAt": "2026-11-04T13:50:58.501Z",
         "httpStatus": 304,
         "finalUrl": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
         "bytes": 14407741,
@@ -3156,9 +3156,9 @@
         "exceptions": 0,
         "nonDomainRules": 832,
         "maintenance": {
+          "lastPush": "2023-11-17T01:05:31Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2023-11-17T01:05:31Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -3195,7 +3195,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.919Z",
+        "checkedAt": "2026-11-04T13:50:58.247Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
         "bytes": 8150,
@@ -3209,9 +3209,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-09-12T06:31:16Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-12T06:31:16Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3249,7 +3249,7 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.935Z",
+        "checkedAt": "2026-11-04T13:50:59.156Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
         "bytes": 17939200,
@@ -3263,9 +3263,9 @@
         "exceptions": 0,
         "nonDomainRules": 125,
         "maintenance": {
+          "lastPush": "2023-06-26T14:10:47Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2023-06-26T14:10:47Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -3308,23 +3308,23 @@
       "status": "active",
       "url": "https://big.oisd.nl/",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.209Z",
-        "httpStatus": 304,
+        "checkedAt": "2026-11-04T13:51:00.683Z",
+        "httpStatus": 200,
         "finalUrl": "https://big.oisd.nl/",
-        "bytes": 5249200,
+        "bytes": 5249487,
         "contentType": "text/plain",
-        "lastModified": "Wed, 04 Nov 2026 12:05:15 GMT",
-        "etag": "\"6aeb1f7b-1af50d\"",
+        "lastModified": "Wed, 04 Nov 2026 13:06:25 GMT",
+        "etag": "\"6aeb2dd1-1af53f\"",
         "formatDetected": "adblock",
         "declaredFormat": "adblock",
-        "entries": 232325,
-        "rules": 232325,
+        "entries": 232338,
+        "rules": 232338,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": null,
           "archived": false,
-          "stale": false,
-          "lastPush": null
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3362,23 +3362,23 @@
       "status": "active",
       "url": "https://nsfw.oisd.nl/",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.423Z",
+        "checkedAt": "2026-11-04T13:51:01.757Z",
         "httpStatus": 200,
         "finalUrl": "https://nsfw.oisd.nl/",
-        "bytes": 10073197,
+        "bytes": 10073212,
         "contentType": "text/plain",
-        "lastModified": "Wed, 04 Nov 2026 12:33:36 GMT",
-        "etag": "\"6aeb2620-268281\"",
+        "lastModified": "Wed, 04 Nov 2026 13:35:51 GMT",
+        "etag": "\"6aeb34b7-26828b\"",
         "formatDetected": "adblock",
         "declaredFormat": "adblock",
-        "entries": 486736,
-        "rules": 486736,
+        "entries": 486737,
+        "rules": 486737,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": null,
           "archived": false,
-          "stale": false,
-          "lastPush": null
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3417,17 +3417,17 @@
       "status": "active",
       "url": "https://small.oisd.nl/",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.232Z",
-        "httpStatus": 304,
-        "finalUrl": "https://small.oisd.nl/",
-        "bytes": 1358924,
-        "contentType": "text/plain",
-        "lastModified": "Wed, 04 Nov 2026 09:05:25 GMT",
-        "etag": "\"6aeaf555-7efdd\"",
-        "formatDetected": "adblock",
+        "checkedAt": "2026-11-04T13:50:59.420Z",
+        "httpStatus": 429,
+        "finalUrl": "",
+        "bytes": 0,
+        "contentType": "",
+        "lastModified": null,
+        "etag": null,
+        "formatDetected": "unknown",
         "declaredFormat": "adblock",
-        "entries": 60126,
-        "rules": 60126,
+        "entries": 0,
+        "rules": 0,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -3435,9 +3435,15 @@
           "stale": false,
           "lastPush": null
         },
-        "consecutiveFailures": 0,
-        "status": "ok",
-        "reasons": []
+        "error": "",
+        "consecutiveFailures": 1,
+        "status": "fail",
+        "reasons": [
+          "http_429",
+          "unparseable",
+          "no_entries",
+          "entries_dropped"
+        ]
       }
     },
     {
@@ -3471,8 +3477,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.372Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:59.254Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt",
         "bytes": 1502,
         "contentType": "text/plain; charset=utf-8",
@@ -3485,9 +3491,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-09-09T11:00:01Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-09T11:00:01Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3525,7 +3531,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.258Z",
+        "checkedAt": "2026-11-04T13:50:59.310Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
         "bytes": 2153,
@@ -3577,8 +3583,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.197Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:50:59.446Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
         "bytes": 387,
         "contentType": "text/plain; charset=utf-8",
@@ -3631,7 +3637,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
       "health": {
-        "checkedAt": "2026-11-04T13:26:06.256Z",
+        "checkedAt": "2026-11-04T13:50:59.429Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
         "bytes": 10987,
@@ -3683,7 +3689,7 @@
       "status": "active",
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.552Z",
+        "checkedAt": "2026-11-04T13:51:00.316Z",
         "httpStatus": 304,
         "finalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
         "bytes": 95342,
@@ -3697,9 +3703,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": null,
           "archived": false,
-          "stale": false,
-          "lastPush": null
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3736,7 +3742,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.710Z",
+        "checkedAt": "2026-11-04T13:50:59.909Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt",
         "bytes": 4895559,
@@ -3750,9 +3756,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T08:56:29Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T08:56:29Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3788,7 +3794,7 @@
       "status": "active",
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.607Z",
+        "checkedAt": "2026-11-04T13:51:00.013Z",
         "httpStatus": 304,
         "finalUrl": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
         "bytes": 3263554,
@@ -3802,9 +3808,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": null,
           "archived": false,
-          "stale": false,
-          "lastPush": null
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3840,7 +3846,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.766Z",
+        "checkedAt": "2026-11-04T13:51:00.187Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto",
         "bytes": 2666704,
@@ -3854,9 +3860,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T05:00:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3894,8 +3900,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.425Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.337Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv",
         "bytes": 3442,
         "contentType": "text/plain; charset=utf-8",
@@ -3908,9 +3914,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T05:00:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3946,8 +3952,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
       "health": {
-        "checkedAt": "2026-11-04T13:23:35.185Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.760Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
         "bytes": 16183746,
         "contentType": "text/plain; charset=utf-8",
@@ -3999,7 +4005,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.780Z",
+        "checkedAt": "2026-11-04T13:51:00.685Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe",
         "bytes": 3699712,
@@ -4013,9 +4019,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T05:00:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4053,8 +4059,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.843Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.840Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming",
         "bytes": 489565,
         "contentType": "text/plain; charset=utf-8",
@@ -4067,9 +4073,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T05:00:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4107,8 +4113,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.425Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.740Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry",
         "bytes": 2883,
         "contentType": "text/plain; charset=utf-8",
@@ -4121,9 +4127,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T05:00:07Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T05:00:07Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4158,7 +4164,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.577Z",
+        "checkedAt": "2026-11-04T13:51:00.893Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads",
         "bytes": 480253,
@@ -4172,9 +4178,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T04:55:23Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4209,8 +4215,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.196Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.987Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
         "bytes": 17931,
         "contentType": "text/plain; charset=utf-8",
@@ -4260,8 +4266,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.596Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.900Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating",
         "bytes": 22656,
         "contentType": "text/plain; charset=utf-8",
@@ -4274,9 +4280,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-04T04:55:23Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-04T04:55:23Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4313,8 +4319,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.221Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.005Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
         "bytes": 19312,
         "contentType": "text/plain; charset=utf-8",
@@ -4364,8 +4370,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.356Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:00.996Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
         "bytes": 877442,
         "contentType": "text/plain; charset=utf-8",
@@ -4415,8 +4421,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.246Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.081Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
         "bytes": 135418,
         "contentType": "text/plain; charset=utf-8",
@@ -4466,8 +4472,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.661Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.014Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
         "bytes": 2606442,
         "contentType": "text/plain; charset=utf-8",
@@ -4519,8 +4525,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.264Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.758Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
         "bytes": 16885,
         "contentType": "text/plain; charset=utf-8",
@@ -4572,8 +4578,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
       "health": {
-        "checkedAt": "2026-11-04T13:23:33.374Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.759Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
         "bytes": 70615,
         "contentType": "text/plain; charset=utf-8",
@@ -4625,7 +4631,7 @@
       "status": "stale",
       "url": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.440Z",
+        "checkedAt": "2026-11-04T13:51:01.766Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
         "bytes": 146593,
@@ -4639,9 +4645,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2025-09-17T23:00:44Z",
           "archived": false,
-          "stale": true,
-          "lastPush": "2025-09-17T23:00:44Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -4681,7 +4687,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.845Z",
+        "checkedAt": "2026-11-04T13:51:01.795Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
         "bytes": 2353610,
@@ -4695,9 +4701,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T18:55:53Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4732,7 +4738,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.455Z",
+        "checkedAt": "2026-11-04T13:51:01.787Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts",
         "bytes": 2426805,
@@ -4746,9 +4752,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T18:55:53Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4787,8 +4793,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
       "health": {
-        "checkedAt": "2026-11-04T13:23:34.042Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.834Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
         "bytes": 4513991,
         "contentType": "text/plain; charset=utf-8",
@@ -4840,8 +4846,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:17.830Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.788Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
         "bytes": 2515668,
         "contentType": "text/plain; charset=utf-8",
@@ -4854,9 +4860,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T18:55:53Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4893,8 +4899,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.357Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.777Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
         "bytes": 4307788,
         "contentType": "text/plain; charset=utf-8",
@@ -4907,9 +4913,9 @@
         "exceptions": 0,
         "nonDomainRules": 26,
         "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T18:55:53Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -4946,8 +4952,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.057Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.789Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
         "bytes": 2497846,
         "contentType": "text/plain; charset=utf-8",
@@ -4960,9 +4966,9 @@
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
+          "lastPush": "2026-11-01T18:55:53Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-01T18:55:53Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -5000,7 +5006,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.058Z",
+        "checkedAt": "2026-11-04T13:51:01.893Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt",
         "bytes": 15517,
@@ -5014,9 +5020,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
+          "lastPush": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-10-15T02:22:31Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -5054,7 +5060,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.076Z",
+        "checkedAt": "2026-11-04T13:51:01.895Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
         "bytes": 12383,
@@ -5068,9 +5074,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
+          "lastPush": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-10-15T02:22:31Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -5107,7 +5113,7 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.359Z",
+        "checkedAt": "2026-11-04T13:51:01.894Z",
         "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt",
         "bytes": 21459,
@@ -5121,9 +5127,9 @@
         "exceptions": 0,
         "nonDomainRules": 5,
         "maintenance": {
+          "lastPush": "2026-10-15T02:22:31Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-10-15T02:22:31Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -5162,8 +5168,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:52:18.378Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:51:01.916Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
         "bytes": 163921,
         "contentType": "text/plain; charset=utf-8",
@@ -5176,9 +5182,9 @@
         "exceptions": 0,
         "nonDomainRules": 6,
         "maintenance": {
+          "lastPush": "2025-03-05T04:38:24Z",
           "archived": true,
-          "stale": true,
-          "lastPush": "2025-03-05T04:38:24Z"
+          "stale": true
         },
         "consecutiveFailures": 0,
         "status": "warn",
@@ -5204,7 +5210,7 @@
       "total_entries": 271968,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:41.471Z",
+        "checkedAt": "2026-11-04T13:51:05.214Z",
         "maxPairwise": 0.08779142704542349,
         "sampled": false,
         "unavailable": [],
@@ -5234,7 +5240,7 @@
       "total_entries": 566335,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:38.857Z",
+        "checkedAt": "2026-11-04T13:51:03.076Z",
         "maxPairwise": 0.2634072902077439,
         "sampled": false,
         "unavailable": [],
@@ -5264,7 +5270,7 @@
       "total_entries": 2101253,
       "footprint": "large",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:44.942Z",
+        "checkedAt": "2026-11-04T13:51:08.442Z",
         "maxPairwise": 0.2582836627278748,
         "sampled": false,
         "unavailable": [],
@@ -5292,7 +5298,7 @@
       "total_entries": 553445,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:40.909Z",
+        "checkedAt": "2026-11-04T13:51:04.736Z",
         "maxPairwise": 0.044591194165208396,
         "sampled": false,
         "unavailable": [],
@@ -5322,7 +5328,7 @@
       "total_entries": 475893,
       "footprint": "medium",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:39.662Z",
+        "checkedAt": "2026-11-04T13:51:03.761Z",
         "maxPairwise": 0.08779142704542349,
         "sampled": false,
         "unavailable": [],
@@ -5376,7 +5382,7 @@
       "total_entries": 574,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:39.748Z",
+        "checkedAt": "2026-11-04T13:51:03.816Z",
         "maxPairwise": 0.0125,
         "sampled": false,
         "unavailable": [],
@@ -5417,7 +5423,7 @@
       "total_entries": 1005,
       "footprint": "small",
       "overlap": {
-        "checkedAt": "2026-11-04T13:23:41.007Z",
+        "checkedAt": "2026-11-04T13:51:04.795Z",
         "maxPairwise": 0.03508771929824561,
         "sampled": false,
         "unavailable": [],

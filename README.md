@@ -227,8 +227,8 @@ figure shows how much the members share.
 | [KADhosts](https://github.com/PolishFiltersTeam/KADhosts) | Ads, Trackers, Spam | 44,525 | hosts | medium | CC-BY-SA-4.0 | ok |
 | [lightswitch05 hosts](https://github.com/lightswitch05/hosts) — deprecated | Ads, Trackers | 428,454 | hosts | low | Apache-2.0 | warn |
 | [notracking](https://github.com/notracking/hosts-blocklists) — deprecated | Ads, Trackers, Malware | 250,110 | hosts | medium | unknown | warn |
-| [OISD Blocklist Big](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 232,325 | adblock | medium | unknown | ok |
-| [OISD Blocklist Small](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 60,126 | adblock | low | unknown | ok |
+| [OISD Blocklist Big](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 232,338 | adblock | medium | unknown | ok |
+| [OISD Blocklist Small](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 0 | adblock | low | unknown | fail |
 | [Perflyst Android Tracking](https://github.com/Perflyst/PiHoleBlocklist) | Mobile, Telemetry | 80 | domains | medium | MIT | ok |
 | [Perflyst Session Replay](https://github.com/Perflyst/PiHoleBlocklist) | Telemetry, Trackers | 24 | domains | low | MIT | ok |
 | [Perflyst SmartTV (AGH)](https://github.com/Perflyst/PiHoleBlocklist) | Smart TV, Telemetry | 147 | adblock | medium | MIT | ok |
@@ -265,8 +265,8 @@ figure shows how much the members share.
 | [KADhosts](https://github.com/PolishFiltersTeam/KADhosts) | Ads, Trackers, Spam | 44,525 | hosts | medium | CC-BY-SA-4.0 | ok |
 | [NoCoin](https://github.com/hoshsadiq/adblock-nocoin-list) | Crypto mining | 312 | hosts | low | MIT | ok |
 | [notracking](https://github.com/notracking/hosts-blocklists) — deprecated | Ads, Trackers, Malware | 250,110 | hosts | medium | unknown | warn |
-| [OISD Blocklist Big](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 232,325 | adblock | medium | unknown | ok |
-| [OISD Blocklist Small](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 60,126 | adblock | low | unknown | ok |
+| [OISD Blocklist Big](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 232,338 | adblock | medium | unknown | ok |
+| [OISD Blocklist Small](https://oisd.nl) | Ads, Trackers, Malware, Phishing | 0 | adblock | low | unknown | fail |
 | [PhishDestroy](https://github.com/phishdestroy/destroylist) | Phishing, Scams & fraud, Malware | 234,867 | domains | low | MIT | ok |
 | [Phishing Army](https://phishing.army) | Phishing | 151,456 | domains | low | unknown | ok |
 | [RPiList Crypto](https://github.com/RPiList/specials) | Crypto mining | 98,659 | adblock | low | CC-BY-NC-4.0 | ok |
@@ -292,7 +292,7 @@ figure shows how much the members share.
 | [HaGeZi's TikTok Tracker Blocklist — Aggressive](https://github.com/hagezi/dns-blocklists#native) | Device telemetry, Social | 764 | adblock | medium | GPL-3.0 | ok |
 | [HaGeZi's NSFW Blocklist](https://github.com/hagezi/dns-blocklists#nsfw) | Adult | 92,021 | adblock | medium | GPL-3.0 | ok |
 | [HaGeZi's Social Networks Blocklist](https://github.com/hagezi/dns-blocklists#social) | Social | 8,166 | adblock | high | GPL-3.0 | ok |
-| [OISD NSFW Blocklist](https://oisd.nl) | Adult | 486,736 | adblock | medium | unknown | ok |
+| [OISD NSFW Blocklist](https://oisd.nl) | Adult | 486,737 | adblock | medium | unknown | ok |
 | [RPiList Streaming](https://github.com/RPiList/specials) | Piracy | 23,868 | adblock | medium | CC-BY-NC-4.0 | ok |
 | [ShadowWhisperer's Dating](https://github.com/ShadowWhisperer/BlockLists) | Dating | 1,382 | domains | low | Unlicense | ok |
 | [Steven Black's Fake News + Gambling + Porn](https://github.com/StevenBlack/hosts) | Scams & fraud, Gambling, Adult | 163,116 | hosts | medium | MIT | ok |
@@ -348,7 +348,7 @@ figure shows how much the members share.
 
 ## Health
 
-Last checked: **2026-11-04T13:26:06.258Z** — 84 ok, 8 warn, 0 fail, 0 unreachable, 0 unknown.
+Last checked: **2026-11-04T13:51:01.916Z** — 83 ok, 8 warn, 1 fail, 0 unreachable, 0 unknown.
 
 Health is measured weekly. `ok` means the URL returned a parseable list; `warn` means the
 entry count dropped, the syntax changed, or the list has not updated in 180 days; `fail`
@@ -365,4 +365,4 @@ maintainer. Licenses are recorded per list and remain with the upstream project.
 See [CONTRIBUTING.md](CONTRIBUTING.md). The methodology is in
 [docs/methodology.md](docs/methodology.md).
 
-Generated from `catalog/` and `packs/` — content hash `315a12ccdc03`.
+Generated from `catalog/` and `packs/` — content hash `bf337d18c6d4`.
