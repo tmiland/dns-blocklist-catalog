@@ -1,0 +1,27 @@
+id: hagezi-native-apple
+name: HaGeZi's Apple Tracker Blocklist
+description: Apple built-in trackers and telemetry.
+homepage: https://github.com/hagezi/dns-blocklists#native
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - device-telemetry
+  - mobile
+region: global
+languages:
+  - en
+family: hagezi-native-apple
+variant: default
+risk: medium
+breaks:
+  - Some Apple features and updates
+notes: Device-specific native tracker list; combine with a Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.apple.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.apple.txt
+default_format: adblock
+update_interval: daily
+status: active

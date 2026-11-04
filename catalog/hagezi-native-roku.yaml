@@ -1,0 +1,27 @@
+id: hagezi-native-roku
+name: HaGeZi's Roku Tracker Blocklist
+description: Roku built-in trackers and telemetry.
+homepage: https://github.com/hagezi/dns-blocklists#native
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - device-telemetry
+  - smart-tv
+region: global
+languages:
+  - en
+family: hagezi-native-roku
+variant: default
+risk: medium
+breaks:
+  - Some Roku features and updates
+notes: Device-specific native tracker list; combine with a Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.roku.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.roku.txt
+default_format: adblock
+update_interval: daily
+status: active

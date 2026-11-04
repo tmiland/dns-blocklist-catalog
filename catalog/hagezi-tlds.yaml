@@ -1,0 +1,23 @@
+id: hagezi-tlds
+name: HaGeZi's Most Abused TLDs — Aggressive
+description: Whole top-level domains with a high abuse rate.
+homepage: https://github.com/hagezi/dns-blocklists#tlds
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - tld
+region: global
+languages:
+  - en
+family: hagezi-tlds
+variant: default
+risk: high
+breaks:
+  - Every site under the blocked TLDs
+notes: Blocks whole TLDs; expect breakage. Not part of a default pack.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt
+default_format: adblock
+update_interval: daily
+status: active

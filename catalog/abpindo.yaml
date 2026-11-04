@@ -1,0 +1,26 @@
+id: abpindo
+name: ABPindo
+description: An Indonesian ads and tracker list.
+homepage: https://github.com/ABPindo/indonesianadblockrules
+source: ABPindo/indonesianadblockrules
+maintainer: ABPindo
+license: GPL-3.0-or-later OR CC-BY-SA-3.0
+topics:
+  - regional
+  - ads
+  - trackers
+region: ID
+languages:
+  - id
+  - en
+family: abpindo
+variant: default
+risk: medium
+breaks:
+  - Some Indonesian sites
+notes: ""
+formats:
+  adblock: https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt
+default_format: adblock
+update_interval: daily
+status: active

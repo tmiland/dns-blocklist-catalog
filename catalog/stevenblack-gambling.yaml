@@ -1,0 +1,23 @@
+id: stevenblack-gambling
+name: Steven Black's Gambling
+description: The unified hosts file plus gambling domains.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - gambling
+region: global
+languages:
+  - en
+family: stevenblack
+variant: gambling
+risk: medium
+breaks:
+  - Some betting and lottery sites
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts
+default_format: hosts
+update_interval: daily
+status: active

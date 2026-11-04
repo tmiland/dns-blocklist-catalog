@@ -1,0 +1,27 @@
+id: hagezi-native-samsung
+name: HaGeZi's Samsung Tracker Blocklist
+description: Samsung built-in trackers and telemetry.
+homepage: https://github.com/hagezi/dns-blocklists#native
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - device-telemetry
+  - smart-tv
+region: global
+languages:
+  - en
+family: hagezi-native-samsung
+variant: default
+risk: medium
+breaks:
+  - Some Samsung features and updates
+notes: Device-specific native tracker list; combine with a Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.samsung.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.samsung.txt
+default_format: adblock
+update_interval: daily
+status: active

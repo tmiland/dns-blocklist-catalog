@@ -1,0 +1,26 @@
+id: hagezi-doh
+name: HaGeZi's DoH Bypass Blocklist
+description: Encrypted DNS endpoints that bypass local filtering.
+homepage: https://github.com/hagezi/dns-blocklists#bypass_dns
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - doh-bypass
+region: global
+languages:
+  - en
+family: hagezi-doh
+variant: doh
+risk: high
+breaks:
+  - Clients that use DoH
+notes: Blocks encrypted DNS endpoints; do not use if you rely on DoH.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh.txt
+default_format: adblock
+update_interval: daily
+status: active

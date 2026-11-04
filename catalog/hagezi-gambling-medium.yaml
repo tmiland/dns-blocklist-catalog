@@ -1,0 +1,26 @@
+id: hagezi-gambling-medium
+name: HaGeZi's Gambling Blocklist — Medium
+description: A size-optimized gambling and betting list.
+homepage: https://github.com/hagezi/dns-blocklists#gamblingmedium
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - gambling
+region: global
+languages:
+  - en
+family: hagezi-gambling
+variant: medium
+risk: medium
+breaks:
+  - Some betting and lottery sites
+notes: Pick one Gambling variant.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.medium.txt
+default_format: adblock
+update_interval: daily
+status: active

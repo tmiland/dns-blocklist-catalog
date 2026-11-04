@@ -1,0 +1,26 @@
+id: hagezi-gambling
+name: HaGeZi's Gambling Blocklist
+description: Gambling and betting domains.
+homepage: https://github.com/hagezi/dns-blocklists#gambling
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - gambling
+region: global
+languages:
+  - en
+family: hagezi-gambling
+variant: full
+risk: medium
+breaks:
+  - Some betting and lottery sites
+notes: 626k rules; use the Mini variant on small boxes.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt
+default_format: adblock
+update_interval: daily
+status: active

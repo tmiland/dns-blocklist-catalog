@@ -1,0 +1,26 @@
+id: hagezi-urlshortener
+name: HaGeZi's URL Shortener Blocklist
+description: Link shorteners and redirectors.
+homepage: https://github.com/hagezi/dns-blocklists#urlshortener
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - url-shorteners
+region: global
+languages:
+  - en
+family: hagezi-urlshortener
+variant: default
+risk: medium
+breaks:
+  - Short links stop resolving
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/urlshortener.txt
+default_format: adblock
+update_interval: daily
+status: active

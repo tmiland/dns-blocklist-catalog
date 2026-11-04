@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "content_hash": "sha256:849465c6baf4e7c29d13ff121d61dd3f8e9b9a97ce60d75a19acd8d18b7f53ea",
-  "health_checked_at": "2026-11-04T12:49:43.293Z",
+  "content_hash": "sha256:8b86118f3dd80d683640afa23867f889311bdd1604da48e007a25fdef7adce2c",
+  "health_checked_at": "2026-11-04T12:52:21.613Z",
   "source": "https://github.com/tmiland/dns-blocklist-catalog",
   "topics": [
     {
@@ -193,8 +193,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:28.843Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:13.981Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
         "bytes": 4933386,
         "contentType": "text/plain; charset=utf-8",
@@ -250,8 +250,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:32.623Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.149Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt",
         "bytes": 22366581,
         "contentType": "text/plain; charset=utf-8",
@@ -265,6 +265,62 @@
         "nonDomainRules": 612,
         "maintenance": {
           "lastCommit": "2026-09-03T12:28:12Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "abpindo",
+      "name": "ABPindo",
+      "description": "An Indonesian ads and tracker list.",
+      "homepage": "https://github.com/ABPindo/indonesianadblockrules",
+      "source": "ABPindo/indonesianadblockrules",
+      "maintainer": "ABPindo",
+      "license": "GPL-3.0-or-later OR CC-BY-SA-3.0",
+      "topics": [
+        "regional",
+        "ads",
+        "trackers"
+      ],
+      "region": "ID",
+      "languages": [
+        "id",
+        "en"
+      ],
+      "family": "abpindo",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Indonesian sites"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.148Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
+        "bytes": 314716,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"885835ee312af30f65739050e4a56b7c57b2aa2a4bb1278ff91c23165c9dbaf1\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 1751,
+        "rules": 10255,
+        "exceptions": 18,
+        "nonDomainRules": 8061,
+        "maintenance": {
+          "lastCommit": "2026-11-01T04:01:34Z",
           "archived": false,
           "stale": false
         },
@@ -302,8 +358,8 @@
       "status": "active",
       "url": "https://adaway.org/hosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:28.186Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.023Z",
+        "httpStatus": 304,
         "finalUrl": "https://adaway.org/hosts.txt",
         "bytes": 243454,
         "contentType": "text/plain; charset=utf-8",
@@ -357,8 +413,8 @@
       "status": "active",
       "url": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:29.687Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.170Z",
+        "httpStatus": 304,
         "finalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
         "bytes": 4607117,
         "contentType": "text/plain; charset=utf-8",
@@ -413,8 +469,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:28.415Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.185Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
         "bytes": 2236168,
         "contentType": "text/plain; charset=utf-8",
@@ -464,8 +520,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:29.423Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.409Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
         "bytes": 6862355,
         "contentType": "text/plain; charset=utf-8",
@@ -516,8 +572,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.383Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.162Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
         "bytes": 5686136,
         "contentType": "text/plain; charset=utf-8",
@@ -567,8 +623,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.010Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.328Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
         "bytes": 4215541,
         "contentType": "text/plain; charset=utf-8",
@@ -620,8 +676,8 @@
       "status": "active",
       "url": "https://someonewhocares.org/hosts/zero/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.040Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.231Z",
+        "httpStatus": 304,
         "finalUrl": "https://someonewhocares.org/hosts/zero/hosts",
         "bytes": 364272,
         "contentType": "text/plain; charset=UTF-8",
@@ -671,8 +727,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.394Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.198Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
         "bytes": 68159,
         "contentType": "text/plain; charset=utf-8",
@@ -725,8 +781,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.390Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.210Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
         "bytes": 58157,
         "contentType": "text/plain; charset=utf-8",
@@ -778,8 +834,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:32.628Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.222Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
         "bytes": 1628,
         "contentType": "text/plain; charset=utf-8",
@@ -831,8 +887,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:32.628Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.236Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
         "bytes": 276,
         "contentType": "text/plain; charset=utf-8",
@@ -854,6 +910,230 @@
         "reasons": [
           "stale"
         ]
+      }
+    },
+    {
+      "id": "hagezi-antipiracy",
+      "name": "HaGeZi's Anti-Piracy Blocklist",
+      "description": "Piracy and unauthorized streaming domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#piracy",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "piracy"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-antipiracy",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some streaming and download sites"
+      ],
+      "notes": "Opt-in only; not part of a default pack.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.407Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
+        "bytes": 1323919,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"3877b-67795bbb7ecc9823\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 58659,
+        "rules": 58659,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-doh",
+      "name": "HaGeZi's DoH Bypass Blocklist",
+      "description": "Encrypted DNS endpoints that bypass local filtering.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#bypass_dns",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "doh-bypass"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-doh",
+      "variant": "doh",
+      "risk": "high",
+      "breaks": [
+        "Clients that use DoH"
+      ],
+      "notes": "Blocks encrypted DNS endpoints; do not use if you rely on DoH.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.420Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
+        "bytes": 75544,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"5ef3-16b584ba23172151\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 3596,
+        "rules": 3596,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-doh-vpn",
+      "name": "HaGeZi's DoH/VPN/Tor Bypass Blocklist",
+      "description": "DoH, VPN, Tor, and proxy bypass endpoints.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#bypass_all",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "doh-bypass"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-doh",
+      "variant": "full",
+      "risk": "high",
+      "breaks": [
+        "VPN, Tor, and DoH clients"
+      ],
+      "notes": "The complete bypass list. Pick this or the DoH-only variant.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.326Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
+        "bytes": 345348,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"181b7-6e24fa35f3bdc7e9\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 16579,
+        "rules": 16579,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-dyndns",
+      "name": "HaGeZi's Dynamic DNS Blocklist",
+      "description": "Dynamic DNS abuse domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#dyndns",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "dyndns"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-dyndns",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some dynamic DNS hostnames"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/dyndns.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/dyndns.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.413Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
+        "bytes": 24829,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"1e31-a6ccf860509147d2\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 1533,
+        "rules": 1533,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
       }
     },
     {
@@ -887,8 +1167,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:30.479Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.425Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
         "bytes": 355047,
         "contentType": "text/plain; charset=utf-8",
@@ -898,6 +1178,231 @@
         "declaredFormat": "adblock",
         "entries": 17529,
         "rules": 17529,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-gambling",
+      "name": "HaGeZi's Gambling Blocklist",
+      "description": "Gambling and betting domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#gambling",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "gambling"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-gambling",
+      "variant": "full",
+      "risk": "medium",
+      "breaks": [
+        "Some betting and lottery sites"
+      ],
+      "notes": "626k rules; use the Mini variant on small boxes.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:15.859Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
+        "bytes": 12919157,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"276304-2f849a55d62e2f53\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 626316,
+        "rules": 626316,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-gambling-medium",
+      "name": "HaGeZi's Gambling Blocklist — Medium",
+      "description": "A size-optimized gambling and betting list.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#gamblingmedium",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "gambling"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-gambling",
+      "variant": "medium",
+      "risk": "medium",
+      "breaks": [
+        "Some betting and lottery sites"
+      ],
+      "notes": "Pick one Gambling variant.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.medium.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.medium.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.medium.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.878Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
+        "bytes": 3814846,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"b3e00-1eba10adc1bd90e7\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 178549,
+        "rules": 178549,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-gambling-mini",
+      "name": "HaGeZi's Gambling Blocklist — Mini",
+      "description": "The smallest gambling and betting list.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#gamblingmini",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "gambling"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-gambling",
+      "variant": "mini",
+      "risk": "medium",
+      "breaks": [
+        "Some betting and lottery sites"
+      ],
+      "notes": "Pick one Gambling variant.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.mini.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.614Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
+        "bytes": 2396361,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"75032-d14e702074c7d4c7\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 111904,
+        "rules": 111904,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-hoster",
+      "name": "HaGeZi's Badware Hoster Blocklist",
+      "description": "Hosting providers that disproportionately serve malware.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#hoster",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "badware-hoster",
+        "malware"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-hoster",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some sites hosted on flagged providers"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.457Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
+        "bytes": 16163,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"1535-0fa1cd93b7012017\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 1074,
+        "rules": 1074,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -943,8 +1448,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:32.771Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.616Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
         "bytes": 1970218,
         "contentType": "text/plain; charset=utf-8",
@@ -954,6 +1459,632 @@
         "declaredFormat": "adblock",
         "entries": 80509,
         "rules": 80509,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-amazon",
+      "name": "HaGeZi's Amazon Tracker Blocklist",
+      "description": "Amazon built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "smart-tv"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-amazon",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Amazon features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.amazon.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.amazon.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.amazon.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.636Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
+        "bytes": 12285,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"743-00fa5b9d1925db30\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 369,
+        "rules": 369,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-apple",
+      "name": "HaGeZi's Apple Tracker Blocklist",
+      "description": "Apple built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "mobile"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-apple",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Apple features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.apple.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.apple.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.apple.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.640Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
+        "bytes": 4037,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"3e8-89588ad2d056654c\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 110,
+        "rules": 110,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-huawei",
+      "name": "HaGeZi's Huawei Tracker Blocklist",
+      "description": "Huawei built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "mobile"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-huawei",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Huawei features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.huawei.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.huawei.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.huawei.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.657Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
+        "bytes": 6194,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"410-621feb5b2a35d5b7\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 135,
+        "rules": 135,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-lgwebos",
+      "name": "HaGeZi's LG webOS Tracker Blocklist",
+      "description": "LG webOS built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "smart-tv"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-lgwebos",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some LG webOS features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.lgwebos.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.lgwebos.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.lgwebos.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.659Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
+        "bytes": 8613,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"350-323951a2b8377cbb\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 231,
+        "rules": 231,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-oppo-realme",
+      "name": "HaGeZi's OPPO/Realme Tracker Blocklist",
+      "description": "OPPO/Realme built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "mobile"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-oppo-realme",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some OPPO/Realme features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.oppo-realme.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.oppo-realme.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.oppo-realme.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.881Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
+        "bytes": 16737,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"798-f275bf9bc0fb662a\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 490,
+        "rules": 490,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-roku",
+      "name": "HaGeZi's Roku Tracker Blocklist",
+      "description": "Roku built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "smart-tv"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-roku",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Roku features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.roku.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.roku.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.roku.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.880Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
+        "bytes": 2392,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"281-edaa71c6f4301605\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 57,
+        "rules": 57,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-samsung",
+      "name": "HaGeZi's Samsung Tracker Blocklist",
+      "description": "Samsung built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "smart-tv"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-samsung",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Samsung features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.samsung.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.samsung.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.samsung.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.906Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
+        "bytes": 6929,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"5ea-385bb374c6c86d16\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 201,
+        "rules": 201,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-tiktok",
+      "name": "HaGeZi's TikTok Tracker Blocklist",
+      "description": "TikTok built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "social"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-tiktok",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some TikTok features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.tiktok.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.tiktok.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.908Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
+        "bytes": 18306,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"939-51ad4a231b242092\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 550,
+        "rules": 550,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-vivo",
+      "name": "HaGeZi's Vivo Tracker Blocklist",
+      "description": "Vivo built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "mobile"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-vivo",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Vivo features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.vivo.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.vivo.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.vivo.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.910Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
+        "bytes": 8568,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"51e-1b9577affc54622e\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 247,
+        "rules": 247,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-winoffice",
+      "name": "HaGeZi's Windows/Office Tracker Blocklist",
+      "description": "Windows/Office built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-winoffice",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Windows/Office features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.winoffice.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.winoffice.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.930Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
+        "bytes": 13760,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"92a-56f0f534d2786a08\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 384,
+        "rules": 384,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-native-xiaomi",
+      "name": "HaGeZi's Xiaomi Tracker Blocklist",
+      "description": "Xiaomi built-in trackers and telemetry.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#native",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "device-telemetry",
+        "mobile"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-native-xiaomi",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Xiaomi features and updates"
+      ],
+      "notes": "Device-specific native tracker list; combine with a Multi tier.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.xiaomi.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.xiaomi.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.xiaomi.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.933Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
+        "bytes": 10509,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"8fe-74c2c2e846a61eea\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 350,
+        "rules": 350,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -1001,8 +2132,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:33.198Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.941Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
         "bytes": 4181335,
         "contentType": "text/plain; charset=utf-8",
@@ -1012,6 +2143,174 @@
         "declaredFormat": "adblock",
         "entries": 179493,
         "rules": 179493,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-nosafesearch",
+      "name": "HaGeZi's SafeSearch Blocklist",
+      "description": "Search engines that do not support SafeSearch.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#safesearch",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "safesearch"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-nosafesearch",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [
+        "Alternative search engines"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nosafesearch.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nosafesearch.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:14.953Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
+        "bytes": 4493,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"66c-ab18d79161340a8c\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 201,
+        "rules": 201,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-nrd",
+      "name": "HaGeZi's Newly Registered Domains",
+      "description": "Newly registered domains, a common phishing and malware vector.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#nrd",
+      "source": "hagezi/nrd",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "nrd",
+        "malware",
+        "phishing"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-nrd",
+      "variant": "default",
+      "risk": "high",
+      "breaks": [
+        "New legitimate domains and services"
+      ],
+      "notes": "2.3M rules; false positives are possible. Server-class hardware only.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
+        "domains": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/domains/nrd7.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:21.613Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
+        "bytes": 45899608,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"2bc5f58-29f0ecea009dd617\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 2342440,
+        "rules": 2342440,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-04T07:49:20Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-nsfw",
+      "name": "HaGeZi's NSFW Blocklist",
+      "description": "Adult content domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#nsfw",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "adult"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-nsfw",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Sex education and health sites may be caught"
+      ],
+      "notes": "Adult content only.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:15.089Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
+        "bytes": 1702271,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"5cba1-e347763c03a22295\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 92021,
+        "rules": 92021,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -1056,8 +2355,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:32.897Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.975Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt",
         "bytes": 1634557,
         "contentType": "text/plain; charset=utf-8",
@@ -1114,8 +2413,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:33.889Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.092Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
         "bytes": 5679526,
         "contentType": "text/plain; charset=utf-8",
@@ -1174,8 +2473,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:33.602Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:14.998Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt",
         "bytes": 5995225,
         "contentType": "text/plain; charset=utf-8",
@@ -1185,6 +2484,62 @@
         "declaredFormat": "adblock",
         "entries": 261413,
         "rules": 261413,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-social",
+      "name": "HaGeZi's Social Networks Blocklist",
+      "description": "Social network domains.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#social",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "social"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-social",
+      "variant": "default",
+      "risk": "high",
+      "breaks": [
+        "Social logins, share buttons, and apps"
+      ],
+      "notes": "Blocks social networks; expect app logins to break.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/social.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/social.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:15.130Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
+        "bytes": 160102,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"be4c-4c04b2071da65261\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 8166,
+        "rules": 8166,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -1230,8 +2585,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:39.417Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.860Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
         "bytes": 37649904,
         "contentType": "text/plain; charset=utf-8",
@@ -1286,8 +2641,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:34.482Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.114Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
         "bytes": 6934911,
         "contentType": "text/plain; charset=utf-8",
@@ -1342,8 +2697,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:34.115Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.134Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt",
         "bytes": 4066268,
         "contentType": "text/plain; charset=utf-8",
@@ -1355,6 +2710,59 @@
         "rules": 191459,
         "exceptions": 0,
         "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-tlds",
+      "name": "HaGeZi's Most Abused TLDs — Aggressive",
+      "description": "Whole top-level domains with a high abuse rate.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#tlds",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "tld"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-tlds",
+      "variant": "default",
+      "risk": "high",
+      "breaks": [
+        "Every site under the blocked TLDs"
+      ],
+      "notes": "Blocks whole TLDs; expect breakage. Not part of a default pack.",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:15.861Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt",
+        "bytes": 5776,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"823-6ea3f498f4dbb671\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 294,
+        "rules": 445,
+        "exceptions": 0,
+        "nonDomainRules": 151,
         "maintenance": {
           "lastCommit": "2026-11-03T11:02:58Z",
           "archived": false,
@@ -1402,8 +2810,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:35.120Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.878Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
         "bytes": 6584630,
         "contentType": "text/plain; charset=utf-8",
@@ -1413,6 +2821,62 @@
         "declaredFormat": "adblock",
         "entries": 286890,
         "rules": 286890,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-03T11:02:58Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "hagezi-urlshortener",
+      "name": "HaGeZi's URL Shortener Blocklist",
+      "description": "Link shorteners and redirectors.",
+      "homepage": "https://github.com/hagezi/dns-blocklists#urlshortener",
+      "source": "hagezi/dns-blocklists",
+      "maintainer": "HaGeZi",
+      "license": "GPL-3.0",
+      "topics": [
+        "url-shorteners"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "hagezi-urlshortener",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Short links stop resolving"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
+        "dnsmasq": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/urlshortener.txt",
+        "wildcard": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/urlshortener.txt",
+        "rpz": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/urlshortener.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:15.889Z",
+        "httpStatus": 200,
+        "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
+        "bytes": 138969,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"ab80-d1d97d23ece9780b\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 9846,
+        "rules": 9846,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -1458,8 +2922,8 @@
       "status": "active",
       "url": "https://hblock.molinero.dev/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:36.125Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.924Z",
+        "httpStatus": 304,
         "finalUrl": "https://hblock.molinero.dev/hosts",
         "bytes": 14032505,
         "contentType": "text/plain; charset=UTF-8",
@@ -1513,8 +2977,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:34.668Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.892Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
         "bytes": 527648,
         "contentType": "text/plain; charset=utf-8",
@@ -1569,8 +3033,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:34.782Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.903Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
         "bytes": 1360334,
         "contentType": "text/plain; charset=utf-8",
@@ -1621,8 +3085,8 @@
       "status": "deprecated",
       "url": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:41.500Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.047Z",
+        "httpStatus": 304,
         "finalUrl": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
         "bytes": 14407741,
         "contentType": "text/plain; charset=utf-8",
@@ -1674,8 +3138,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:36.127Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.919Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
         "bytes": 8150,
         "contentType": "text/plain; charset=utf-8",
@@ -1728,8 +3192,8 @@
       "status": "deprecated",
       "url": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:40.553Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:15.935Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
         "bytes": 17939200,
         "contentType": "text/plain; charset=utf-8",
@@ -1787,8 +3251,8 @@
       "status": "active",
       "url": "https://big.oisd.nl/",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.762Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.209Z",
+        "httpStatus": 304,
         "finalUrl": "https://big.oisd.nl/",
         "bytes": 5249200,
         "contentType": "text/plain",
@@ -1798,6 +3262,60 @@
         "declaredFormat": "adblock",
         "entries": 232325,
         "rules": 232325,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": null,
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "oisd-nsfw",
+      "name": "OISD NSFW Blocklist",
+      "description": "A large adult-content blocklist.",
+      "homepage": "https://oisd.nl",
+      "source": "website:https://oisd.nl",
+      "maintainer": "OISD",
+      "license": "unknown",
+      "license_note": "OISD lists are free to use but publish no SPDX license.",
+      "topics": [
+        "adult"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "oisd-nsfw",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Sex education and health sites may be caught"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://nsfw.oisd.nl/"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://nsfw.oisd.nl/",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:17.423Z",
+        "httpStatus": 200,
+        "finalUrl": "https://nsfw.oisd.nl/",
+        "bytes": 10073197,
+        "contentType": "text/plain",
+        "lastModified": "Wed, 04 Nov 2026 12:33:36 GMT",
+        "etag": "\"6aeb2620-268281\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 486736,
+        "rules": 486736,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -1842,8 +3360,8 @@
       "status": "active",
       "url": "https://small.oisd.nl/",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.344Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.232Z",
+        "httpStatus": 304,
         "finalUrl": "https://small.oisd.nl/",
         "bytes": 1358924,
         "contentType": "text/plain",
@@ -1857,6 +3375,168 @@
         "nonDomainRules": 0,
         "maintenance": {
           "lastCommit": null,
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "perflyst-amazon",
+      "name": "Perflyst Amazon Fire TV",
+      "description": "Amazon Fire TV ads and telemetry.",
+      "homepage": "https://github.com/Perflyst/PiHoleBlocklist",
+      "source": "Perflyst/PiHoleBlocklist",
+      "maintainer": "Perflyst",
+      "license": "MIT",
+      "topics": [
+        "smart-tv",
+        "iot"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "perflyst-amazon",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Fire TV apps and updates"
+      ],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:16.372Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt",
+        "bytes": 1502,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"32b1a3a38643128d26fb83db918b5fa906782fc8d1f10184c47fad4fd3cc22da\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 16,
+        "rules": 16,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-09-09T11:00:01Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "perflyst-android",
+      "name": "Perflyst Android Tracking",
+      "description": "Android tracking and telemetry domains.",
+      "homepage": "https://github.com/Perflyst/PiHoleBlocklist",
+      "source": "Perflyst/PiHoleBlocklist",
+      "maintainer": "Perflyst",
+      "license": "MIT",
+      "topics": [
+        "mobile",
+        "telemetry"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "perflyst-android",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some Android app features"
+      ],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:16.391Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
+        "bytes": 2153,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"c48d976dd2ead10179b3f56ec3b23eb8db43680ef202c3f91c6d6678905ec127\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 80,
+        "rules": 80,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-09-09T11:00:01Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "perflyst-smarttv",
+      "name": "Perflyst SmartTV (AGH)",
+      "description": "Smart TV ads and telemetry, in AdGuard Home syntax.",
+      "homepage": "https://github.com/Perflyst/PiHoleBlocklist",
+      "source": "Perflyst/PiHoleBlocklist",
+      "maintainer": "Perflyst",
+      "license": "MIT",
+      "topics": [
+        "smart-tv",
+        "telemetry"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "perflyst-smarttv",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "TV apps and firmware updates"
+      ],
+      "notes": "",
+      "formats": {
+        "adblock": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:16.532Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
+        "bytes": 10987,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"9b2532be080e59899a77e969c7783d5231846110e1f9ec4f07f00be64b291fa1\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 147,
+        "rules": 163,
+        "exceptions": 9,
+        "nonDomainRules": 7,
+        "maintenance": {
+          "lastCommit": "2026-09-09T11:00:01Z",
           "archived": false,
           "stale": false
         },
@@ -1894,8 +3574,8 @@
       "status": "active",
       "url": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
       "health": {
-        "checkedAt": "2026-11-04T12:49:41.506Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.552Z",
+        "httpStatus": 304,
         "finalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
         "bytes": 95342,
         "contentType": "text/plain;charset=UTF-8",
@@ -1947,8 +3627,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.014Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.710Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt",
         "bytes": 4895559,
         "contentType": "text/plain; charset=utf-8",
@@ -1999,8 +3679,8 @@
       "status": "active",
       "url": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.280Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.607Z",
+        "httpStatus": 304,
         "finalUrl": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
         "bytes": 3263554,
         "contentType": "text/plain",
@@ -2051,8 +3731,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.470Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.766Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto",
         "bytes": 2666704,
         "contentType": "text/plain; charset=utf-8",
@@ -2062,6 +3742,60 @@
         "declaredFormat": "adblock",
         "entries": 98659,
         "rules": 98659,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-04T05:00:07Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rpi-lg",
+      "name": "RPiList LG TV",
+      "description": "A German LG TV ads and telemetry list.",
+      "homepage": "https://github.com/RPiList/specials",
+      "source": "RPiList/specials",
+      "maintainer": "RPiList",
+      "license": "CC-BY-NC-4.0",
+      "topics": [
+        "smart-tv"
+      ],
+      "region": "DE",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "family": "rpi-lg",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "LG TV apps and updates"
+      ],
+      "notes": "CC BY-NC 4.0: non-commercial use only.",
+      "formats": {
+        "adblock": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:17.425Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv",
+        "bytes": 3442,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"48fbcbd439e5c066e6964af40b5d870a6624aa93047070a8ffa5e743894f9df0\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 109,
+        "rules": 109,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -2104,8 +3838,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe",
       "health": {
-        "checkedAt": "2026-11-04T12:49:43.293Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:16.780Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe",
         "bytes": 3699712,
         "contentType": "text/plain; charset=utf-8",
@@ -2115,6 +3849,114 @@
         "declaredFormat": "adblock",
         "entries": 151060,
         "rules": 151060,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-04T05:00:07Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rpi-streaming",
+      "name": "RPiList Streaming",
+      "description": "A German piracy and unauthorized-streaming list.",
+      "homepage": "https://github.com/RPiList/specials",
+      "source": "RPiList/specials",
+      "maintainer": "RPiList",
+      "license": "CC-BY-NC-4.0",
+      "topics": [
+        "piracy"
+      ],
+      "region": "DE",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "family": "rpi-streaming",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Some streaming sites"
+      ],
+      "notes": "CC BY-NC 4.0: non-commercial use only.",
+      "formats": {
+        "adblock": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming"
+      },
+      "default_format": "adblock",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:16.843Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming",
+        "bytes": 489565,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"be7e9409171f90989540a4c4e7655d1fe735185f27f77e32fb917fac3195c502\"",
+        "formatDetected": "adblock",
+        "declaredFormat": "adblock",
+        "entries": 23868,
+        "rules": 23868,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-04T05:00:07Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "rpi-win10",
+      "name": "RPiList Windows 10 Telemetry",
+      "description": "A German Windows 10 telemetry list.",
+      "homepage": "https://github.com/RPiList/specials",
+      "source": "RPiList/specials",
+      "maintainer": "RPiList",
+      "license": "CC-BY-NC-4.0",
+      "topics": [
+        "device-telemetry"
+      ],
+      "region": "DE",
+      "languages": [
+        "de",
+        "en"
+      ],
+      "family": "rpi-win10",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [
+        "Windows updates and telemetry-dependent features"
+      ],
+      "notes": "CC BY-NC 4.0: non-commercial use only.",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:17.425Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry",
+        "bytes": 2883,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"8ffbd5b45f0b3dbe69df008f3bd990d0d4204426bc3b1b4cb6045caac3c44e70\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 45,
+        "rules": 45,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -2155,8 +3997,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.513Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:17.577Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads",
         "bytes": 480253,
         "contentType": "text/plain; charset=utf-8",
@@ -2166,6 +4008,57 @@
         "declaredFormat": "domains",
         "entries": 28663,
         "rules": 28663,
+        "exceptions": 0,
+        "nonDomainRules": 0,
+        "maintenance": {
+          "lastCommit": "2026-11-04T04:55:23Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "shadowwhisperer-dating",
+      "name": "ShadowWhisperer's Dating",
+      "description": "Dating site domains.",
+      "homepage": "https://github.com/ShadowWhisperer/BlockLists",
+      "source": "ShadowWhisperer/BlockLists",
+      "maintainer": "ShadowWhisperer",
+      "license": "Unlicense",
+      "topics": [
+        "dating"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "shadowwhisperer-dating",
+      "variant": "default",
+      "risk": "low",
+      "breaks": [],
+      "notes": "",
+      "formats": {
+        "domains": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating"
+      },
+      "default_format": "domains",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:17.596Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating",
+        "bytes": 22656,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"c44451516587dd7700b717f1ae63af2bc56be2f77b3d3c9db6519e8b03b7335f\"",
+        "formatDetected": "domains",
+        "declaredFormat": "domains",
+        "entries": 1382,
+        "rules": 1382,
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
@@ -2208,8 +4101,8 @@
       "status": "stale",
       "url": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.777Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:17.440Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
         "bytes": 146593,
         "contentType": "text/plain; charset=utf-8",
@@ -2264,8 +4157,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:43.099Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:17.845Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
         "bytes": 2353610,
         "contentType": "text/plain; charset=utf-8",
@@ -2315,8 +4208,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.969Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:17.455Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts",
         "bytes": 2426805,
         "contentType": "text/plain; charset=utf-8",
@@ -2326,6 +4219,165 @@
         "declaredFormat": "hosts",
         "entries": 80329,
         "rules": 80347,
+        "exceptions": 0,
+        "nonDomainRules": 20,
+        "maintenance": {
+          "lastCommit": "2026-11-01T18:55:53Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "stevenblack-gambling",
+      "name": "Steven Black's Gambling",
+      "description": "The unified hosts file plus gambling domains.",
+      "homepage": "https://github.com/StevenBlack/hosts",
+      "source": "StevenBlack/hosts",
+      "maintainer": "Steven Black",
+      "license": "MIT",
+      "topics": [
+        "gambling"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "stevenblack",
+      "variant": "gambling",
+      "risk": "medium",
+      "breaks": [
+        "Some betting and lottery sites"
+      ],
+      "notes": "Pick one StevenBlack variant.",
+      "formats": {
+        "hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
+      },
+      "default_format": "hosts",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:17.830Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
+        "bytes": 2515668,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"33b61c724e42b241d89dd58ba4457ca5e91031b2cf085c4b01872a3836a224ca\"",
+        "formatDetected": "hosts",
+        "declaredFormat": "hosts",
+        "entries": 84853,
+        "rules": 84871,
+        "exceptions": 0,
+        "nonDomainRules": 20,
+        "maintenance": {
+          "lastCommit": "2026-11-01T18:55:53Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "stevenblack-porn",
+      "name": "Steven Black's Porn",
+      "description": "The unified hosts file plus adult domains.",
+      "homepage": "https://github.com/StevenBlack/hosts",
+      "source": "StevenBlack/hosts",
+      "maintainer": "Steven Black",
+      "license": "MIT",
+      "topics": [
+        "adult"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "stevenblack",
+      "variant": "porn",
+      "risk": "medium",
+      "breaks": [
+        "Sex education and health sites may be caught"
+      ],
+      "notes": "Pick one StevenBlack variant.",
+      "formats": {
+        "hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
+      },
+      "default_format": "hosts",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:18.357Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
+        "bytes": 4307788,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"cd06416466406ff6bc451df010db5f2d78e40f7a2ba2a6d6eae8c20337eaedd1\"",
+        "formatDetected": "hosts",
+        "declaredFormat": "hosts",
+        "entries": 154219,
+        "rules": 154243,
+        "exceptions": 0,
+        "nonDomainRules": 26,
+        "maintenance": {
+          "lastCommit": "2026-11-01T18:55:53Z",
+          "archived": false,
+          "stale": false
+        },
+        "consecutiveFailures": 0,
+        "status": "ok",
+        "reasons": []
+      }
+    },
+    {
+      "id": "stevenblack-social",
+      "name": "Steven Black's Social",
+      "description": "The unified hosts file plus social network domains.",
+      "homepage": "https://github.com/StevenBlack/hosts",
+      "source": "StevenBlack/hosts",
+      "maintainer": "Steven Black",
+      "license": "MIT",
+      "topics": [
+        "social"
+      ],
+      "region": "global",
+      "languages": [
+        "en"
+      ],
+      "family": "stevenblack",
+      "variant": "social",
+      "risk": "high",
+      "breaks": [
+        "Social logins, share buttons, and apps"
+      ],
+      "notes": "Pick one StevenBlack variant.",
+      "formats": {
+        "hosts": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts"
+      },
+      "default_format": "hosts",
+      "update_interval": "daily",
+      "status": "active",
+      "url": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:18.057Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
+        "bytes": 2497846,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"d4b70d248525d5c2d4ddc5f6283f4ec4fe0a430b8a5e90c56f34b44933c88ac9\"",
+        "formatDetected": "hosts",
+        "declaredFormat": "hosts",
+        "entries": 81918,
+        "rules": 81936,
         "exceptions": 0,
         "nonDomainRules": 20,
         "maintenance": {
@@ -2369,8 +4421,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.798Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:18.058Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt",
         "bytes": 15517,
         "contentType": "text/plain; charset=utf-8",
@@ -2423,8 +4475,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:42.971Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:18.076Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
         "bytes": 12383,
         "contentType": "text/plain; charset=utf-8",
@@ -2476,8 +4528,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:49:43.102Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T12:52:18.359Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt",
         "bytes": 21459,
         "contentType": "text/plain; charset=utf-8",
@@ -2497,6 +4549,63 @@
         "consecutiveFailures": 0,
         "status": "ok",
         "reasons": []
+      }
+    },
+    {
+      "id": "yhosts",
+      "name": "yhosts",
+      "description": "An archived Chinese ads and tracker hosts list.",
+      "homepage": "https://github.com/VeleSila/yhosts",
+      "source": "VeleSila/yhosts",
+      "maintainer": "VeleSila",
+      "license": "unknown",
+      "license_note": "No license file; repository archived in 2025.",
+      "topics": [
+        "regional",
+        "ads",
+        "trackers"
+      ],
+      "region": "CN",
+      "languages": [
+        "zh",
+        "en"
+      ],
+      "family": "yhosts",
+      "variant": "default",
+      "risk": "medium",
+      "breaks": [],
+      "notes": "Archived in 2025; kept for migration.",
+      "formats": {
+        "hosts": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts"
+      },
+      "default_format": "hosts",
+      "update_interval": "daily",
+      "status": "deprecated",
+      "url": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
+      "health": {
+        "checkedAt": "2026-11-04T12:52:18.378Z",
+        "httpStatus": 200,
+        "finalUrl": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
+        "bytes": 163921,
+        "contentType": "text/plain; charset=utf-8",
+        "lastModified": null,
+        "etag": "W/\"523f6d520bfd7b7ec73becae27df85456f439d1bae72d67cb8d6a88f5a2c5097\"",
+        "formatDetected": "hosts",
+        "declaredFormat": "hosts",
+        "entries": 6419,
+        "rules": 6425,
+        "exceptions": 0,
+        "nonDomainRules": 6,
+        "maintenance": {
+          "lastCommit": "2025-03-05T04:38:24Z",
+          "archived": true,
+          "stale": true
+        },
+        "consecutiveFailures": 0,
+        "status": "warn",
+        "reasons": [
+          "stale"
+        ]
       }
     }
   ],

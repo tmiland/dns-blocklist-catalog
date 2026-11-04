@@ -1,0 +1,24 @@
+id: rpi-lg
+name: RPiList LG TV
+description: A German LG TV ads and telemetry list.
+homepage: https://github.com/RPiList/specials
+source: RPiList/specials
+maintainer: RPiList
+license: CC-BY-NC-4.0
+topics:
+  - smart-tv
+region: DE
+languages:
+  - de
+  - en
+family: rpi-lg
+variant: default
+risk: medium
+breaks:
+  - LG TV apps and updates
+notes: "CC BY-NC 4.0: non-commercial use only."
+formats:
+  adblock: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv
+default_format: adblock
+update_interval: daily
+status: active

@@ -1,0 +1,26 @@
+id: hagezi-social
+name: HaGeZi's Social Networks Blocklist
+description: Social network domains.
+homepage: https://github.com/hagezi/dns-blocklists#social
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - social
+region: global
+languages:
+  - en
+family: hagezi-social
+variant: default
+risk: high
+breaks:
+  - Social logins, share buttons, and apps
+notes: Blocks social networks; expect app logins to break.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/social.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/social.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/social.txt
+default_format: adblock
+update_interval: daily
+status: active

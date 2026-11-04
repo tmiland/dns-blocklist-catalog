@@ -1,0 +1,26 @@
+id: yhosts
+name: yhosts
+description: An archived Chinese ads and tracker hosts list.
+homepage: https://github.com/VeleSila/yhosts
+source: VeleSila/yhosts
+maintainer: VeleSila
+license: unknown
+license_note: No license file; repository archived in 2025.
+topics:
+  - regional
+  - ads
+  - trackers
+region: CN
+languages:
+  - zh
+  - en
+family: yhosts
+variant: default
+risk: medium
+breaks: []
+notes: Archived in 2025; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts
+default_format: hosts
+update_interval: daily
+status: deprecated

@@ -1,0 +1,26 @@
+id: hagezi-nosafesearch
+name: HaGeZi's SafeSearch Blocklist
+description: Search engines that do not support SafeSearch.
+homepage: https://github.com/hagezi/dns-blocklists#safesearch
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - safesearch
+region: global
+languages:
+  - en
+family: hagezi-nosafesearch
+variant: default
+risk: low
+breaks:
+  - Alternative search engines
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nosafesearch.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nosafesearch.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nosafesearch.txt
+default_format: adblock
+update_interval: daily
+status: active

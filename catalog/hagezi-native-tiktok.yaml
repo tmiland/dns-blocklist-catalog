@@ -1,0 +1,27 @@
+id: hagezi-native-tiktok
+name: HaGeZi's TikTok Tracker Blocklist
+description: TikTok built-in trackers and telemetry.
+homepage: https://github.com/hagezi/dns-blocklists#native
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - device-telemetry
+  - social
+region: global
+languages:
+  - en
+family: hagezi-native-tiktok
+variant: default
+risk: medium
+breaks:
+  - Some TikTok features and updates
+notes: Device-specific native tracker list; combine with a Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.tiktok.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.tiktok.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.tiktok.txt
+default_format: adblock
+update_interval: daily
+status: active

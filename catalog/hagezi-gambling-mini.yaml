@@ -1,0 +1,26 @@
+id: hagezi-gambling-mini
+name: HaGeZi's Gambling Blocklist — Mini
+description: The smallest gambling and betting list.
+homepage: https://github.com/hagezi/dns-blocklists#gamblingmini
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - gambling
+region: global
+languages:
+  - en
+family: hagezi-gambling
+variant: mini
+risk: medium
+breaks:
+  - Some betting and lottery sites
+notes: Pick one Gambling variant.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/gambling.mini.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/gambling.mini.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/gambling.mini.txt
+default_format: adblock
+update_interval: daily
+status: active

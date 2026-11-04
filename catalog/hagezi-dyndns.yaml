@@ -1,0 +1,26 @@
+id: hagezi-dyndns
+name: HaGeZi's Dynamic DNS Blocklist
+description: Dynamic DNS abuse domains.
+homepage: https://github.com/hagezi/dns-blocklists#dyndns
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - dyndns
+region: global
+languages:
+  - en
+family: hagezi-dyndns
+variant: default
+risk: medium
+breaks:
+  - Some dynamic DNS hostnames
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/dyndns.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/dyndns.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/dyndns.txt
+default_format: adblock
+update_interval: daily
+status: active

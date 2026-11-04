@@ -1,0 +1,26 @@
+id: hagezi-nsfw
+name: HaGeZi's NSFW Blocklist
+description: Adult content domains.
+homepage: https://github.com/hagezi/dns-blocklists#nsfw
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - adult
+region: global
+languages:
+  - en
+family: hagezi-nsfw
+variant: default
+risk: medium
+breaks:
+  - Sex education and health sites may be caught
+notes: Adult content only.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/nsfw.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/nsfw.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/nsfw.txt
+default_format: adblock
+update_interval: daily
+status: active

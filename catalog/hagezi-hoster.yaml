@@ -1,0 +1,27 @@
+id: hagezi-hoster
+name: HaGeZi's Badware Hoster Blocklist
+description: Hosting providers that disproportionately serve malware.
+homepage: https://github.com/hagezi/dns-blocklists#hoster
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - badware-hoster
+  - malware
+region: global
+languages:
+  - en
+family: hagezi-hoster
+variant: default
+risk: medium
+breaks:
+  - Some sites hosted on flagged providers
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/hoster.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/hoster.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/hoster.txt
+default_format: adblock
+update_interval: daily
+status: active

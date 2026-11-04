@@ -1,0 +1,26 @@
+id: hagezi-antipiracy
+name: HaGeZi's Anti-Piracy Blocklist
+description: Piracy and unauthorized streaming domains.
+homepage: https://github.com/hagezi/dns-blocklists#piracy
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - piracy
+region: global
+languages:
+  - en
+family: hagezi-antipiracy
+variant: default
+risk: medium
+breaks:
+  - Some streaming and download sites
+notes: Opt-in only; not part of a default pack.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/anti.piracy.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/anti.piracy.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/anti.piracy.txt
+default_format: adblock
+update_interval: daily
+status: active

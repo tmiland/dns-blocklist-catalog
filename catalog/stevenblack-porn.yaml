@@ -1,0 +1,23 @@
+id: stevenblack-porn
+name: Steven Black's Porn
+description: The unified hosts file plus adult domains.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - adult
+region: global
+languages:
+  - en
+family: stevenblack
+variant: porn
+risk: medium
+breaks:
+  - Sex education and health sites may be caught
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts
+default_format: hosts
+update_interval: daily
+status: active

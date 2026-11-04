@@ -1,0 +1,26 @@
+id: hagezi-native-winoffice
+name: HaGeZi's Windows/Office Tracker Blocklist
+description: Windows/Office built-in trackers and telemetry.
+homepage: https://github.com/hagezi/dns-blocklists#native
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - device-telemetry
+region: global
+languages:
+  - en
+family: hagezi-native-winoffice
+variant: default
+risk: medium
+breaks:
+  - Some Windows/Office features and updates
+notes: Device-specific native tracker list; combine with a Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/native.winoffice.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/native.winoffice.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/native.winoffice.txt
+default_format: adblock
+update_interval: daily
+status: active

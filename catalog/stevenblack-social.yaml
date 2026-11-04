@@ -1,0 +1,23 @@
+id: stevenblack-social
+name: Steven Black's Social
+description: The unified hosts file plus social network domains.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - social
+region: global
+languages:
+  - en
+family: stevenblack
+variant: social
+risk: high
+breaks:
+  - Social logins, share buttons, and apps
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts
+default_format: hosts
+update_interval: daily
+status: active

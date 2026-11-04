@@ -1,0 +1,24 @@
+id: rpi-win10
+name: RPiList Windows 10 Telemetry
+description: A German Windows 10 telemetry list.
+homepage: https://github.com/RPiList/specials
+source: RPiList/specials
+maintainer: RPiList
+license: CC-BY-NC-4.0
+topics:
+  - device-telemetry
+region: DE
+languages:
+  - de
+  - en
+family: rpi-win10
+variant: default
+risk: medium
+breaks:
+  - Windows updates and telemetry-dependent features
+notes: "CC BY-NC 4.0: non-commercial use only."
+formats:
+  domains: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry
+default_format: domains
+update_interval: daily
+status: active

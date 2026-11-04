@@ -1,0 +1,26 @@
+id: hagezi-doh-vpn
+name: HaGeZi's DoH/VPN/Tor Bypass Blocklist
+description: DoH, VPN, Tor, and proxy bypass endpoints.
+homepage: https://github.com/hagezi/dns-blocklists#bypass_all
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - doh-bypass
+region: global
+languages:
+  - en
+family: hagezi-doh
+variant: full
+risk: high
+breaks:
+  - VPN, Tor, and DoH clients
+notes: The complete bypass list. Pick this or the DoH-only variant.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/doh-vpn-proxy-bypass.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/doh-vpn-proxy-bypass.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/doh-vpn-proxy-bypass.txt
+default_format: adblock
+update_interval: daily
+status: active
