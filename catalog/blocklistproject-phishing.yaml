@@ -1,0 +1,23 @@
+id: blocklistproject-phishing
+name: The Block List Project — Phishing
+description: An archived phishing list from the Block List Project.
+homepage: https://github.com/blocklistproject/Lists
+source: blocklistproject/Lists
+maintainer: blocklistproject
+license: Unlicense
+topics:
+  - phishing
+  - scam-fraud
+region: global
+languages:
+  - en
+family: blocklistproject
+variant: phishing
+risk: low
+breaks: []
+notes: Repository archived in October 2026; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt
+default_format: hosts
+update_interval: daily
+status: deprecated

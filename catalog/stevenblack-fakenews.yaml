@@ -1,0 +1,22 @@
+id: stevenblack-fakenews
+name: Steven Black's Fake News
+description: The unified hosts file plus fake-news domains.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - scam-fraud
+region: global
+languages:
+  - en
+family: stevenblack
+variant: fakenews
+risk: low
+breaks: []
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts
+default_format: hosts
+update_interval: daily
+status: active

@@ -1,0 +1,24 @@
+id: windowsspyblocker-spy
+name: WindowsSpyBlocker — Spy
+description: Windows telemetry and tracking domains.
+homepage: https://github.com/crazy-max/WindowsSpyBlocker
+source: crazy-max/WindowsSpyBlocker
+maintainer: crazy-max
+license: MIT
+topics:
+  - telemetry
+  - trackers
+region: global
+languages:
+  - en
+family: windowsspyblocker
+variant: spy
+risk: medium
+breaks:
+  - Windows updates and telemetry-dependent features
+notes: Pick the WindowsSpyBlocker lists you need; they overlap.
+formats:
+  hosts: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt
+default_format: hosts
+update_interval: daily
+status: active

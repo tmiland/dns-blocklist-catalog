@@ -1,0 +1,25 @@
+id: notracking
+name: notracking
+description: An archived ads, tracker, and malware hosts list.
+homepage: https://github.com/notracking/hosts-blocklists
+source: notracking/hosts-blocklists
+maintainer: notracking
+license: unknown
+license_note: No license file; repository archived in 2023.
+topics:
+  - ads
+  - trackers
+  - malware
+region: global
+languages:
+  - en
+family: notracking
+variant: default
+risk: medium
+breaks: []
+notes: Archived in 2023; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt
+default_format: hosts
+update_interval: daily
+status: deprecated

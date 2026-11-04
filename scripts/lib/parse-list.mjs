@@ -32,7 +32,13 @@ export function normalizeDomain(raw) {
 function adblockDomain(line) {
   const rest = line.slice(2);
   const end = rest.search(/[\^/$]/);
-  return normalizeDomain(end === -1 ? rest : rest.slice(0, end));
+  const raw = end === -1 ? rest : rest.slice(0, end);
+  const normalized = normalizeDomain(raw);
+  if (normalized) return normalized;
+
+  const tld = raw.trim().toLowerCase().replace(/^\*\./, '').replace(/^\.+/, '').replace(/\.+$/, '');
+  if (/^[a-z]{2,63}$/.test(tld)) return tld;
+  return null;
 }
 
 function isCosmetic(line) {

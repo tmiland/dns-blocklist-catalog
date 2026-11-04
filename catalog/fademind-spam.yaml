@@ -1,0 +1,22 @@
+id: fademind-spam
+name: FadeMind's Spam List
+description: Spam and referrer-spam domains.
+homepage: https://github.com/FadeMind/hosts.extras
+source: FadeMind/hosts.extras
+maintainer: FadeMind
+license: MIT
+topics:
+  - spam
+region: global
+languages:
+  - en
+family: fademind
+variant: spam
+risk: low
+breaks: []
+notes: Repository archived in 2025; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts
+default_format: hosts
+update_interval: daily
+status: deprecated

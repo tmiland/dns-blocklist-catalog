@@ -1,0 +1,27 @@
+id: hagezi-tif-medium
+name: HaGeZi's Threat Intelligence Feeds — Medium
+description: A size-optimized threat feed for routers and small boxes.
+homepage: https://github.com/hagezi/dns-blocklists#tifmedium
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - malware
+  - phishing
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-tif
+variant: medium
+risk: low
+breaks: []
+notes: Pairs with one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.medium.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.medium.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.medium.txt
+default_format: adblock
+update_interval: daily
+status: active

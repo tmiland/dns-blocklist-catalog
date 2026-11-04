@@ -1,0 +1,23 @@
+id: peter-lowe
+name: Peter Lowe's Ad and Tracking Server List
+description: A long-running, conservative ad-server hosts list.
+homepage: https://pgl.yoyo.org/adservers/
+source: website:https://pgl.yoyo.org/adservers/
+maintainer: Peter Lowe
+license: unknown
+license_note: Free ad-server list; no SPDX license declared.
+topics:
+  - ads
+region: global
+languages:
+  - en
+family: peter-lowe
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  hosts: https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext
+default_format: hosts
+update_interval: daily
+status: active

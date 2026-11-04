@@ -1,0 +1,26 @@
+id: kadhosts
+name: KADhosts
+description: A Polish community ads, tracker, and spam hosts list.
+homepage: https://github.com/PolishFiltersTeam/KADhosts
+source: PolishFiltersTeam/KADhosts
+maintainer: PolishFiltersTeam
+license: CC-BY-SA-4.0
+topics:
+  - ads
+  - trackers
+  - spam
+region: global
+languages:
+  - pl
+  - en
+family: kadhosts
+variant: default
+risk: medium
+breaks:
+  - Some Polish sites and apps
+notes: ""
+formats:
+  hosts: https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt
+default_format: hosts
+update_interval: daily
+status: active

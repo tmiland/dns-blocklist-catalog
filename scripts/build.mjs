@@ -68,6 +68,11 @@ function loadJson(path, fallback) {
 const fmt = (value) =>
   Number.isFinite(value) ? value.toLocaleString('en-US') : 'unknown';
 
+const statusSuffix = (list) =>
+  list.status && list.status !== 'active' ? ` — ${list.status}` : '';
+
+const healthLabel = (list) => list.health?.status ?? 'unknown';
+
 function renderPacks(catalog) {
   const byId = new Map(catalog.lists.map((entry) => [entry.id, entry]));
   return catalog.packs
@@ -76,7 +81,7 @@ function renderPacks(catalog) {
         .map((id) => {
           const list = byId.get(id);
           const entries = list.health?.entries;
-          return `| [${list.name}](${list.homepage}) | ${list.description} | ${fmt(entries)} | ${list.default_format} | ${list.risk} |`;
+          return `| [${list.name}](${list.homepage})${statusSuffix(list)} | ${list.description} | ${fmt(entries)} | ${list.default_format} | ${list.risk} | ${healthLabel(list)} |`;
         })
         .join('\n');
 
@@ -91,8 +96,8 @@ ${pack.tagline}
 
 ${pack.description}
 
-| List | What it blocks | Entries | Format | Risk |
-|---|---|---:|---|---|
+| List | What it blocks | Entries | Format | Risk | Health |
+|---|---|---:|---|---|---|
 ${rows}
 
 ${pack.notes}
@@ -121,13 +126,13 @@ function renderTopics(catalog) {
     const rows = lists
       .map(
         (list) =>
-          `| [${list.name}](${list.homepage}) | ${list.topics.map((id) => topicName.get(id) ?? id).join(', ')} | ${fmt(list.health?.entries)} | ${list.default_format} | ${list.risk} | ${list.license} |`,
+          `| [${list.name}](${list.homepage})${statusSuffix(list)} | ${list.topics.map((id) => topicName.get(id) ?? id).join(', ')} | ${fmt(list.health?.entries)} | ${list.default_format} | ${list.risk} | ${list.license} | ${healthLabel(list)} |`,
       )
       .join('\n');
     return `### ${GROUP_NAMES[group]}
 
-| List | Topics | Entries | Format | Risk | License |
-|---|---|---:|---|---|---|
+| List | Topics | Entries | Format | Risk | License | Health |
+|---|---|---:|---|---|---|---|
 ${rows}
 `;
   })
@@ -149,6 +154,7 @@ export function renderReadme(catalog, templatePath = 'templates/README.md') {
   const template = readFileSync(templatePath, 'utf8');
   return template
     .replaceAll('{{COUNT}}', String(catalog.lists.length))
+    .replaceAll('{{PACK_COUNT}}', String(catalog.packs.length))
     .replaceAll('{{PACKS}}', renderPacks(catalog))
     .replaceAll('{{TOPICS}}', renderTopics(catalog))
     .replaceAll('{{HEALTH}}', renderHealth(catalog))

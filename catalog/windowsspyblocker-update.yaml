@@ -1,0 +1,23 @@
+id: windowsspyblocker-update
+name: WindowsSpyBlocker — Update
+description: Windows Update and telemetry endpoints.
+homepage: https://github.com/crazy-max/WindowsSpyBlocker
+source: crazy-max/WindowsSpyBlocker
+maintainer: crazy-max
+license: MIT
+topics:
+  - telemetry
+region: global
+languages:
+  - en
+family: windowsspyblocker
+variant: update
+risk: medium
+breaks:
+  - Windows updates
+notes: Pick the WindowsSpyBlocker lists you need; they overlap.
+formats:
+  hosts: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt
+default_format: hosts
+update_interval: daily
+status: active

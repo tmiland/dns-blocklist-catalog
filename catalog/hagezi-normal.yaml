@@ -1,0 +1,29 @@
+id: hagezi-normal
+name: HaGeZi's Multi NORMAL
+description: Balanced ads, tracker, telemetry, malware, and scam blocking.
+homepage: https://github.com/hagezi/dns-blocklists#normal
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-multi
+variant: normal
+risk: low
+breaks: []
+notes: Pick exactly one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/multi.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/multi.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/multi.txt
+default_format: adblock
+update_interval: daily
+status: active

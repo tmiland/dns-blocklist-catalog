@@ -1,0 +1,27 @@
+id: hagezi-light
+name: HaGeZi's Multi LIGHT
+description: Relaxed ads, tracker, and telemetry blocking with minimal breakage.
+homepage: https://github.com/hagezi/dns-blocklists#light
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+region: global
+languages:
+  - en
+family: hagezi-multi
+variant: light
+risk: low
+breaks: []
+notes: The least aggressive Multi tier. Pick exactly one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/light.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/light.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/light.txt
+default_format: adblock
+update_interval: daily
+status: active

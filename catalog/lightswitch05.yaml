@@ -1,0 +1,23 @@
+id: lightswitch05
+name: lightswitch05 hosts
+description: An archived ads and tracking hosts list.
+homepage: https://github.com/lightswitch05/hosts
+source: lightswitch05/hosts
+maintainer: lightswitch05
+license: Apache-2.0
+topics:
+  - ads
+  - trackers
+region: global
+languages:
+  - en
+family: lightswitch05
+variant: default
+risk: low
+breaks: []
+notes: Repository archived in 2023; kept for migration.
+formats:
+  hosts: https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt
+default_format: hosts
+update_interval: daily
+status: deprecated

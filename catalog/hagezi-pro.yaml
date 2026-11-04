@@ -1,0 +1,29 @@
+id: hagezi-pro
+name: HaGeZi's Multi PRO
+description: Extended ads, tracker, telemetry, malware, and scam blocking.
+homepage: https://github.com/hagezi/dns-blocklists#pro
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-multi
+variant: pro
+risk: low
+breaks: []
+notes: The recommended Multi tier. Pick exactly one.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.txt
+default_format: adblock
+update_interval: daily
+status: active

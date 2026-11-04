@@ -1,0 +1,4 @@
+[Adblock Plus]
+||zip^
+||mov^
+||cfd^

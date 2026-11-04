@@ -1,0 +1,25 @@
+id: hagezi-fake
+name: HaGeZi's Fake Blocklist
+description: Fake shops, scam traps, and fraudulent sites.
+homepage: https://github.com/hagezi/dns-blocklists#fake
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-fake
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/fake.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/fake.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/fake.txt
+default_format: adblock
+update_interval: daily
+status: active

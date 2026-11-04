@@ -1,0 +1,22 @@
+id: shadowwhisperer-ads
+name: ShadowWhisperer's Ads
+description: A curated ads and tracking domain list.
+homepage: https://github.com/ShadowWhisperer/BlockLists
+source: ShadowWhisperer/BlockLists
+maintainer: ShadowWhisperer
+license: Unlicense
+topics:
+  - ads
+region: global
+languages:
+  - en
+family: shadowwhisperer
+variant: ads
+risk: low
+breaks: []
+notes: ""
+formats:
+  domains: https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads
+default_format: domains
+update_interval: daily
+status: active

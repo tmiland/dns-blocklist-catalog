@@ -1,0 +1,26 @@
+id: anti-ad
+name: anti-AD
+description: A Chinese ads, tracker, and telemetry list for AdGuard-style filters.
+homepage: https://github.com/privacy-protection-tools/anti-AD
+source: privacy-protection-tools/anti-AD
+maintainer: anti-AD
+license: MIT
+topics:
+  - ads
+  - trackers
+  - telemetry
+region: CN
+languages:
+  - zh
+  - en
+family: anti-ad
+variant: default
+risk: medium
+breaks:
+  - Some Chinese apps
+notes: ""
+formats:
+  adblock: https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt
+default_format: adblock
+update_interval: daily
+status: active

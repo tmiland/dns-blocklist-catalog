@@ -1,0 +1,22 @@
+id: nocoin
+name: NoCoin
+description: Browser and host cryptomining domains.
+homepage: https://github.com/hoshsadiq/adblock-nocoin-list
+source: hoshsadiq/adblock-nocoin-list
+maintainer: hoshsadiq
+license: MIT
+topics:
+  - crypto-mining
+region: global
+languages:
+  - en
+family: nocoin
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  hosts: https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt
+default_format: hosts
+update_interval: daily
+status: active

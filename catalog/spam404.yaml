@@ -1,0 +1,24 @@
+id: spam404
+name: Spam404
+description: A legacy spam and scam domain list.
+homepage: https://github.com/Spam404/lists
+source: Spam404/lists
+maintainer: Spam404
+license: unknown
+license_note: No license file; repository last updated 2025-09.
+topics:
+  - spam
+  - scam-fraud
+region: global
+languages:
+  - en
+family: spam404
+variant: default
+risk: low
+breaks: []
+notes: Kept as a legacy list; prefer a live threat feed.
+formats:
+  domains: https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt
+default_format: domains
+update_interval: daily
+status: stale

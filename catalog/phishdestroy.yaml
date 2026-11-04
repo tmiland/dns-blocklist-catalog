@@ -1,0 +1,24 @@
+id: phishdestroy
+name: PhishDestroy
+description: A live phishing and scam domain feed.
+homepage: https://github.com/phishdestroy/destroylist
+source: phishdestroy/destroylist
+maintainer: PhishDestroy
+license: MIT
+topics:
+  - phishing
+  - scam-fraud
+  - malware
+region: global
+languages:
+  - en
+family: phishdestroy
+variant: default
+risk: low
+breaks: []
+notes: Live threat feed; pair it with one Multi tier.
+formats:
+  domains: https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt
+default_format: domains
+update_interval: daily
+status: active

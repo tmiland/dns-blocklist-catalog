@@ -1,0 +1,30 @@
+id: hagezi-pro-plus
+name: HaGeZi's Multi PRO++
+description: More aggressive ads, tracker, telemetry, malware, and scam blocking.
+homepage: https://github.com/hagezi/dns-blocklists#proplus
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-multi
+variant: pro-plus
+risk: medium
+breaks:
+  - Occasional app analytics or share links
+notes: Pick exactly one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/pro.plus.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/pro.plus.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/pro.plus.txt
+default_format: adblock
+update_interval: daily
+status: active

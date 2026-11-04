@@ -1,0 +1,104 @@
+- id: ads
+  name: Ads
+  group: ads-tracking
+  description: Advertising and ad-serving domains.
+- id: trackers
+  name: Trackers
+  group: ads-tracking
+  description: Cross-site tracking, analytics, and profiling.
+- id: telemetry
+  name: Telemetry
+  group: ads-tracking
+  description: Product and OS telemetry that reports usage.
+- id: malware
+  name: Malware
+  group: security
+  description: Malware, ransomware, and command-and-control domains.
+- id: phishing
+  name: Phishing
+  group: security
+  description: Credential-phishing and fake-login domains.
+- id: scam-fraud
+  name: Scams & fraud
+  group: security
+  description: Scams, fake shops, and fraud.
+- id: spam
+  name: Spam
+  group: security
+  description: Spam and referrer-spam domains.
+- id: crypto-mining
+  name: Crypto mining
+  group: security
+  description: Browser and host cryptominers.
+- id: adult
+  name: Adult
+  group: content
+  description: Adult content.
+- id: gambling
+  name: Gambling
+  group: content
+  description: Gambling and betting.
+- id: dating
+  name: Dating
+  group: content
+  description: Dating sites.
+- id: social
+  name: Social
+  group: content
+  description: Social networks.
+- id: piracy
+  name: Piracy
+  group: content
+  description: Piracy and unauthorized streaming.
+- id: nrd
+  name: Newly registered domains
+  group: infrastructure
+  description: Newly registered domains and DGAs.
+- id: dyndns
+  name: Dynamic DNS
+  group: infrastructure
+  description: Dynamic DNS abuse.
+- id: tld
+  name: Abused TLDs
+  group: infrastructure
+  description: Abused top-level domains.
+- id: doh-bypass
+  name: DoH/VPN bypass
+  group: infrastructure
+  description: DoH, VPN, Tor, and proxy bypass endpoints.
+- id: url-shorteners
+  name: URL shorteners
+  group: infrastructure
+  description: Link shorteners.
+- id: dns-rebind
+  name: DNS rebinding
+  group: infrastructure
+  description: DNS rebinding protection.
+- id: badware-hoster
+  name: Badware hosters
+  group: infrastructure
+  description: Malicious hosting providers.
+- id: safesearch
+  name: SafeSearch
+  group: infrastructure
+  description: Search engines that ignore SafeSearch.
+- id: smart-tv
+  name: Smart TV
+  group: devices
+  description: Smart TV ads and telemetry.
+- id: iot
+  name: IoT
+  group: devices
+  description: IoT device phone-home traffic.
+- id: mobile
+  name: Mobile
+  group: devices
+  description: Mobile ad and tracking domains.
+- id: device-telemetry
+  name: Device telemetry
+  group: devices
+  description: Vendor telemetry from phones, PCs, and appliances.
+- id: regional
+  name: Regional
+  group: regional
+  description: Country- or language-specific lists.

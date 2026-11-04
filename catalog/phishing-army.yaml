@@ -1,0 +1,23 @@
+id: phishing-army
+name: Phishing Army
+description: A community phishing domain blocklist.
+homepage: https://phishing.army
+source: website:https://phishing.army
+maintainer: Phishing Army
+license: unknown
+license_note: Free community feed; no SPDX license declared.
+topics:
+  - phishing
+region: global
+languages:
+  - en
+family: phishing-army
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  domains: https://phishing.army/download/phishing_army_blocklist_extended.txt
+default_format: domains
+update_interval: daily
+status: active

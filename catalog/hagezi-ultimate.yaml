@@ -1,0 +1,30 @@
+id: hagezi-ultimate
+name: HaGeZi's Multi ULTIMATE
+description: "The most aggressive Multi tier: ads, trackers, telemetry, malware, and scams."
+homepage: https://github.com/hagezi/dns-blocklists#ultimate
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-multi
+variant: ultimate
+risk: high
+breaks:
+  - Some apps, share links, and analytics
+notes: Expect to allowlist things. Pick exactly one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/ultimate.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/ultimate.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/ultimate.txt
+default_format: adblock
+update_interval: daily
+status: active

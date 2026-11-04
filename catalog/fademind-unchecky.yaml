@@ -1,0 +1,22 @@
+id: fademind-unchecky
+name: FadeMind's Unchecky Ads
+description: Ad domains bundled with installers.
+homepage: https://github.com/FadeMind/hosts.extras
+source: FadeMind/hosts.extras
+maintainer: FadeMind
+license: MIT
+topics:
+  - ads
+region: global
+languages:
+  - en
+family: fademind
+variant: unchecky
+risk: low
+breaks: []
+notes: Repository archived in 2025; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts
+default_format: hosts
+update_interval: daily
+status: deprecated

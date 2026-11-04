@@ -1,0 +1,27 @@
+id: oisd-big
+name: OISD Blocklist Big
+description: A broader all-round ads, tracker, malware, and phishing list.
+homepage: https://oisd.nl
+source: website:https://oisd.nl
+maintainer: OISD
+license: unknown
+license_note: OISD lists are free to use but publish no SPDX license.
+topics:
+  - ads
+  - trackers
+  - malware
+  - phishing
+region: global
+languages:
+  - en
+family: oisd
+variant: big
+risk: medium
+breaks:
+  - Occasional app analytics
+notes: Pick one OISD size.
+formats:
+  adblock: https://big.oisd.nl/
+default_format: adblock
+update_interval: daily
+status: active

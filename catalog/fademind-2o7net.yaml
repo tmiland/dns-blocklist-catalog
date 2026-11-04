@@ -1,0 +1,22 @@
+id: fademind-2o7net
+name: FadeMind's 2o7 Network Trackers
+description: Trackers on the 2o7 ad network.
+homepage: https://github.com/FadeMind/hosts.extras
+source: FadeMind/hosts.extras
+maintainer: FadeMind
+license: MIT
+topics:
+  - trackers
+region: global
+languages:
+  - en
+family: fademind
+variant: 2o7net
+risk: low
+breaks: []
+notes: Repository archived in 2025; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts
+default_format: hosts
+update_interval: daily
+status: deprecated

@@ -1,0 +1,27 @@
+id: hagezi-tif-mini
+name: HaGeZi's Threat Intelligence Feeds — Mini
+description: The smallest threat feed variant, for very constrained devices.
+homepage: https://github.com/hagezi/dns-blocklists#tifmini
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - malware
+  - phishing
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-tif
+variant: mini
+risk: low
+breaks: []
+notes: Pairs with one Multi tier.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.mini.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.mini.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.mini.txt
+default_format: adblock
+update_interval: daily
+status: active

@@ -1,0 +1,27 @@
+id: 1hosts-xtra
+name: 1Hosts Xtra
+description: An aggressive ads, tracker, telemetry, and malware list.
+homepage: https://github.com/badmojr/1Hosts
+source: badmojr/1Hosts
+maintainer: badmojr
+license: MPL-2.0
+topics:
+  - ads
+  - trackers
+  - telemetry
+  - malware
+region: global
+languages:
+  - en
+family: 1hosts
+variant: xtra
+risk: medium
+breaks:
+  - Some apps and CDNs
+notes: Pick one 1Hosts variant.
+formats:
+  domains: https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt
+  hosts: https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/hosts.txt
+default_format: domains
+update_interval: daily
+status: active

@@ -1,0 +1,27 @@
+id: hagezi-tif
+name: HaGeZi's Threat Intelligence Feeds
+description: Live malware, phishing, and scam domains from threat-intelligence feeds.
+homepage: https://github.com/hagezi/dns-blocklists#tif
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - malware
+  - phishing
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-tif
+variant: full
+risk: low
+breaks: []
+notes: 1.8M rules. Pair with one Multi tier; use the Medium variant on low-RAM routers.
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/tif.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/tif.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/tif.txt
+default_format: adblock
+update_interval: daily
+status: active

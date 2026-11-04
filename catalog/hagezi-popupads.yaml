@@ -1,0 +1,26 @@
+id: hagezi-popupads
+name: HaGeZi's Pop-Up Ads
+description: Annoying and malicious pop-up ad domains.
+homepage: https://github.com/hagezi/dns-blocklists#popupads
+source: hagezi/dns-blocklists
+maintainer: HaGeZi
+license: GPL-3.0
+topics:
+  - ads
+  - scam-fraud
+region: global
+languages:
+  - en
+family: hagezi-popupads
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  adblock: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt
+  dnsmasq: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/dnsmasq/popupads.txt
+  wildcard: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/wildcard/popupads.txt
+  rpz: https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/rpz/popupads.txt
+default_format: adblock
+update_interval: daily
+status: active

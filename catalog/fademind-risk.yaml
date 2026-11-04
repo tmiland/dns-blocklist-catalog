@@ -1,0 +1,23 @@
+id: fademind-risk
+name: FadeMind's Risk List
+description: Risky and malicious domains.
+homepage: https://github.com/FadeMind/hosts.extras
+source: FadeMind/hosts.extras
+maintainer: FadeMind
+license: MIT
+topics:
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: fademind
+variant: risk
+risk: low
+breaks: []
+notes: Repository archived in 2025; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts
+default_format: hosts
+update_interval: daily
+status: deprecated

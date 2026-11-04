@@ -1,0 +1,24 @@
+id: windowsspyblocker-extra
+name: WindowsSpyBlocker — Extra
+description: Additional Windows telemetry and ad domains.
+homepage: https://github.com/crazy-max/WindowsSpyBlocker
+source: crazy-max/WindowsSpyBlocker
+maintainer: crazy-max
+license: MIT
+topics:
+  - telemetry
+  - ads
+region: global
+languages:
+  - en
+family: windowsspyblocker
+variant: extra
+risk: medium
+breaks:
+  - Some Windows apps
+notes: Pick the WindowsSpyBlocker lists you need; they overlap.
+formats:
+  hosts: https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt
+default_format: hosts
+update_interval: daily
+status: active

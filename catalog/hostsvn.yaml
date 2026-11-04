@@ -1,0 +1,25 @@
+id: hostsvn
+name: hostsVN
+description: A Vietnamese ads and tracker hosts list.
+homepage: https://github.com/bigdargon/hostsVN
+source: bigdargon/hostsVN
+maintainer: bigdargon
+license: MIT
+topics:
+  - ads
+  - trackers
+region: VN
+languages:
+  - vi
+  - en
+family: hostsvn
+variant: default
+risk: medium
+breaks:
+  - Some Vietnamese sites
+notes: ""
+formats:
+  hosts: https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts
+default_format: hosts
+update_interval: daily
+status: active

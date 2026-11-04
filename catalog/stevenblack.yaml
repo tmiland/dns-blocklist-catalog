@@ -1,0 +1,25 @@
+id: stevenblack
+name: Steven Black's Unified Hosts
+description: The classic unified ads, tracker, malware, and scam hosts file.
+homepage: https://github.com/StevenBlack/hosts
+source: StevenBlack/hosts
+maintainer: Steven Black
+license: MIT
+topics:
+  - ads
+  - trackers
+  - malware
+  - scam-fraud
+region: global
+languages:
+  - en
+family: stevenblack
+variant: unified
+risk: low
+breaks: []
+notes: Pick one StevenBlack variant.
+formats:
+  hosts: https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts
+default_format: hosts
+update_interval: daily
+status: active

@@ -92,3 +92,10 @@ test('wildcard records count as domains', () => {
   assert.equal(result.format, 'wildcard');
   assert.equal(result.entries, 2);
 });
+
+test('adblock TLD rules count as entries', () => {
+  const result = parseList(fixture('tlds.txt'));
+  assert.equal(result.format, 'adblock');
+  assert.equal(result.entries, 3);
+  assert.equal(result.rules, 3);
+});

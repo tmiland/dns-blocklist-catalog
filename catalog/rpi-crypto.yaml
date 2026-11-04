@@ -1,0 +1,23 @@
+id: rpi-crypto
+name: RPiList Crypto
+description: A German cryptomining and crypto-scam list.
+homepage: https://github.com/RPiList/specials
+source: RPiList/specials
+maintainer: RPiList
+license: CC-BY-NC-4.0
+topics:
+  - crypto-mining
+region: DE
+languages:
+  - de
+  - en
+family: rpi-crypto
+variant: default
+risk: low
+breaks: []
+notes: "CC BY-NC 4.0: non-commercial use only."
+formats:
+  adblock: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto
+default_format: adblock
+update_interval: daily
+status: active

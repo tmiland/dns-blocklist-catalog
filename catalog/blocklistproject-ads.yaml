@@ -1,0 +1,22 @@
+id: blocklistproject-ads
+name: The Block List Project — Ads
+description: An archived ads list from the Block List Project.
+homepage: https://github.com/blocklistproject/Lists
+source: blocklistproject/Lists
+maintainer: blocklistproject
+license: Unlicense
+topics:
+  - ads
+region: global
+languages:
+  - en
+family: blocklistproject
+variant: ads
+risk: low
+breaks: []
+notes: Repository archived in October 2026; kept for migration.
+formats:
+  hosts: https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt
+default_format: hosts
+update_interval: daily
+status: deprecated

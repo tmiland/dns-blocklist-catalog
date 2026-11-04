@@ -1,0 +1,23 @@
+id: adaway
+name: AdAway hosts
+description: AdAway's default ads and tracker hosts list.
+homepage: https://adaway.org
+source: AdAway/AdAway
+maintainer: AdAway
+license: GPL-3.0
+topics:
+  - ads
+  - trackers
+region: global
+languages:
+  - en
+family: adaway
+variant: default
+risk: low
+breaks: []
+notes: ""
+formats:
+  hosts: https://adaway.org/hosts.txt
+default_format: hosts
+update_interval: daily
+status: active

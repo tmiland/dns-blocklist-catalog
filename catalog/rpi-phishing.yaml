@@ -1,0 +1,24 @@
+id: rpi-phishing
+name: RPiList Phishing
+description: A German phishing and scam list for DNS filters.
+homepage: https://github.com/RPiList/specials
+source: RPiList/specials
+maintainer: RPiList
+license: CC-BY-NC-4.0
+topics:
+  - phishing
+  - scam-fraud
+region: DE
+languages:
+  - de
+  - en
+family: rpi-phishing
+variant: default
+risk: low
+breaks: []
+notes: "CC BY-NC 4.0: non-commercial use only."
+formats:
+  adblock: https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe
+default_format: adblock
+update_interval: daily
+status: active
