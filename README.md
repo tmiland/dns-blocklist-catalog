@@ -348,7 +348,7 @@ figure shows how much the members share.
 
 ## Health
 
-Last checked: **2026-11-04T13:23:35.185Z** — 84 ok, 8 warn, 0 fail, 0 unreachable, 0 unknown.
+Last checked: **2026-11-04T13:26:06.258Z** — 84 ok, 8 warn, 0 fail, 0 unreachable, 0 unknown.
 
 Health is measured weekly. `ok` means the URL returned a parseable list; `warn` means the
 entry count dropped, the syntax changed, or the list has not updated in 180 days; `fail`
@@ -365,4 +365,4 @@ maintainer. Licenses are recorded per list and remain with the upstream project.
 See [CONTRIBUTING.md](CONTRIBUTING.md). The methodology is in
 [docs/methodology.md](docs/methodology.md).
 
-Generated from `catalog/` and `packs/` — content hash `b1dcc11a3b81`.
+Generated from `catalog/` and `packs/` — content hash `315a12ccdc03`.

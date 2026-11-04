@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-04T13:23:35.185Z",
+  "checked_at": "2026-11-04T13:26:06.258Z",
   "lists": {
     "1hosts-lite": {
       "checkedAt": "2026-11-04T12:52:13.981Z",
@@ -333,7 +333,7 @@
       "reasons": []
     },
     "hagezi-light": {
-      "checkedAt": "2026-11-04T12:52:14.616Z",
+      "checkedAt": "2026-11-04T13:26:06.010Z",
       "httpStatus": 304,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
       "bytes": 1970218,
@@ -347,9 +347,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-11-03T11:02:58Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -425,7 +425,7 @@
       "reasons": []
     },
     "hagezi-pro": {
-      "checkedAt": "2026-11-04T12:52:15.092Z",
+      "checkedAt": "2026-11-04T13:26:06.004Z",
       "httpStatus": 304,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
       "bytes": 5679526,
@@ -439,16 +439,16 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-11-03T11:02:58Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
       "reasons": []
     },
     "hagezi-tif-medium": {
-      "checkedAt": "2026-11-04T12:52:15.114Z",
+      "checkedAt": "2026-11-04T13:26:06.009Z",
       "httpStatus": 304,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
       "bytes": 6934911,
@@ -462,9 +462,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-11-03T11:02:58Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -517,7 +517,7 @@
       "reasons": []
     },
     "hagezi-ultimate": {
-      "checkedAt": "2026-11-04T12:52:15.878Z",
+      "checkedAt": "2026-11-04T13:26:06.023Z",
       "httpStatus": 304,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
       "bytes": 6584630,
@@ -531,9 +531,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-11-03T11:02:58Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1512,8 +1512,8 @@
       "reasons": []
     },
     "hagezi-nsfw": {
-      "checkedAt": "2026-11-04T12:52:15.089Z",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-04T13:26:06.007Z",
+      "httpStatus": 304,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
       "bytes": 1702271,
       "contentType": "text/plain; charset=utf-8",
@@ -1526,9 +1526,9 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-11-03T11:02:58Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-11-03T11:02:58Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
@@ -1650,8 +1650,8 @@
       "reasons": []
     },
     "perflyst-android": {
-      "checkedAt": "2026-11-04T12:52:16.391Z",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-04T13:26:06.258Z",
+      "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
       "bytes": 2153,
       "contentType": "text/plain; charset=utf-8",
@@ -1664,17 +1664,17 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
+        "lastPush": "2026-09-09T11:00:01Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-09-09T11:00:01Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",
       "reasons": []
     },
     "perflyst-smarttv": {
-      "checkedAt": "2026-11-04T12:52:16.532Z",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-04T13:26:06.256Z",
+      "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
       "bytes": 10987,
       "contentType": "text/plain; charset=utf-8",
@@ -1687,9 +1687,9 @@
       "exceptions": 9,
       "nonDomainRules": 7,
       "maintenance": {
+        "lastPush": "2026-09-09T11:00:01Z",
         "archived": false,
-        "stale": false,
-        "lastPush": "2026-09-09T11:00:01Z"
+        "stale": false
       },
       "consecutiveFailures": 0,
       "status": "ok",

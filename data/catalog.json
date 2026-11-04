@@ -1,7 +1,7 @@
 {
   "schema": 1,
-  "content_hash": "sha256:b1dcc11a3b81f4d45c0fc92e36e61c8c560f144fa66af8ef93590533373b29d8",
-  "health_checked_at": "2026-11-04T13:23:35.185Z",
+  "content_hash": "sha256:315a12ccdc035550f80a99554e472dc9be509c811f9ecb50a4b305d295c42f7d",
+  "health_checked_at": "2026-11-04T13:26:06.258Z",
   "source": "https://github.com/tmiland/dns-blocklist-catalog",
   "topics": [
     {
@@ -1448,7 +1448,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:14.616Z",
+        "checkedAt": "2026-11-04T13:26:06.010Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
         "bytes": 1970218,
@@ -1462,9 +1462,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2357,8 +2357,8 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.089Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:26:06.007Z",
+        "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
         "bytes": 1702271,
         "contentType": "text/plain; charset=utf-8",
@@ -2371,9 +2371,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2470,7 +2470,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.092Z",
+        "checkedAt": "2026-11-04T13:26:06.004Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
         "bytes": 5679526,
@@ -2484,9 +2484,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2698,7 +2698,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.114Z",
+        "checkedAt": "2026-11-04T13:26:06.009Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
         "bytes": 6934911,
@@ -2712,9 +2712,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -2867,7 +2867,7 @@
       "status": "active",
       "url": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:15.878Z",
+        "checkedAt": "2026-11-04T13:26:06.023Z",
         "httpStatus": 304,
         "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
         "bytes": 6584630,
@@ -2881,9 +2881,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-11-03T11:02:58Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-11-03T11:02:58Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3525,8 +3525,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.391Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:26:06.258Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
         "bytes": 2153,
         "contentType": "text/plain; charset=utf-8",
@@ -3539,9 +3539,9 @@
         "exceptions": 0,
         "nonDomainRules": 0,
         "maintenance": {
+          "lastPush": "2026-09-09T11:00:01Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-09T11:00:01Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",
@@ -3631,8 +3631,8 @@
       "status": "active",
       "url": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
       "health": {
-        "checkedAt": "2026-11-04T12:52:16.532Z",
-        "httpStatus": 200,
+        "checkedAt": "2026-11-04T13:26:06.256Z",
+        "httpStatus": 304,
         "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
         "bytes": 10987,
         "contentType": "text/plain; charset=utf-8",
@@ -3645,9 +3645,9 @@
         "exceptions": 9,
         "nonDomainRules": 7,
         "maintenance": {
+          "lastPush": "2026-09-09T11:00:01Z",
           "archived": false,
-          "stale": false,
-          "lastPush": "2026-09-09T11:00:01Z"
+          "stale": false
         },
         "consecutiveFailures": 0,
         "status": "ok",

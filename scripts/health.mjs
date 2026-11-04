@@ -327,8 +327,9 @@ async function main() {
   const lists = { ...previous.lists };
   for (const [id, record] of results) lists[id] = record;
 
-  const checkedAt = results
-    .map(([, record]) => record.checkedAt)
+  const checkedAt = Object.values(lists)
+    .map((record) => record.checkedAt)
+    .filter(Boolean)
     .sort()
     .at(-1);
 
