@@ -1,0 +1,53 @@
+name: Health
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: health
+  cancel-in-progress: false
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Check lists
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: npm run health
+      - name: Measure pack overlap
+        run: npm run overlap
+      - name: Build catalog
+        run: npm run build
+      - name: Commit generated data
+        run: |
+          git config user.name 'tmiland-lab[bot]'
+          git config user.email '326116980+tmiland-lab[bot]@users.noreply.github.com'
+          git add data/health.json data/overlap.json data/catalog.json README.md
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: weekly health check"
+            git push
+          fi
+      - name: Ensure health label
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh label create health --color FBCA04 --description "Weekly list health" --force
+      - name: Report lists that need attention
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/report-health.mjs

@@ -1,0 +1,39 @@
+name: Dead list
+description: Report a catalog entry that no longer works.
+title: "[dead] "
+labels: [dead-list]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: Catalog ID
+      placeholder: hagezi-pro
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: https://example.com/list.txt
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What changed
+      description: HTTP status, error message, or a link to the upstream announcement.
+    validations:
+      required: true
+  - type: input
+    id: replacement
+    attributes:
+      label: Replacement URL
+      description: Optional. Prefer a URL from the same maintainer.
+      placeholder: https://example.com/new-list.txt
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: I checked the upstream project for a replacement or announcement.
+          required: true

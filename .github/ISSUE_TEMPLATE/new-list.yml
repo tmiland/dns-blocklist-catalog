@@ -1,0 +1,67 @@
+name: New list
+description: Suggest a DNS blocklist for the catalog.
+title: "[list] "
+labels: [new-list]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Please run `node scripts/check-url.mjs '<url>'`
+        first and include the result. The URL must return HTTP 200 and contain
+        Adblock, hosts, or domains-only rules.
+  - type: input
+    id: name
+    attributes:
+      label: List name
+      placeholder: Example List
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: AGH-compatible URL
+      description: The URL you would paste into AdGuard Home.
+      placeholder: https://example.com/list.txt
+    validations:
+      required: true
+  - type: input
+    id: homepage
+    attributes:
+      label: Homepage or repository
+      placeholder: https://github.com/owner/repo
+    validations:
+      required: true
+  - type: input
+    id: license
+    attributes:
+      label: License
+      description: SPDX identifier if known, otherwise "unknown".
+      placeholder: MIT
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: What it blocks
+      description: One or two sentences. Include the region or language if relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: check
+    attributes:
+      label: check-url output
+      description: Paste the JSON output from `node scripts/check-url.mjs '<url>'`.
+      render: json
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checks
+      options:
+        - label: The list is publicly reachable without an account or payment.
+          required: true
+        - label: The list is not a raw mirror of another catalog entry.
+          required: true
+        - label: The list has a public place to report false positives.
+          required: true
