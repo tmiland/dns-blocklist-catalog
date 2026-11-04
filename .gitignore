@@ -1,0 +1,5 @@
+node_modules/
+.superpowers/
+health-report.md
+.DS_Store
+*.log

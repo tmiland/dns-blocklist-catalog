@@ -1,0 +1,26 @@
+{
+  "name": "dns-blocklist-catalog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A curated, health-checked catalog of DNS blocklists for AdGuard Home, Pi-hole, and other DNS filters.",
+  "homepage": "https://github.com/tmiland/dns-blocklist-catalog",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tmiland/dns-blocklist-catalog.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/build.mjs",
+    "health": "node scripts/health.mjs",
+    "overlap": "node scripts/overlap.mjs"
+  },
+  "dependencies": {
+    "yaml": "^2.9.1"
+  }
+}
