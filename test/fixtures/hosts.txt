@@ -1,0 +1,6 @@
+# Example hosts list
+127.0.0.1 localhost
+0.0.0.0 ads.example.com
+0.0.0.0 tracker.example.net
+0.0.0.0 ads.example.com
+::1 localhost

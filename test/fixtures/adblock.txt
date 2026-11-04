@@ -1,0 +1,7 @@
+[Adblock Plus]
+! Title: Example adblock list
+||ads.example.com^
+||tracker.example.net^$important
+@@||good.example.com^
+example.com##.ad-banner
+||ads.example.com^

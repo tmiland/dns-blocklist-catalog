@@ -1,0 +1,2 @@
+ads.example.com CNAME .
+*.tracker.example.net CNAME .

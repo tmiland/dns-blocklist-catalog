@@ -1,0 +1,5 @@
+# Example domains list
+ads.example.com
+tracker.example.net
+ads.example.com
+not a domain
