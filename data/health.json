@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-09T15:57:55.683Z",
+  "checked_at": "2026-11-16T15:32:08.074Z",
   "lists": {
     "1hosts-lite": {
-      "checkedAt": "2026-11-09T15:57:30.776Z",
+      "checkedAt": "2026-11-16T15:31:53.471Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/domains.txt",
       "bytes": 4933386,
@@ -26,7 +26,7 @@
       "reasons": []
     },
     "1hosts-xtra": {
-      "checkedAt": "2026-11-09T15:57:32.137Z",
+      "checkedAt": "2026-11-16T15:31:55.088Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Xtra/domains.txt",
       "bytes": 22366581,
@@ -49,7 +49,7 @@
       "reasons": []
     },
     "adaway": {
-      "checkedAt": "2026-11-09T15:57:30.361Z",
+      "checkedAt": "2026-11-16T15:31:53.498Z",
       "httpStatus": 304,
       "finalUrl": "https://adaway.org/hosts.txt",
       "bytes": 243454,
@@ -63,7 +63,7 @@
       "exceptions": 0,
       "nonDomainRules": 2,
       "maintenance": {
-        "lastPush": "2026-11-05T08:04:01Z",
+        "lastPush": "2026-11-11T10:34:54Z",
         "archived": false,
         "stale": false
       },
@@ -72,21 +72,21 @@
       "reasons": []
     },
     "adguard-dns": {
-      "checkedAt": "2026-11-09T15:57:30.773Z",
+      "checkedAt": "2026-11-16T15:31:53.470Z",
       "httpStatus": 200,
       "finalUrl": "https://adguardteam.github.io/AdGuardSDNSFilter/Filters/filter.txt",
-      "bytes": 4599995,
+      "bytes": 4656792,
       "contentType": "text/plain; charset=utf-8",
-      "lastModified": "Mon, 09 Nov 2026 14:11:50 GMT",
-      "etag": "W/\"6af1d4a6-4630bb\"",
+      "lastModified": "Mon, 16 Nov 2026 14:24:08 GMT",
+      "etag": "W/\"6afb1208-470e98\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 187399,
-      "rules": 188141,
-      "exceptions": 214,
+      "entries": 189707,
+      "rules": 190451,
+      "exceptions": 216,
       "nonDomainRules": 516,
       "maintenance": {
-        "lastPush": "2026-11-09T14:10:53Z",
+        "lastPush": "2026-11-16T14:23:42Z",
         "archived": false,
         "stale": false
       },
@@ -95,21 +95,21 @@
       "reasons": []
     },
     "anti-ad": {
-      "checkedAt": "2026-11-09T15:57:30.971Z",
+      "checkedAt": "2026-11-16T15:31:53.945Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-adguard.txt",
-      "bytes": 2264610,
+      "bytes": 2253041,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"04c0cc7a847613833f9700fff7819582202c5156bdebc059825f4fbfd0823ea1\"",
+      "etag": "W/\"0cb979ce627e942e397260dd2c7e42596fbd7c4f693b9fe955997128d12c0da8\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 102396,
-      "rules": 102508,
+      "entries": 101984,
+      "rules": 102096,
       "exceptions": 49,
       "nonDomainRules": 63,
       "maintenance": {
-        "lastPush": "2026-11-07T22:07:41Z",
+        "lastPush": "2026-11-13T23:45:04Z",
         "archived": false,
         "stale": false
       },
@@ -118,7 +118,7 @@
       "reasons": []
     },
     "blocklistproject-ads": {
-      "checkedAt": "2026-11-09T15:57:31.614Z",
+      "checkedAt": "2026-11-16T15:31:53.945Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt",
       "bytes": 6862355,
@@ -141,7 +141,7 @@
       "reasons": []
     },
     "blocklistproject-phishing": {
-      "checkedAt": "2026-11-09T15:57:31.286Z",
+      "checkedAt": "2026-11-16T15:31:53.505Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt",
       "bytes": 5686136,
@@ -164,7 +164,7 @@
       "reasons": []
     },
     "blocklistproject-tracking": {
-      "checkedAt": "2026-11-09T15:57:31.324Z",
+      "checkedAt": "2026-11-16T15:31:53.790Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt",
       "bytes": 4215541,
@@ -187,19 +187,19 @@
       "reasons": []
     },
     "dan-pollock": {
-      "checkedAt": "2026-11-09T15:57:31.377Z",
-      "httpStatus": 304,
+      "checkedAt": "2026-11-16T15:31:54.383Z",
+      "httpStatus": 200,
       "finalUrl": "https://someonewhocares.org/hosts/zero/hosts",
-      "bytes": 364272,
+      "bytes": 367794,
       "contentType": "text/plain; charset=UTF-8",
-      "lastModified": "Sat, 24 Oct 2026 16:15:11 GMT",
-      "etag": "W/\"58ef0-65e9866b96633\"",
+      "lastModified": "Wed, 11 Nov 2026 17:57:34 GMT",
+      "etag": "W/\"59cb2-66003ee08274c\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 12974,
-      "rules": 12984,
+      "entries": 13091,
+      "rules": 13103,
       "exceptions": 0,
-      "nonDomainRules": 13,
+      "nonDomainRules": 12,
       "maintenance": {
         "lastPush": null,
         "archived": false,
@@ -210,7 +210,7 @@
       "reasons": []
     },
     "fademind-2o7net": {
-      "checkedAt": "2026-11-09T15:57:31.413Z",
+      "checkedAt": "2026-11-16T15:31:53.952Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",
       "bytes": 68159,
@@ -235,7 +235,7 @@
       ]
     },
     "fademind-risk": {
-      "checkedAt": "2026-11-09T15:57:31.390Z",
+      "checkedAt": "2026-11-16T15:31:53.958Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Risk/hosts",
       "bytes": 58157,
@@ -260,7 +260,7 @@
       ]
     },
     "fademind-spam": {
-      "checkedAt": "2026-11-09T15:57:31.404Z",
+      "checkedAt": "2026-11-16T15:31:53.959Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.Spam/hosts",
       "bytes": 1628,
@@ -285,7 +285,7 @@
       ]
     },
     "fademind-unchecky": {
-      "checkedAt": "2026-11-09T15:57:31.417Z",
+      "checkedAt": "2026-11-16T15:31:53.966Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/UncheckyAds/hosts",
       "bytes": 276,
@@ -310,21 +310,21 @@
       ]
     },
     "hagezi-fake": {
-      "checkedAt": "2026-11-09T15:57:31.932Z",
+      "checkedAt": "2026-11-16T15:31:54.169Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/fake.txt",
-      "bytes": 380384,
+      "bytes": 379423,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"5cde0-b53e9a330c5069bb\"",
+      "etag": "W/\"5ca1f-77572827f295f6b5\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 18824,
-      "rules": 18824,
+      "entries": 18777,
+      "rules": 18777,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -333,21 +333,21 @@
       "reasons": []
     },
     "hagezi-light": {
-      "checkedAt": "2026-11-09T15:57:32.136Z",
+      "checkedAt": "2026-11-16T15:31:55.291Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/light.txt",
-      "bytes": 2148764,
+      "bytes": 2253711,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"20c99c-44ba7460452fc79e\"",
+      "etag": "W/\"22638f-02121620bc69567f\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 88046,
-      "rules": 88046,
+      "entries": 92184,
+      "rules": 92184,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -356,21 +356,21 @@
       "reasons": []
     },
     "hagezi-normal": {
-      "checkedAt": "2026-11-09T15:57:34.143Z",
+      "checkedAt": "2026-11-16T15:31:55.612Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/multi.txt",
-      "bytes": 4822154,
+      "bytes": 4234318,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"49948a-77396c898de70989\"",
+      "etag": "W/\"409c4e-7a8c8849fc25cc92\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 207061,
-      "rules": 207061,
+      "entries": 184108,
+      "rules": 184108,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -379,21 +379,21 @@
       "reasons": []
     },
     "hagezi-popupads": {
-      "checkedAt": "2026-11-09T15:57:34.450Z",
+      "checkedAt": "2026-11-16T15:31:55.714Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/popupads.txt",
-      "bytes": 1631941,
+      "bytes": 1629141,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"82ca1-d1bcbbf1f92c5d08\"",
+      "etag": "W/\"82d94-8ce7fc70f9bab9f4\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 77923,
-      "rules": 77923,
+      "entries": 77523,
+      "rules": 77523,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -402,21 +402,21 @@
       "reasons": []
     },
     "hagezi-pro-plus": {
-      "checkedAt": "2026-11-09T15:57:34.949Z",
+      "checkedAt": "2026-11-16T15:31:56.577Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.plus.txt",
-      "bytes": 5441444,
+      "bytes": 5957513,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"5307a4-c4a38a53248c4a13\"",
+      "etag": "W/\"1bd567-978194a6ecad3aa0\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 242982,
-      "rules": 242982,
+      "entries": 263630,
+      "rules": 263630,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -425,21 +425,21 @@
       "reasons": []
     },
     "hagezi-pro": {
-      "checkedAt": "2026-11-09T15:57:35.354Z",
+      "checkedAt": "2026-11-16T15:31:56.054Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/pro.txt",
-      "bytes": 5107757,
+      "bytes": 5533109,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"4df02d-de2d4dbab7febf1c\"",
+      "etag": "W/\"198e41-212b5271cda96748\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 224796,
-      "rules": 224796,
+      "entries": 241180,
+      "rules": 241180,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -448,21 +448,21 @@
       "reasons": []
     },
     "hagezi-tif-medium": {
-      "checkedAt": "2026-11-09T15:57:36.421Z",
+      "checkedAt": "2026-11-16T15:31:56.953Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.medium.txt",
-      "bytes": 7982344,
+      "bytes": 7608148,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"79cd08-88a306cc307dbf84\"",
+      "etag": "W/\"741754-86ef89c1c9f904ac\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 371000,
-      "rules": 371000,
+      "entries": 353203,
+      "rules": 353203,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -471,21 +471,21 @@
       "reasons": []
     },
     "hagezi-tif-mini": {
-      "checkedAt": "2026-11-09T15:57:35.752Z",
+      "checkedAt": "2026-11-16T15:31:56.298Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.mini.txt",
-      "bytes": 3922362,
+      "bytes": 3835544,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"3bd9ba-e4696b237d91eae3\"",
+      "etag": "W/\"100d5c-8dddd60ccae8c2e6\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 186188,
-      "rules": 186188,
+      "entries": 182648,
+      "rules": 182648,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -494,21 +494,21 @@
       "reasons": []
     },
     "hagezi-tif": {
-      "checkedAt": "2026-11-09T15:57:40.291Z",
+      "checkedAt": "2026-11-16T15:31:59.310Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/tif.txt",
-      "bytes": 31623052,
+      "bytes": 31080320,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1e2878c-2a562d3b9526f0cc\"",
+      "etag": "W/\"7200a6-6f96b690e58204c9\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 1486512,
-      "rules": 1486512,
+      "entries": 1464000,
+      "rules": 1464000,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -517,21 +517,21 @@
       "reasons": []
     },
     "hagezi-ultimate": {
-      "checkedAt": "2026-11-09T15:57:36.995Z",
+      "checkedAt": "2026-11-16T15:31:57.360Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/ultimate.txt",
-      "bytes": 5944215,
+      "bytes": 6773628,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"5ab397-22d60bea8e280021\"",
+      "etag": "W/\"675b7c-56c5457f83b80f6f\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 265039,
-      "rules": 265039,
+      "entries": 295260,
+      "rules": 295260,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -540,17 +540,17 @@
       "reasons": []
     },
     "hblock": {
-      "checkedAt": "2026-11-09T15:57:41.650Z",
+      "checkedAt": "2026-11-16T15:32:05.234Z",
       "httpStatus": 200,
       "finalUrl": "https://hblock.molinero.dev/hosts",
-      "bytes": 13574709,
+      "bytes": 13970756,
       "contentType": "text/plain; charset=UTF-8",
-      "lastModified": "Mon, 09 Nov 2026 01:32:32 GMT",
-      "etag": "W/\"6af122b0-cf2235\"",
+      "lastModified": "Mon, 16 Nov 2026 01:33:55 GMT",
+      "etag": "W/\"6afa5d83-d52d44\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 467514,
-      "rules": 467528,
+      "entries": 478824,
+      "rules": 478838,
       "exceptions": 0,
       "nonDomainRules": 14,
       "maintenance": {
@@ -563,21 +563,21 @@
       "reasons": []
     },
     "hostsvn": {
-      "checkedAt": "2026-11-09T15:57:37.116Z",
+      "checkedAt": "2026-11-16T15:31:57.406Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/bigdargon/hostsVN/master/hosts",
-      "bytes": 528988,
+      "bytes": 529831,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"f55d8b60470c3b645fe94d35de1cc21bc35bc993aecdd63657ad6f2721f39415\"",
+      "etag": "W/\"0dca4951bc2b15feb233fbb7d7d04e86122a05793fb9c3436bba7965f7566ba1\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 18581,
-      "rules": 18581,
+      "entries": 18607,
+      "rules": 18607,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-08T15:53:14Z",
+        "lastPush": "2026-11-11T07:30:10Z",
         "archived": false,
         "stale": false
       },
@@ -586,21 +586,21 @@
       "reasons": []
     },
     "kadhosts": {
-      "checkedAt": "2026-11-09T15:57:37.264Z",
+      "checkedAt": "2026-11-16T15:31:57.498Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/PolishFiltersTeam/KADhosts/master/KADhosts.txt",
-      "bytes": 1339144,
+      "bytes": 1353695,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"5cf58f94d6e26662d2649ffb1f3dec5880611118263216781359a073b8dddf8f\"",
+      "etag": "W/\"0f7489ee09d582c087118419a585b6b9c5248b46dffc4de421d311925a101290\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 43379,
-      "rules": 43381,
+      "entries": 42975,
+      "rules": 42977,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-08T20:01:27Z",
+        "lastPush": "2026-11-15T20:39:06Z",
         "archived": false,
         "stale": false
       },
@@ -609,7 +609,7 @@
       "reasons": []
     },
     "lightswitch05": {
-      "checkedAt": "2026-11-09T15:57:40.292Z",
+      "checkedAt": "2026-11-16T15:31:59.349Z",
       "httpStatus": 304,
       "finalUrl": "https://www.github.developerdan.com/hosts/lists/ads-and-tracking-extended.txt",
       "bytes": 14407741,
@@ -634,7 +634,7 @@
       ]
     },
     "nocoin": {
-      "checkedAt": "2026-11-09T15:57:40.307Z",
+      "checkedAt": "2026-11-16T15:31:59.320Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt",
       "bytes": 8150,
@@ -657,7 +657,7 @@
       "reasons": []
     },
     "notracking": {
-      "checkedAt": "2026-11-09T15:57:47.334Z",
+      "checkedAt": "2026-11-16T15:31:59.347Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/notracking/hosts-blocklists/master/hostnames.txt",
       "bytes": 17939200,
@@ -682,17 +682,17 @@
       ]
     },
     "oisd-big": {
-      "checkedAt": "2026-11-09T15:57:55.683Z",
+      "checkedAt": "2026-11-16T15:32:03.485Z",
       "httpStatus": 200,
       "finalUrl": "https://big.oisd.nl/",
-      "bytes": 5236351,
+      "bytes": 5149322,
       "contentType": "text/plain",
-      "lastModified": "Mon, 09 Nov 2026 15:05:51 GMT",
-      "etag": "\"6af1e14f-1aef3d\"",
+      "lastModified": "Mon, 16 Nov 2026 15:05:55 GMT",
+      "etag": "\"6afb1bd3-1a7692\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 231946,
-      "rules": 231946,
+      "entries": 228318,
+      "rules": 228318,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
@@ -705,17 +705,17 @@
       "reasons": []
     },
     "oisd-small": {
-      "checkedAt": "2026-11-09T15:57:48.684Z",
-      "httpStatus": 200,
-      "finalUrl": "https://small.oisd.nl/",
-      "bytes": 1391852,
-      "contentType": "text/plain",
-      "lastModified": "Mon, 09 Nov 2026 12:05:23 GMT",
-      "etag": "\"6af1b703-82684\"",
-      "formatDetected": "adblock",
+      "checkedAt": "2026-11-16T15:32:02.690Z",
+      "httpStatus": 429,
+      "finalUrl": "",
+      "bytes": 0,
+      "contentType": "",
+      "lastModified": null,
+      "etag": null,
+      "formatDetected": "unknown",
       "declaredFormat": "adblock",
-      "entries": 61543,
-      "rules": 61543,
+      "entries": 0,
+      "rules": 0,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
@@ -723,22 +723,28 @@
         "archived": false,
         "stale": false
       },
-      "consecutiveFailures": 0,
-      "status": "ok",
-      "reasons": []
+      "error": "",
+      "consecutiveFailures": 1,
+      "status": "fail",
+      "reasons": [
+        "http_429",
+        "unparseable",
+        "no_entries",
+        "entries_dropped"
+      ]
     },
     "peter-lowe": {
-      "checkedAt": "2026-11-09T15:57:48.507Z",
+      "checkedAt": "2026-11-16T15:32:04.043Z",
       "httpStatus": 200,
       "finalUrl": "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0&mimetype=plaintext",
-      "bytes": 95236,
+      "bytes": 95344,
       "contentType": "text/plain;charset=UTF-8",
-      "lastModified": "Sat, 07 Nov 2026 18:50:37 GMT",
+      "lastModified": "Sat, 14 Nov 2026 10:45:03 GMT",
       "etag": null,
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 3560,
-      "rules": 3560,
+      "entries": 3564,
+      "rules": 3564,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
@@ -751,21 +757,21 @@
       "reasons": []
     },
     "phishdestroy": {
-      "checkedAt": "2026-11-09T15:57:50.244Z",
+      "checkedAt": "2026-11-16T15:32:04.419Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/phishdestroy/destroylist/main/list.txt",
-      "bytes": 4944289,
+      "bytes": 4778539,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"2a40e92968363cda658cfe5feeda76a49f8dfb29ff08ab11f0276be452cdd9ca\"",
+      "etag": "W/\"90f30318c37094e6cc44f71b9e398030b64838be5fb192c5ed88981709146bba\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 237122,
-      "rules": 237122,
+      "entries": 229406,
+      "rules": 229406,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:55:20Z",
+        "lastPush": "2026-11-16T15:28:59Z",
         "archived": false,
         "stale": false
       },
@@ -774,17 +780,17 @@
       "reasons": []
     },
     "phishing-army": {
-      "checkedAt": "2026-11-09T15:57:50.651Z",
+      "checkedAt": "2026-11-16T15:32:08.074Z",
       "httpStatus": 200,
       "finalUrl": "https://phishing.army/download/phishing_army_blocklist_extended.txt",
-      "bytes": 3103852,
+      "bytes": 3127952,
       "contentType": "text/plain",
-      "lastModified": "Mon, 09 Nov 2026 11:00:33 GMT",
+      "lastModified": "Mon, 16 Nov 2026 14:00:25 GMT",
       "etag": null,
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 144089,
-      "rules": 144089,
+      "entries": 144415,
+      "rules": 144415,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
@@ -797,7 +803,7 @@
       "reasons": []
     },
     "rpi-crypto": {
-      "checkedAt": "2026-11-09T15:57:50.246Z",
+      "checkedAt": "2026-11-16T15:32:04.420Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/crypto",
       "bytes": 2666704,
@@ -811,7 +817,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -820,21 +826,21 @@
       "reasons": []
     },
     "rpi-phishing": {
-      "checkedAt": "2026-11-09T15:57:50.969Z",
+      "checkedAt": "2026-11-16T15:32:05.420Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Phishing-Angriffe",
-      "bytes": 3511943,
+      "bytes": 3604019,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"26ad8ecb3da7924d179cd674fa53f4c2bfe39e7f93e88c9573c6558ae74c93a5\"",
+      "etag": "W/\"f3435a2c2fef8d22c4cb56ac593fcc0fbc8b83a682e2a2f28ab780be76ff5f2d\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 143564,
-      "rules": 143564,
+      "entries": 145840,
+      "rules": 145840,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -843,21 +849,21 @@
       "reasons": []
     },
     "shadowwhisperer-ads": {
-      "checkedAt": "2026-11-09T15:57:52.412Z",
+      "checkedAt": "2026-11-16T15:32:06.285Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Ads",
-      "bytes": 489789,
+      "bytes": 491789,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"7629e61e76cdf4cfc75eb773abdf8bd1ab55f1e99af83f8feb990d6146f827f6\"",
+      "etag": "W/\"9c5872b1ef29237287f337d27644ad4c6d3209cd4102dbb96b789e5206355ff0\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 29268,
-      "rules": 29268,
+      "entries": 29392,
+      "rules": 29392,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -866,7 +872,7 @@
       "reasons": []
     },
     "spam404": {
-      "checkedAt": "2026-11-09T15:57:53.039Z",
+      "checkedAt": "2026-11-16T15:32:06.634Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt",
       "bytes": 146593,
@@ -891,21 +897,21 @@
       ]
     },
     "stevenblack-fakenews": {
-      "checkedAt": "2026-11-09T15:57:53.952Z",
+      "checkedAt": "2026-11-16T15:32:07.054Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews/hosts",
-      "bytes": 2448774,
+      "bytes": 2395130,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"7f7d9ed837cb6ce4114ae7aae49fc19c72a569c64d9baf10e60028b3b270d8ce\"",
+      "etag": "W/\"337a0a445b5956ff38aa59fd883466f1429cf6553d9bae66b87439c1a587c1d9\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 80701,
-      "rules": 80720,
+      "entries": 78494,
+      "rules": 78513,
       "exceptions": 0,
       "nonDomainRules": 19,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },
@@ -914,21 +920,21 @@
       "reasons": []
     },
     "stevenblack": {
-      "checkedAt": "2026-11-09T15:57:54.421Z",
+      "checkedAt": "2026-11-16T15:32:07.595Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts",
-      "bytes": 2378843,
+      "bytes": 2328985,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"094d35c13f735d9f0bc1b873d4c330eef7194caf777b80e9afea2a62a7583f69\"",
+      "etag": "W/\"24c763e069b9a068ae17096e06327da678f2f3da693e567f6ee12ff30a68eb66\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 78216,
-      "rules": 78235,
+      "entries": 76105,
+      "rules": 76124,
       "exceptions": 0,
       "nonDomainRules": 19,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },
@@ -937,7 +943,7 @@
       "reasons": []
     },
     "windowsspyblocker-extra": {
-      "checkedAt": "2026-11-09T15:57:54.422Z",
+      "checkedAt": "2026-11-16T15:32:07.596Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/extra.txt",
       "bytes": 15517,
@@ -951,7 +957,7 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastPush": "2026-10-15T02:22:31Z",
+        "lastPush": "2026-11-16T02:22:43Z",
         "archived": false,
         "stale": false
       },
@@ -960,7 +966,7 @@
       "reasons": []
     },
     "windowsspyblocker-spy": {
-      "checkedAt": "2026-11-09T15:57:54.852Z",
+      "checkedAt": "2026-11-16T15:32:07.733Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt",
       "bytes": 12383,
@@ -974,7 +980,7 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastPush": "2026-10-15T02:22:31Z",
+        "lastPush": "2026-11-16T02:22:43Z",
         "archived": false,
         "stale": false
       },
@@ -983,7 +989,7 @@
       "reasons": []
     },
     "windowsspyblocker-update": {
-      "checkedAt": "2026-11-09T15:57:54.852Z",
+      "checkedAt": "2026-11-16T15:32:07.733Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/update.txt",
       "bytes": 21459,
@@ -997,7 +1003,7 @@
       "exceptions": 0,
       "nonDomainRules": 5,
       "maintenance": {
-        "lastPush": "2026-10-15T02:22:31Z",
+        "lastPush": "2026-11-16T02:22:43Z",
         "archived": false,
         "stale": false
       },
@@ -1006,8 +1012,8 @@
       "reasons": []
     },
     "abpindo": {
-      "checkedAt": "2026-11-09T15:57:30.253Z",
-      "httpStatus": 200,
+      "checkedAt": "2026-11-16T15:31:53.101Z",
+      "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/ABPindo/indonesianadblockrules/master/subscriptions/abpindo.txt",
       "bytes": 314809,
       "contentType": "text/plain; charset=utf-8",
@@ -1020,7 +1026,7 @@
       "exceptions": 18,
       "nonDomainRules": 8061,
       "maintenance": {
-        "lastPush": "2026-11-09T10:33:00Z",
+        "lastPush": "2026-11-15T05:42:43Z",
         "archived": false,
         "stale": false
       },
@@ -1029,21 +1035,21 @@
       "reasons": []
     },
     "hagezi-antipiracy": {
-      "checkedAt": "2026-11-09T15:57:31.613Z",
+      "checkedAt": "2026-11-16T15:31:54.128Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/anti.piracy.txt",
-      "bytes": 1379878,
+      "bytes": 1411035,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"150e26-e877dae7be89a6e3\"",
+      "etag": "W/\"1587db-cbe6251e73f7f084\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 60631,
-      "rules": 60631,
+      "entries": 62045,
+      "rules": 62045,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1052,21 +1058,21 @@
       "reasons": []
     },
     "hagezi-doh-vpn": {
-      "checkedAt": "2026-11-09T15:57:31.508Z",
+      "checkedAt": "2026-11-16T15:31:54.048Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh-vpn-proxy-bypass.txt",
-      "bytes": 342261,
+      "bytes": 342795,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"538f5-500b441563e46bc9\"",
+      "etag": "W/\"17ce2-a04736680ea5a045\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 16405,
-      "rules": 16405,
+      "entries": 16458,
+      "rules": 16458,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1075,21 +1081,21 @@
       "reasons": []
     },
     "hagezi-doh": {
-      "checkedAt": "2026-11-09T15:57:31.621Z",
+      "checkedAt": "2026-11-16T15:31:54.066Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/doh.txt",
-      "bytes": 74931,
+      "bytes": 74918,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"124b3-cce07d9b945dae3d\"",
+      "etag": "W/\"5df0-f855f2dac166f8d6\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 3568,
-      "rules": 3568,
+      "entries": 3566,
+      "rules": 3566,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1098,21 +1104,21 @@
       "reasons": []
     },
     "hagezi-dyndns": {
-      "checkedAt": "2026-11-09T15:57:31.641Z",
+      "checkedAt": "2026-11-16T15:31:54.130Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/dyndns.txt",
-      "bytes": 24573,
+      "bytes": 24589,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"5ffd-30fa0bfd9c0c90da\"",
+      "etag": "W/\"1dfc-39ff6381313abe02\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 1517,
-      "rules": 1517,
+      "entries": 1518,
+      "rules": 1518,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1121,44 +1127,46 @@
       "reasons": []
     },
     "hagezi-gambling-medium": {
-      "checkedAt": "2026-11-09T15:57:31.903Z",
+      "checkedAt": "2026-11-16T15:31:55.186Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.medium.txt",
-      "bytes": 3080552,
+      "bytes": 2027783,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"2f0168-db332500be3f09b2\"",
+      "etag": "W/\"1ef107-b9842ef49ba33792\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 144544,
-      "rules": 144544,
+      "entries": 96863,
+      "rules": 96863,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
       "consecutiveFailures": 0,
-      "status": "ok",
-      "reasons": []
+      "status": "warn",
+      "reasons": [
+        "entries_dropped"
+      ]
     },
     "hagezi-gambling-mini": {
-      "checkedAt": "2026-11-09T15:57:32.268Z",
+      "checkedAt": "2026-11-16T15:31:54.264Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.mini.txt",
-      "bytes": 1541126,
+      "bytes": 1009445,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"178406-0e380b37d05e9f7e\"",
+      "etag": "W/\"f6725-80fad023868dcafb\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 72987,
-      "rules": 72987,
+      "entries": 48784,
+      "rules": 48784,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1169,21 +1177,21 @@
       ]
     },
     "hagezi-gambling": {
-      "checkedAt": "2026-11-09T15:57:33.477Z",
+      "checkedAt": "2026-11-16T15:31:55.085Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt",
-      "bytes": 13226137,
+      "bytes": 13675986,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"c9d099-b452ee977ca8f5d5\"",
+      "etag": "W/\"d0add2-728e350f1bf3c6e3\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 640376,
-      "rules": 640376,
+      "entries": 661269,
+      "rules": 661269,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1192,21 +1200,21 @@
       "reasons": []
     },
     "hagezi-hoster": {
-      "checkedAt": "2026-11-09T15:57:31.947Z",
+      "checkedAt": "2026-11-16T15:31:55.295Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/hoster.txt",
-      "bytes": 16456,
+      "bytes": 16429,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"4048-b44da6111231edf5\"",
+      "etag": "W/\"161a-e1909af894dc1f24\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 1099,
-      "rules": 1099,
+      "entries": 1097,
+      "rules": 1097,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1215,21 +1223,21 @@
       "reasons": []
     },
     "hagezi-native-amazon": {
-      "checkedAt": "2026-11-09T15:57:33.484Z",
+      "checkedAt": "2026-11-16T15:31:55.376Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.amazon.txt",
-      "bytes": 12527,
+      "bytes": 12818,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"30ef-7fdbb38377a12484\"",
+      "etag": "W/\"76f-04a69e2ea9a18a85\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 373,
-      "rules": 373,
+      "entries": 382,
+      "rules": 382,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1238,13 +1246,13 @@
       "reasons": []
     },
     "hagezi-native-apple": {
-      "checkedAt": "2026-11-09T15:57:33.484Z",
+      "checkedAt": "2026-11-16T15:31:55.377Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.apple.txt",
       "bytes": 3820,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"3ad-209abd83307dad43\"",
+      "etag": "W/\"3ab-9cd774815097dfe8\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
       "entries": 104,
@@ -1252,7 +1260,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1261,21 +1269,21 @@
       "reasons": []
     },
     "hagezi-native-huawei": {
-      "checkedAt": "2026-11-09T15:57:32.285Z",
+      "checkedAt": "2026-11-16T15:31:55.316Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.huawei.txt",
-      "bytes": 6194,
+      "bytes": 6637,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1832-07fbc2b6123893c1\"",
+      "etag": "W/\"19ed-8c29c28993ef1162\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 135,
-      "rules": 135,
+      "entries": 148,
+      "rules": 148,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1284,21 +1292,21 @@
       "reasons": []
     },
     "hagezi-native-lgwebos": {
-      "checkedAt": "2026-11-09T15:57:32.299Z",
+      "checkedAt": "2026-11-16T15:31:55.308Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.lgwebos.txt",
-      "bytes": 11656,
+      "bytes": 16864,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"402-51853de4d2d73fbc\"",
+      "etag": "W/\"482-4ecfb1edfa2a590b\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 315,
-      "rules": 315,
+      "entries": 460,
+      "rules": 460,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1307,21 +1315,21 @@
       "reasons": []
     },
     "hagezi-native-oppo-realme": {
-      "checkedAt": "2026-11-09T15:57:32.316Z",
+      "checkedAt": "2026-11-16T15:31:55.403Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.oppo-realme.txt",
-      "bytes": 16935,
+      "bytes": 17815,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"7c2-5e941f0ffbe1f545\"",
+      "etag": "W/\"862-0c59c1ff61a28017\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 496,
-      "rules": 496,
+      "entries": 530,
+      "rules": 530,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1330,21 +1338,21 @@
       "reasons": []
     },
     "hagezi-native-roku": {
-      "checkedAt": "2026-11-09T15:57:33.483Z",
+      "checkedAt": "2026-11-16T15:31:55.340Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.roku.txt",
-      "bytes": 2392,
+      "bytes": 2604,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"958-1f81dc73985db84a\"",
+      "etag": "W/\"2a3-8f6eee005d23d546\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 57,
-      "rules": 57,
+      "entries": 64,
+      "rules": 64,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1353,13 +1361,13 @@
       "reasons": []
     },
     "hagezi-native-samsung": {
-      "checkedAt": "2026-11-09T15:57:33.494Z",
+      "checkedAt": "2026-11-16T15:31:55.360Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.samsung.txt",
-      "bytes": 6929,
+      "bytes": 6918,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1b11-e58c03b576e1efd9\"",
+      "etag": "W/\"1b06-fcf6eda1e1f59512\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
       "entries": 201,
@@ -1367,7 +1375,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1376,21 +1384,21 @@
       "reasons": []
     },
     "hagezi-native-tiktok": {
-      "checkedAt": "2026-11-09T15:57:33.618Z",
+      "checkedAt": "2026-11-16T15:31:55.389Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.txt",
-      "bytes": 18252,
+      "bytes": 18324,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"94f-642ff003ac521c5c\"",
+      "etag": "W/\"953-84369d1373689bac\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 545,
-      "rules": 545,
+      "entries": 547,
+      "rules": 547,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1399,21 +1407,21 @@
       "reasons": []
     },
     "hagezi-native-vivo": {
-      "checkedAt": "2026-11-09T15:57:33.742Z",
+      "checkedAt": "2026-11-16T15:31:55.616Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.vivo.txt",
-      "bytes": 8425,
+      "bytes": 10343,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"506-05f85c4bfe073d1e\"",
+      "etag": "W/\"5a3-6432c613b841877d\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 243,
-      "rules": 243,
+      "entries": 303,
+      "rules": 303,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1422,21 +1430,21 @@
       "reasons": []
     },
     "hagezi-native-winoffice": {
-      "checkedAt": "2026-11-09T15:57:33.752Z",
+      "checkedAt": "2026-11-16T15:31:55.402Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.winoffice.txt",
-      "bytes": 12880,
+      "bytes": 14159,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"8ee-ba89a2c7f959b968\"",
+      "etag": "W/\"93a-f18e88e44f0ae412\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 365,
-      "rules": 365,
+      "entries": 398,
+      "rules": 398,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1445,21 +1453,21 @@
       "reasons": []
     },
     "hagezi-native-xiaomi": {
-      "checkedAt": "2026-11-09T15:57:34.146Z",
+      "checkedAt": "2026-11-16T15:31:55.620Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.xiaomi.txt",
-      "bytes": 10486,
+      "bytes": 12135,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"8f4-d997504cd6edb31d\"",
+      "etag": "W/\"9a7-a2fcf8183216b6c4\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 349,
-      "rules": 349,
+      "entries": 410,
+      "rules": 410,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1468,21 +1476,21 @@
       "reasons": []
     },
     "hagezi-nosafesearch": {
-      "checkedAt": "2026-11-09T15:57:34.147Z",
+      "checkedAt": "2026-11-16T15:31:55.417Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nosafesearch.txt",
-      "bytes": 4479,
+      "bytes": 4522,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"66b-598fcd7916e2c258\"",
+      "etag": "W/\"67a-9ef6a3919e03bd80\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 200,
-      "rules": 200,
+      "entries": 202,
+      "rules": 202,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1491,21 +1499,21 @@
       "reasons": []
     },
     "hagezi-nrd": {
-      "checkedAt": "2026-11-09T15:57:47.291Z",
+      "checkedAt": "2026-11-16T15:32:02.232Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/nrd@latest/adblock/nrd7.txt",
-      "bytes": 55081920,
+      "bytes": 46724822,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"3487bc0-906519e0f198f3ef\"",
+      "etag": "W/\"c7ebcf-ca5848de42ebeff6\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 2871094,
-      "rules": 2871094,
+      "entries": 2389710,
+      "rules": 2389710,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T07:26:53Z",
+        "lastPush": "2026-11-16T07:27:31Z",
         "archived": false,
         "stale": false
       },
@@ -1514,21 +1522,21 @@
       "reasons": []
     },
     "hagezi-nsfw": {
-      "checkedAt": "2026-11-09T15:57:34.320Z",
+      "checkedAt": "2026-11-16T15:31:55.789Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt",
-      "bytes": 1521572,
+      "bytes": 1595913,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1737a4-d2ad834e19c17109\"",
+      "etag": "W/\"185a09-b27af6853c658397\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 80665,
-      "rules": 80665,
+      "entries": 83101,
+      "rules": 83101,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1537,21 +1545,21 @@
       "reasons": []
     },
     "hagezi-social": {
-      "checkedAt": "2026-11-09T15:57:34.963Z",
+      "checkedAt": "2026-11-16T15:31:56.068Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/social.txt",
-      "bytes": 159903,
+      "bytes": 160586,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"be15-06512ce4bd3781fd\"",
+      "etag": "W/\"bedf-0c8fd8f86877b320\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 8159,
-      "rules": 8159,
+      "entries": 8197,
+      "rules": 8197,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1560,13 +1568,13 @@
       "reasons": []
     },
     "hagezi-tlds": {
-      "checkedAt": "2026-11-09T15:57:36.424Z",
+      "checkedAt": "2026-11-16T15:31:56.956Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/spam-tlds-adblock-aggressive.txt",
       "bytes": 5776,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1690-efbe4fcd0bbc6f4d\"",
+      "etag": "W/\"831-37d186c9a7d17391\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
       "entries": 294,
@@ -1574,7 +1582,7 @@
       "exceptions": 0,
       "nonDomainRules": 151,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1583,21 +1591,21 @@
       "reasons": []
     },
     "hagezi-urlshortener": {
-      "checkedAt": "2026-11-09T15:57:36.453Z",
+      "checkedAt": "2026-11-16T15:31:56.983Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/urlshortener.txt",
-      "bytes": 137858,
+      "bytes": 137600,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"21a82-8f8e7d2e471aeaec\"",
+      "etag": "W/\"aa00-a6ee22ad6a80666d\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 9777,
-      "rules": 9777,
+      "entries": 9762,
+      "rules": 9762,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1606,17 +1614,17 @@
       "reasons": []
     },
     "oisd-nsfw": {
-      "checkedAt": "2026-11-09T15:57:49.589Z",
+      "checkedAt": "2026-11-16T15:32:04.036Z",
       "httpStatus": 200,
       "finalUrl": "https://nsfw.oisd.nl/",
-      "bytes": 10185292,
+      "bytes": 10153619,
       "contentType": "text/plain",
-      "lastModified": "Mon, 09 Nov 2026 15:34:37 GMT",
-      "etag": "\"6af1e80d-26f75d\"",
+      "lastModified": "Mon, 16 Nov 2026 14:36:27 GMT",
+      "etag": "\"6afb14eb-26e6f5\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 493259,
-      "rules": 493259,
+      "entries": 491326,
+      "rules": 491326,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
@@ -1629,7 +1637,7 @@
       "reasons": []
     },
     "perflyst-amazon": {
-      "checkedAt": "2026-11-09T15:57:47.527Z",
+      "checkedAt": "2026-11-16T15:32:02.698Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/AmazonFireTV.txt",
       "bytes": 1502,
@@ -1652,7 +1660,7 @@
       "reasons": []
     },
     "perflyst-android": {
-      "checkedAt": "2026-11-09T15:57:47.580Z",
+      "checkedAt": "2026-11-16T15:32:02.706Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/android-tracking.txt",
       "bytes": 2153,
@@ -1675,7 +1683,7 @@
       "reasons": []
     },
     "perflyst-smarttv": {
-      "checkedAt": "2026-11-09T15:57:47.718Z",
+      "checkedAt": "2026-11-16T15:32:02.804Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SmartTV-AGH.txt",
       "bytes": 10987,
@@ -1698,7 +1706,7 @@
       "reasons": []
     },
     "rpi-lg": {
-      "checkedAt": "2026-11-09T15:57:50.653Z",
+      "checkedAt": "2026-11-16T15:32:05.236Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/lg-tv",
       "bytes": 3442,
@@ -1712,7 +1720,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -1721,7 +1729,7 @@
       "reasons": []
     },
     "rpi-streaming": {
-      "checkedAt": "2026-11-09T15:57:50.971Z",
+      "checkedAt": "2026-11-16T15:32:05.421Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Streaming",
       "bytes": 489565,
@@ -1735,7 +1743,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -1744,7 +1752,7 @@
       "reasons": []
     },
     "rpi-win10": {
-      "checkedAt": "2026-11-09T15:57:52.341Z",
+      "checkedAt": "2026-11-16T15:32:06.240Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/Win10Telemetry",
       "bytes": 2883,
@@ -1758,7 +1766,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -1767,21 +1775,21 @@
       "reasons": []
     },
     "shadowwhisperer-dating": {
-      "checkedAt": "2026-11-09T15:57:52.439Z",
+      "checkedAt": "2026-11-16T15:32:06.308Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dating",
-      "bytes": 22718,
+      "bytes": 22961,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"08a24887768eb1fbf33c911feb1a3afb0d0a11becfa8da5c0235d4b24f8c1aeb\"",
+      "etag": "W/\"d8b0cff73b35c1507b35d7eb4e85a67e9d7a393c5ef4e9275eb68020bdb2a75d\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 1386,
-      "rules": 1386,
+      "entries": 1402,
+      "rules": 1402,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -1790,21 +1798,21 @@
       "reasons": []
     },
     "stevenblack-gambling": {
-      "checkedAt": "2026-11-09T15:57:53.294Z",
+      "checkedAt": "2026-11-16T15:32:07.197Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts",
-      "bytes": 2537637,
+      "bytes": 2484459,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"dc708057948b8e1c2142bc590435cf9e85305db13d455d6140bf5f149f645992\"",
+      "etag": "W/\"f531fdbdafcd3bd5a6bf6c518833da869e4fa7918c516a6c37968e43b9286be8\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 85225,
-      "rules": 85244,
+      "entries": 83039,
+      "rules": 83058,
       "exceptions": 0,
       "nonDomainRules": 19,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },
@@ -1813,21 +1821,21 @@
       "reasons": []
     },
     "stevenblack-porn": {
-      "checkedAt": "2026-11-09T15:57:53.737Z",
+      "checkedAt": "2026-11-16T15:32:07.467Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts",
-      "bytes": 4329757,
+      "bytes": 4276359,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"f8eb88679629927279680dd5f4b5efa799fb1bfe9547fe19545c6c330d0055d1\"",
+      "etag": "W/\"1cd4a26c24a41da2d9db990d58d5862204501e71da9ddf76a68d4ff26f37a355\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 154591,
-      "rules": 154616,
+      "entries": 152396,
+      "rules": 152421,
       "exceptions": 0,
       "nonDomainRules": 25,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },
@@ -1836,21 +1844,21 @@
       "reasons": []
     },
     "stevenblack-social": {
-      "checkedAt": "2026-11-09T15:57:54.186Z",
+      "checkedAt": "2026-11-16T15:32:07.732Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/social/hosts",
-      "bytes": 2519815,
+      "bytes": 2466171,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"8867589674270e66c92f671771a5f15518539935ce759c363c0d2328f6914bf4\"",
+      "etag": "W/\"f99f75f070159ffac7848749ce33944e3f72d67c0949de92ecd126e0d141ceec\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 82290,
-      "rules": 82309,
+      "entries": 80083,
+      "rules": 80102,
       "exceptions": 0,
       "nonDomainRules": 19,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },
@@ -1859,7 +1867,7 @@
       "reasons": []
     },
     "yhosts": {
-      "checkedAt": "2026-11-09T15:57:54.933Z",
+      "checkedAt": "2026-11-16T15:32:07.740Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts",
       "bytes": 163921,
@@ -1884,21 +1892,21 @@
       ]
     },
     "hagezi-native-tiktok-extended": {
-      "checkedAt": "2026-11-09T15:57:33.743Z",
+      "checkedAt": "2026-11-16T15:31:55.381Z",
       "httpStatus": 200,
       "finalUrl": "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/native.tiktok.extended.txt",
-      "bytes": 26017,
+      "bytes": 31771,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"65a1-7f4b4ce06b8e63af\"",
+      "etag": "W/\"7c1b-4e1a71053afa4b48\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 764,
-      "rules": 764,
+      "entries": 934,
+      "rules": 934,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T15:56:49Z",
+        "lastPush": "2026-11-16T09:17:14Z",
         "archived": false,
         "stale": false
       },
@@ -1907,7 +1915,7 @@
       "reasons": []
     },
     "perflyst-session-replay": {
-      "checkedAt": "2026-11-09T15:57:47.706Z",
+      "checkedAt": "2026-11-16T15:32:02.796Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/Perflyst/PiHoleBlocklist/master/SessionReplay.txt",
       "bytes": 387,
@@ -1930,21 +1938,21 @@
       "reasons": []
     },
     "rpi-malware": {
-      "checkedAt": "2026-11-09T15:57:52.339Z",
+      "checkedAt": "2026-11-16T15:32:06.239Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/RPiList/specials/master/Blocklisten/malware",
-      "bytes": 16272505,
+      "bytes": 16414777,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"e656d0393136c6baae8d6ca0d10badafef4d4f656210a8aeff370517a02f5a8d\"",
+      "etag": "W/\"1215a64eb60d6de3baa3d0d3d1b4200d541fcb546dcdc213354689095cb63915\"",
       "formatDetected": "adblock",
       "declaredFormat": "adblock",
-      "entries": 672265,
-      "rules": 672265,
+      "entries": 677524,
+      "rules": 677524,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T11:00:06Z",
+        "lastPush": "2026-11-16T14:07:02Z",
         "archived": false,
         "stale": false
       },
@@ -1953,21 +1961,21 @@
       "reasons": []
     },
     "shadowwhisperer-crypto": {
-      "checkedAt": "2026-11-09T15:57:52.468Z",
-      "httpStatus": 304,
+      "checkedAt": "2026-11-16T15:32:06.293Z",
+      "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Cryptocurrency",
-      "bytes": 17931,
+      "bytes": 17965,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"21f4a479b10e936b33ce2f47cc647af9d19886b75b4921de1baaee66bf233de8\"",
+      "etag": "W/\"39681a240f0e957fe567aef88ffee9a361c73d08de5533e442debc42232c908a\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 1281,
-      "rules": 1281,
+      "entries": 1283,
+      "rules": 1283,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -1976,7 +1984,7 @@
       "reasons": []
     },
     "shadowwhisperer-dynamic": {
-      "checkedAt": "2026-11-09T15:57:52.495Z",
+      "checkedAt": "2026-11-16T15:32:06.386Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Dynamic",
       "bytes": 19312,
@@ -1990,7 +1998,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -1999,21 +2007,21 @@
       "reasons": []
     },
     "shadowwhisperer-malware": {
-      "checkedAt": "2026-11-09T15:57:52.640Z",
+      "checkedAt": "2026-11-16T15:32:06.385Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Malware",
-      "bytes": 894919,
+      "bytes": 896353,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"83f5d6a33c82b541fef8ca612d88f33da2c212cd69033cb9cc77f5269a9a7db4\"",
+      "etag": "W/\"20f37df56f76a91c87755a13f141bafc3cc69805e5c396fc6ac52fd08a70ab92\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 47760,
-      "rules": 47760,
+      "entries": 47836,
+      "rules": 47836,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -2022,7 +2030,7 @@
       "reasons": []
     },
     "shadowwhisperer-scam": {
-      "checkedAt": "2026-11-09T15:57:52.641Z",
+      "checkedAt": "2026-11-16T15:32:06.386Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Scam",
       "bytes": 135418,
@@ -2036,7 +2044,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -2045,21 +2053,21 @@
       "reasons": []
     },
     "shadowwhisperer-tracking": {
-      "checkedAt": "2026-11-09T15:57:53.019Z",
+      "checkedAt": "2026-11-16T15:32:06.624Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tracking",
-      "bytes": 3087505,
+      "bytes": 3093778,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"8801e2f1495eddba4c899e533d515e1c463374d2bb42a7f3f37f5243f1b776aa\"",
+      "etag": "W/\"3d55518e47a761bcda8846e4d2e7e5426cde30cd51d5e5918810b5a380f33e43\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 142278,
-      "rules": 142286,
+      "entries": 142631,
+      "rules": 142639,
       "exceptions": 0,
       "nonDomainRules": 8,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -2068,7 +2076,7 @@
       "reasons": []
     },
     "shadowwhisperer-tunnels": {
-      "checkedAt": "2026-11-09T15:57:53.020Z",
+      "checkedAt": "2026-11-16T15:32:06.625Z",
       "httpStatus": 304,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/Tunnels",
       "bytes": 16885,
@@ -2082,7 +2090,7 @@
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -2091,21 +2099,21 @@
       "reasons": []
     },
     "shadowwhisperer-urlshortener": {
-      "checkedAt": "2026-11-09T15:57:53.021Z",
-      "httpStatus": 304,
+      "checkedAt": "2026-11-16T15:32:06.634Z",
+      "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/master/Lists/UrlShortener",
-      "bytes": 70615,
+      "bytes": 70649,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"34ba30e88d5f9ee8f1bfb0faa48a6e41143ca5d360c0c77d96b4a79b4b3fc95d\"",
+      "etag": "W/\"6405481f5d49105220d52e2590d9b6b02e59f77ea1ea735dac599568f656b4af\"",
       "formatDetected": "domains",
       "declaredFormat": "domains",
-      "entries": 5969,
-      "rules": 5969,
+      "entries": 5972,
+      "rules": 5972,
       "exceptions": 0,
       "nonDomainRules": 0,
       "maintenance": {
-        "lastPush": "2026-11-09T01:33:57Z",
+        "lastPush": "2026-11-15T17:10:20Z",
         "archived": false,
         "stale": false
       },
@@ -2114,21 +2122,21 @@
       "reasons": []
     },
     "stevenblack-fakenews-gambling-porn": {
-      "checkedAt": "2026-11-09T15:57:54.850Z",
+      "checkedAt": "2026-11-16T15:32:06.915Z",
       "httpStatus": 200,
       "finalUrl": "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts",
-      "bytes": 4535960,
+      "bytes": 4483028,
       "contentType": "text/plain; charset=utf-8",
       "lastModified": null,
-      "etag": "W/\"1c5cec11a9cba637312d288248c4f294eaaa6f64f97209dc96eae244d9451333\"",
+      "etag": "W/\"a0d991b0cfe0bd2b65ef8a4a6f056c518522e54256c7440bcd2e5d98b67028db\"",
       "formatDetected": "hosts",
       "declaredFormat": "hosts",
-      "entries": 163489,
-      "rules": 163514,
+      "entries": 161315,
+      "rules": 161340,
       "exceptions": 0,
       "nonDomainRules": 25,
       "maintenance": {
-        "lastPush": "2026-11-08T03:23:26Z",
+        "lastPush": "2026-11-15T20:31:33Z",
         "archived": false,
         "stale": false
       },

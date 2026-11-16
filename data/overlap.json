@@ -1,60 +1,60 @@
 {
   "schema": 1,
-  "checked_at": "2026-11-09T15:58:04.029Z",
+  "checked_at": "2026-11-16T15:32:13.056Z",
   "packs": {
     "balanced": {
-      "checkedAt": "2026-11-09T15:57:57.475Z",
-      "maxPairwise": 0.3109574903468033,
+      "checkedAt": "2026-11-16T15:32:09.043Z",
+      "maxPairwise": 0.291881582220748,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "hagezi-pro",
           "b": "hagezi-tif-medium",
-          "containment": 0.3109574903468033
+          "containment": 0.291881582220748
         }
       ]
     },
     "family": {
-      "checkedAt": "2026-11-09T15:57:58.347Z",
-      "maxPairwise": 0.1634713672398519,
+      "checkedAt": "2026-11-16T15:32:09.797Z",
+      "maxPairwise": 0.16300008678295583,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "hagezi-light",
           "b": "hagezi-nsfw",
-          "containment": 0.001140519432219674
+          "containment": 0.0011431872059301331
         },
         {
           "a": "hagezi-light",
           "b": "hagezi-gambling-mini",
-          "containment": 0.006521709345499884
+          "containment": 0.009634306329944244
         },
         {
           "a": "hagezi-light",
           "b": "hagezi-tif-mini",
-          "containment": 0.1634713672398519
+          "containment": 0.16300008678295583
         },
         {
           "a": "hagezi-nsfw",
           "b": "hagezi-gambling-mini",
-          "containment": 0.00013701070053571184
+          "containment": 0.0002459822892751722
         },
         {
           "a": "hagezi-nsfw",
           "b": "hagezi-tif-mini",
-          "containment": 0.0007562139713630447
+          "containment": 0.00061371102634144
         },
         {
           "a": "hagezi-gambling-mini",
           "b": "hagezi-tif-mini",
-          "containment": 0.004452847767410634
+          "containment": 0.005534601508691374
         }
       ]
     },
     "privacy": {
-      "checkedAt": "2026-11-09T15:57:58.426Z",
+      "checkedAt": "2026-11-16T15:32:09.841Z",
       "maxPairwise": 0.0125,
       "sampled": false,
       "unavailable": [],
@@ -77,28 +77,28 @@
       ]
     },
     "security": {
-      "checkedAt": "2026-11-09T15:57:59.895Z",
-      "maxPairwise": 0.048274727777262334,
+      "checkedAt": "2026-11-16T15:32:10.622Z",
+      "maxPairwise": 0.05058280951675196,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "hagezi-tif-medium",
           "b": "phishdestroy",
-          "containment": 0.048274727777262334
+          "containment": 0.05058280951675196
         }
       ]
     },
     "smart-home": {
-      "checkedAt": "2026-11-09T15:57:59.975Z",
-      "maxPairwise": 0.03508771929824561,
+      "checkedAt": "2026-11-16T15:32:10.664Z",
+      "maxPairwise": 0.04081632653061224,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "perflyst-smarttv",
           "b": "hagezi-native-samsung",
-          "containment": 0.034013605442176874
+          "containment": 0.04081632653061224
         },
         {
           "a": "perflyst-smarttv",
@@ -108,7 +108,7 @@
         {
           "a": "perflyst-smarttv",
           "b": "hagezi-native-roku",
-          "containment": 0.03508771929824561
+          "containment": 0.03125
         },
         {
           "a": "perflyst-smarttv",
@@ -148,28 +148,28 @@
       ]
     },
     "starter": {
-      "checkedAt": "2026-11-09T15:58:00.513Z",
-      "maxPairwise": 0.1634713672398519,
+      "checkedAt": "2026-11-16T15:32:10.964Z",
+      "maxPairwise": 0.16300008678295583,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "hagezi-light",
           "b": "hagezi-tif-mini",
-          "containment": 0.1634713672398519
+          "containment": 0.16300008678295583
         }
       ]
     },
     "strict": {
-      "checkedAt": "2026-11-09T15:58:04.029Z",
-      "maxPairwise": 0.3079320401903116,
+      "checkedAt": "2026-11-16T15:32:13.056Z",
+      "maxPairwise": 0.2800345458240195,
       "sampled": false,
       "unavailable": [],
       "pairs": [
         {
           "a": "hagezi-ultimate",
           "b": "hagezi-tif",
-          "containment": 0.3079320401903116
+          "containment": 0.2800345458240195
         }
       ]
     }
